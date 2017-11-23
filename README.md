@@ -35,7 +35,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
      
 ## Chinese Input Methods
 
-[Detailed Explanation of Chinese IMEs](https://github.com/Super-Panama-World/Resource-Guide/wiki/IME-(Input-Method-Editor))
+[Detailed Explanation of Chinese IMEs](https://github.com/Super-Panama-World/Resource-Guide/blob/master/IMEs.md)
 
 ### Phonetic 
 - System Default [ZH][简][繁]
@@ -55,7 +55,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 
 ## Mandarin Resources
 ### Pronunciation/Pinyin
-- [Guide to Learning Chinese](https://docs.google.com/document/d/10yryod-dA2wjvIdsu455vWp-Pk9FGScO9hFnaFapQGs/edit)
+- [Guide to Learning Chinese](https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md)
 - [Hacking Chinese’s Guide to Pinyin](http://www.hackingchinese.com/a-guide-to-pinyin-traps-and-pitfalls/)
 - [Yabla Audio Chart](https://chinese.yabla.com/chinese-pinyin-chart.php) [Pinyin][Reference] Southern accent, tones are enunciated so better for learners.
 - [Pinyin Audio Chart](http://www.yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) [Pinyin][Reference] Northern (more standard) accent. Third tone is said quickly as one would naturally say it, so not as ideal for learners.
