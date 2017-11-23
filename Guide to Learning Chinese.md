@@ -21,7 +21,7 @@ Not a single  problem with a language's grammar, writing, etc. really compares t
 - **Vocabulary:** Find a path suitable for you from the guide.
 - **Translation Dictionary:** [Linedict](http://ce.linedict.com/) or [Pleco](https://www.pleco.com/) professional for the phone.
 - **Browser Mouseover Dictionary:** There's really no replacement for this convenience.
-- **C-C Dictionary:** `Dead?` Zdic for Mandarin, [JyutDict](https://words.hk/) for Cantonese.
+- **C-C Dictionary:** [Zdic](http://www.zdic.net/) for Mandarin, [JyutDict](https://words.hk/) for Cantonese.
 - **Usage Examples:** Linedict or [Jukuu](http://jukuu.com/).
 - **Questions:** Baike, Chinese forums, Chinese Stack Exchange, If googling your problem or checking these sites don't help, only then should someone for help.
 - **Material of Interest:** Ideally you want something you’re interested in, a friend to speak to/music/TVB dramas/Viki dramas/Qidian webnovels/etc.
