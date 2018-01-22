@@ -6,8 +6,10 @@ module.exports = function chapter(map, heading, label) {
   const string = links.length < 1
     ? '' // If no links, then do not display heading
     : `<article id="${heading}">
-        <h1>${heading}</h1>${links.map(link => `
-        <p>${link.body}</p>`).join('')}
+        <h1>${heading}</h1>
+        <ul>${links.map(link => `
+          ${link.body}
+        `).join('')}</ul>
       </article>`;
   return string;
 };
