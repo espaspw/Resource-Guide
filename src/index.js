@@ -3,11 +3,10 @@ const {isNotInCommon} = require('./utils');
 // Adds 'Other' if anything other than Cantonese, Mandarin, or English pops up
 function setTags(...tags) {
   // const realTags 
-  return (tags.filter(isNotInCommon).length > 0)
+  return (tags.some(isNotInCommon) > 0)
     ? tags.concat(['All', 'Other'])
     : tags.concat(['All']);
 }
-
 const convert = {
   "Classical": "Classical Chinese",
   "Old": "Old Chinese",
@@ -15,7 +14,35 @@ const convert = {
 
 const sections = new Map();
 
+sections.set('Phonetic Input Methods', [
+  { tags:  setTags('Mandarin'),
+  body: `System Default [ZH][简][繁]` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/">Windows</a> - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="http://www.languagegeek.com/keyboard_general/mac_installation1.html">Mac</a>` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm">Linux</a>` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="http://rime.im/">Rime</a> [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a> [ZH][简][繁][Win]` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a> [CA] - Jyutping and Yale phonetic input for Cantonese.` },
+  { tags: setTags('Mandarin'),
+  body: `<a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a>` },
+]);
 
+sections.set('Shape-Based Input Methods', [
+  { tags:  setTags('Mandarin'),
+  body: `System installed** [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8.` },
+  { tags:  setTags('Mandarin'),
+  body: `<a href="http://rime.im/">Rime</a> [倉頡][五笔][郑码]` },
+  { tags:  setTags('Mandarin'),
+  body: `<a href="https://pinyin.sogou.com/">Sogou</a>` },
+  { tags:  setTags('Mandarin'),
+  body: `<a href="http://www.freewb.org/">FreeWB</a>` },
+]);
 
 sections.set('Guides', [
   { tags: setTags('Mandarin'),
@@ -449,10 +476,10 @@ sections.set('Podcasts', [
 ]);
 
 sections.set('Other Chinese Languages', [
-  { tags: setTags('?'),
+  { tags: setTags('Hokkien'),
   body: `http://english.moe.gov.tw/lp.asp?ctNode=11446&amp;CtUnit=1351&amp;BaseDSD=16` },
 
-  { tags: setTags('?'),
+  { tags: setTags('Hokkien'),
   body: `http://english.moe.gov.tw/ct.asp?xItem=14768&amp;ctNode=11446&amp;mp=1` },
 
   { tags: setTags('Hakka'),
