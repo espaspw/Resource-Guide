@@ -7,7 +7,6 @@ const data = require('./src/index');
 const style = require('./src/components/style');
 const sieveToLabel = require('./src/components/chapter');
 
-
 const tags = (Strict(Array.from(data.values()))
   .flatten(1) // All sections of links -> array of links
   .map(x => x.tags) // Links -> array of array of tags
@@ -39,14 +38,20 @@ ${style}
     <td><a href="#${label}">${label}</a></td>`
   ).val().join('')}
   </tr></table></nav>
+  
 
+  <div class="space-for-nav">_</div>
 
   <main>${
   tags.map(label => `
     <section id="${label}">${
-    chapters.map(chapter => `
+    Strict(chapters)
+    .map(chapter => `
       ${sieveToLabel(data, chapter, label)}`
-    ).join('')}
+    )
+    .sieve(x => x.trim() !== '') // remove empty lines
+    .val()
+    .join('')}
     </section>
 ` ).join('')}
   </main>

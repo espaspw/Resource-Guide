@@ -11,9 +11,10 @@
       margin: 0px;
     }
     nav {
-      /* position: fixed; */
+      position: fixed;
       background-color: grey;
       width: 100%;
+      top: 0;
       z-index: 1;
       /* padding: 0px 10px 0px 10px; */
     }
@@ -32,8 +33,6 @@
       border-color: white; */
     }
 
-    main {
-    }
     main section {
       display: none;
       background-color: white;
@@ -52,20 +51,53 @@
     <td><a href="#Other">Other</a></td>
     <td><a href="#English">English</a></td>
     <td><a href="#Simplified">Simplified</a></td>
-    <td><a href="#?">?</a></td>
-    <td><a href="#Hakka">Hakka</a></td>
     <td><a href="#Hokkien">Hokkien</a></td>
+    <td><a href="#Hakka">Hakka</a></td>
     <td><a href="#Wu">Wu</a></td>
     <td><a href="#Taishanese">Taishanese</a></td>
     <td><a href="#Shanghainese">Shanghainese</a></td>
     <td><a href="#Classical">Classical</a></td>
     <td><a href="#Old">Old</a></td>
   </tr></table></nav>
+  
 
+  <div class="space-for-nav">_</div>
 
   <main>
     <section id="Mandarin">
-      <article id="Guides">
+      <article>
+        <h1>Phonetic Input Methods</h1>
+        <ul>
+          <li>System Default [ZH][简][繁]</li>
+        
+          <li><a href="https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/">Windows</a> - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.</li>
+        
+          <li><a href="http://www.languagegeek.com/keyboard_general/mac_installation1.html">Mac</a></li>
+        
+          <li><a href="http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm">Linux</a></li>
+        
+          <li><a href="http://rime.im/">Rime</a> [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.</li>
+        
+          <li><a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a> [ZH][简][繁][Win]</li>
+        
+          <li><a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a> [CA] - Jyutping and Yale phonetic input for Cantonese.</li>
+        
+          <li><a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a></li>
+        </ul>
+      </article>
+      <article>
+        <h1>Shape-Based Input Methods</h1>
+        <ul>
+          <li>System installed** [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8.</li>
+        
+          <li><a href="http://rime.im/">Rime</a> [倉頡][五笔][郑码]</li>
+        
+          <li><a href="https://pinyin.sogou.com/">Sogou</a></li>
+        
+          <li><a href="http://www.freewb.org/">FreeWB</a></li>
+        </ul>
+      </article>
+      <article>
         <h1>Guides</h1>
         <ul>
           <li><a href="https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a></li>
@@ -79,7 +111,7 @@
           <li><a href="http://challenges.hackingchinese.com/resources">Hacking Chinese’s articles</a> on <a href="http://www.hackingchinese.com/focusing-on-tone-pairs-to-improve-your-mandarin-pronunciation/">tone practice</a> and <a href="http://www.hackingchinese.com/how-to-learn-chinese-characters-as-a-beginner/">beginning Hanzi</a>. <a href="http://www.hackingchinese.com/media/100-radicals-markus.pdf">100 most common radicals</a>. [Essays]</li>
         </ul>
       </article>
-      <article id="Online Grammar/Lessons">
+      <article>
         <h1>Online Grammar/Lessons</h1>
         <ul>
           <li><a href="https://resources.allsetlearning.com/chinese/grammar/Grammar_points_by_level">Chinese Grammar Wiki</a> [Grammar] A bit terse.</li>
@@ -97,7 +129,7 @@
           <li><a href="https://ankiweb.net/shared/info/867291675">Spoonfed Anki Deck</a> [Vocab][Anki]</li>
         </ul>
       </article>
-      <article id="Textbooks">
+      <article>
         <h1>Textbooks</h1>
         <ul>
           <li>Mandarin Chinese Grammar [Grammar] by Claudia Ross</li>
@@ -109,7 +141,7 @@
           <li><a href="https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi">Heisig’s Remembering the Hanzi Series</a> [Mnemonics][Characters] Controversial. <a href="http://www.saporedicina.com/english/chinese-characters-remember-the-hanzi/">Your mileage may vary</a>.</li>
         </ul>
       </article>
-      <article id="HSK">
+      <article>
         <h1>HSK</h1>
         <ul>
           <li><a href="http://www.hsk.academy/">HSK Academy</a> - Very helpful for those learning Chinese characters. Aimed mainly for those seeking the HSK (similar to TOEFL) tests, but still good to learn new words, phrases. There is a short introduction to Chinese grammar also.</li>
@@ -121,10 +153,7 @@
           <li><a href="http://www.chinaeducenter.com/en/hsk/hsktestscore.php">Conversion</a> - Old HSK to New HSK</li>
         </ul>
       </article>
-      
-      
-      
-      <article id="Tools">
+      <article>
         <h1>Tools</h1>
         <ul>
           <li><a href="http://ankisrs.net/">Anki</a> [Memorization][<a href="http://www.omniglot.com/language/srs.php">SRS</a>] - Flashcard memorization program. Recommend using anki as a revision tool and <a href="https://eastasiastudent.net/study/anki-structure/">build your own decks</a>, but if you really want to can find <a href="https://ankiweb.net/shared/decks/">pre-built decks</a> to learn vocabulary. Also see <a href="http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/">this</a>.</li>
@@ -136,7 +165,7 @@
           <li><a href="https://sourceforge.net/projects/jnovelformatter/">JNovelFormter</a> - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function</li>
         </ul>
       </article>
-      <article id="Browser Plugins">
+      <article>
         <h1>Browser Plugins</h1>
         <ul>
           <li>Browser Popup Dictionaries - Several listed in next section</li>
@@ -146,7 +175,7 @@
           <li><a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry</li>
         </ul>
       </article>
-      <article id="Websites">
+      <article>
         <h1>Websites</h1>
         <ul>
           <li><a href="https://www.rabb.it/">Rabbit</a> - Screen sharing. Optional account login and friending. Works for Karaoke too!</li>
@@ -158,7 +187,7 @@
           <li><a href="http://traslate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting</li>
         </ul>
       </article>
-      <article id="Other">
+      <article>
         <h1>Other</h1>
         <ul>
           <li><a href="https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping">Jyutping Converter</a></li>
@@ -176,7 +205,7 @@
           <li><a href="https://www.chinesetextanalyser.com/">Text analyser</a> - Pay for program</li>
         </ul>
       </article>
-      <article id="Recommended Dictionaries">
+      <article>
         <h1>Recommended Dictionaries</h1>
         <ul>
           <li><a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. </li>
@@ -190,7 +219,7 @@
           <li><a href="https://addons.mozilla.org/en-US/firefox/addon/cantofish/">Cantofish</a> (FF) or <a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai. Firefox version supports Jyutping, Yale, Pinyin. Supports Anki import.</li>
         </ul>
       </article>
-      <article id="Other Dictionaries">
+      <article>
         <h1>Other Dictionaries</h1>
         <ul>
           <li><a href="https://baike.baidu.com/">Baidu Baike</a> [ZH→ZH,EN] An encyclopedia, but it does list definitions.</li>
@@ -216,7 +245,7 @@
           <li>http://dictall.com/indu/035/0340368F65C.htm - For technical translation, though wikipedia works too.</li>
         </ul>
       </article>
-      <article id="Reading Material">
+      <article>
         <h1>Reading Material</h1>
         <ul>
           <li><a href="http://storyfree.com/">Children Stories</a></li>
@@ -238,13 +267,13 @@
           <li><a href="http://www.decipherchinese.com/">Decipher</a> - Phone app with paid service. Daily graded articles.</li>
         </ul>
       </article>
-      <article id="Unevaluated">
+      <article>
         <h1>Unevaluated</h1>
         <ul>
           <li>http://www-personal.umich.edu/~dporter/sampler/sampler.html <code>Figure out if this has classical Chinese or not</code></li>
         </ul>
       </article>
-      <article id="Newspaper">
+      <article>
         <h1>Newspaper</h1>
         <ul>
           <li>9Newspaper tailored to learners](http://www.thechairmansbao.com/)</li>
@@ -258,7 +287,7 @@
           <li><a href="http://news.singtao.ca/toronto/">Sing Tao Newspaper</a> (Trad. Chinese) </li>
         </ul>
       </article>
-      <article id="Novels and Visual Novels">
+      <article>
         <h1>Novels and Visual Novels</h1>
         <ul>
           <li><a href="http://www.qidian.com/">Qidian</a></li>
@@ -282,7 +311,7 @@
           <li><a href="http://www.novelupdates.com/series-finder/?sf=1&amp;org=495&amp;sort=abc&amp;order=asc">Novelupdates</a> - In case you want the ~~totally legal~~ fan translations to reference. Fantasy genres <a href="https://www.reddit.com/r/LightNovels/comments/36q51h/as_a_chinese_id_like_to_talk_about_those_chinese/">explanations</a> Xianxia has become kinda catch all in English.</li>
         </ul>
       </article>
-      <article id="Dramas">
+      <article>
         <h1>Dramas</h1>
         <ul>
           <li><a href="https://www.rabb.it/">Rabbit</a> - Screensharing site. Check out description in tools</li>
@@ -296,7 +325,7 @@
           <li><a href="http://www.viki.com/">Viki</a></li>
         </ul>
       </article>
-      <article id="Youtube Lessons">
+      <article>
         <h1>Youtube Lessons</h1>
         <ul>
           <li><a href="https://mandarinmadeez.com/">Mandarin Madeez</a> - YouTube videos by Fiona Tian, these are awesome!</li>
@@ -310,13 +339,13 @@
           <li><a href="https://www.youtube.com/playlist?list=PLRLvrbf9kpcOKZxFUpPXHgoAKIr_wHXvP&amp;">Growing Up With Chinese</a> - Youtube Mandarin course</li>
         </ul>
       </article>
-      <article id="Other Media">
+      <article>
         <h1>Other Media</h1>
         <ul>
           <li>http://live.sk-knower.com/hk - filters twitch Hong Kong streamers</li>
         </ul>
       </article>
-      <article id="Manhua">
+      <article>
         <h1>Manhua</h1>
         <ul>
           <li><a href="http://www.kuaikuaimanhua.com/">Kuai Kuai Manhua</a> - Mandarin</li>
@@ -328,7 +357,7 @@
           <li><a href="http://ac.qq.com/">QQ</a> - Mandarin</li>
         </ul>
       </article>
-      <article id="Donghua">
+      <article>
         <h1>Donghua</h1>
         <ul>
           <li><a href="https://v.qq.com/">QQ Donghua</a></li>
@@ -338,7 +367,7 @@
           <li><a href="https://www.youtube.com/channel/UC-Z7nO8GGZt_FZeG8UMC4Sw">Dai Yi Fansubs</a> - Donghua with english subs</li>
         </ul>
       </article>
-      <article id="Audio">
+      <article>
         <h1>Audio</h1>
         <ul>
           <li><a href="http://singchinesesongs.com/">Sing Chinese Songs</a> - Learn Chinese through song. You sing karaoke with pinyin/characters and then turn off the pinyin.</li>
@@ -348,13 +377,13 @@
           <li><a href="http://www.1ting.com/rank/pop.html">Chinese Songs Classics: Yi Ting</a></li>
         </ul>
       </article>
-      <article id="Radio">
+      <article>
         <h1>Radio</h1>
         <ul>
           <li>http://radio.bbtv.cn/</li>
         </ul>
       </article>
-      <article id="Podcasts">
+      <article>
         <h1>Podcasts</h1>
         <ul>
           <li><a href="http://chinesepod.com/">Chinese Pod</a></li>
@@ -366,13 +395,13 @@
           <li><a href="http://popupcantonese.com/">Popup cantonese</a></li>
         </ul>
       </article>
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li><a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary</li>
         </ul>
       </article>
-      <article id="Miscellaneous">
+      <article>
         <h1>Miscellaneous</h1>
         <ul>
           <li>http://csulb.learningchineseonline.net/ a whole lot of resources</li>
@@ -396,7 +425,7 @@
           <li>http://www.hackingchinese.com/chinese-character-variants-and-fonts-for-language-learners/</li>
         </ul>
       </article>
-      <article id="Blogs">
+      <article>
         <h1>Blogs</h1>
         <ul>
           <li>http://speakupchinese.tumblr.com/ - A tumblr blog with some useful phrases and articles.</li>
@@ -404,7 +433,7 @@
           <li>https://themandarincornerblog.com</li>
         </ul>
       </article>
-      <article id="Etymology and Calligraphy">
+      <article>
         <h1>Etymology and Calligraphy</h1>
         <ul>
           <li><a href="http://www.chineseetymology.org/why_study.aspx">Character Etymology</a> - Also links two useful apps for searching characters</li>
@@ -418,7 +447,7 @@
           <li><a href="https://www.youtube.com/channel/UCvPiCUjsIEaCdYiHtP4pbPg">Youtube channel on handwriting</a> - Goes over several examples and general advice for handwriting in Mandarin. A <a href="https://www.youtube.com/watch?v=7s6pxhNql70">fifteen-part series</a> on handwriting characters but in Japanese.</li>
         </ul>
       </article>
-      <article id="Nerdy Rubbish">
+      <article>
         <h1>Nerdy Rubbish</h1>
         <ul>
           <li><a href="http://hayataki-masaharu.jp/web-typography-in-japanese/">Typesetting characters</a> in Japanese but also applicable to Chinese</li>
@@ -430,15 +459,42 @@
           <li><a href="http://www.ibiblio.org/chinesehistory/contents/08fea/c02.html#Fonts">Fonts for Older Scripts</a></li>
         </ul>
       </article>
-      
-      
-      
-      
-      
     </section>
 
     <section id="All">
-      <article id="Guides">
+      <article>
+        <h1>Phonetic Input Methods</h1>
+        <ul>
+          <li>System Default [ZH][简][繁]</li>
+        
+          <li><a href="https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/">Windows</a> - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.</li>
+        
+          <li><a href="http://www.languagegeek.com/keyboard_general/mac_installation1.html">Mac</a></li>
+        
+          <li><a href="http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm">Linux</a></li>
+        
+          <li><a href="http://rime.im/">Rime</a> [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.</li>
+        
+          <li><a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a> [ZH][简][繁][Win]</li>
+        
+          <li><a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a> [CA] - Jyutping and Yale phonetic input for Cantonese.</li>
+        
+          <li><a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a></li>
+        </ul>
+      </article>
+      <article>
+        <h1>Shape-Based Input Methods</h1>
+        <ul>
+          <li>System installed** [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8.</li>
+        
+          <li><a href="http://rime.im/">Rime</a> [倉頡][五笔][郑码]</li>
+        
+          <li><a href="https://pinyin.sogou.com/">Sogou</a></li>
+        
+          <li><a href="http://www.freewb.org/">FreeWB</a></li>
+        </ul>
+      </article>
+      <article>
         <h1>Guides</h1>
         <ul>
           <li><a href="https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a></li>
@@ -452,7 +508,7 @@
           <li><a href="http://challenges.hackingchinese.com/resources">Hacking Chinese’s articles</a> on <a href="http://www.hackingchinese.com/focusing-on-tone-pairs-to-improve-your-mandarin-pronunciation/">tone practice</a> and <a href="http://www.hackingchinese.com/how-to-learn-chinese-characters-as-a-beginner/">beginning Hanzi</a>. <a href="http://www.hackingchinese.com/media/100-radicals-markus.pdf">100 most common radicals</a>. [Essays]</li>
         </ul>
       </article>
-      <article id="Online Grammar/Lessons">
+      <article>
         <h1>Online Grammar/Lessons</h1>
         <ul>
           <li><a href="https://resources.allsetlearning.com/chinese/grammar/Grammar_points_by_level">Chinese Grammar Wiki</a> [Grammar] A bit terse.</li>
@@ -470,7 +526,7 @@
           <li><a href="https://ankiweb.net/shared/info/867291675">Spoonfed Anki Deck</a> [Vocab][Anki]</li>
         </ul>
       </article>
-      <article id="Textbooks">
+      <article>
         <h1>Textbooks</h1>
         <ul>
           <li>Mandarin Chinese Grammar [Grammar] by Claudia Ross</li>
@@ -482,7 +538,7 @@
           <li><a href="https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi">Heisig’s Remembering the Hanzi Series</a> [Mnemonics][Characters] Controversial. <a href="http://www.saporedicina.com/english/chinese-characters-remember-the-hanzi/">Your mileage may vary</a>.</li>
         </ul>
       </article>
-      <article id="HSK">
+      <article>
         <h1>HSK</h1>
         <ul>
           <li><a href="http://www.hsk.academy/">HSK Academy</a> - Very helpful for those learning Chinese characters. Aimed mainly for those seeking the HSK (similar to TOEFL) tests, but still good to learn new words, phrases. There is a short introduction to Chinese grammar also.</li>
@@ -494,7 +550,7 @@
           <li><a href="http://www.chinaeducenter.com/en/hsk/hsktestscore.php">Conversion</a> - Old HSK to New HSK</li>
         </ul>
       </article>
-      <article id="General">
+      <article>
         <h1>General</h1>
         <ul>
           <li><a href="https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit">Quick Starter Guide to Cantonese</a></li>
@@ -518,7 +574,7 @@
           <li><a href="http://www.cantonese.sheik.co.uk/essays/">Adam Sheik’s Articles</a> [Essays]</li>
         </ul>
       </article>
-      <article id="Word Lists">
+      <article>
         <h1>Word Lists</h1>
         <ul>
           <li><a href="https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047">Frequency List</a></li>
@@ -530,7 +586,7 @@
           <li>Slang - http://hkdic.my-helper.com/</li>
         </ul>
       </article>
-      <article id="Other Learning">
+      <article>
         <h1>Other Learning</h1>
         <ul>
           <li><a href="http://www.clc.scicube.info/book_link/book_link.html">Cantonese Learning Centre E-book List</a></li>
@@ -542,7 +598,7 @@
           <li><a href="http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/">Free Hong Kong Cantonese Grammar</a> - Romanization system is non-standard</li>
         </ul>
       </article>
-      <article id="Tools">
+      <article>
         <h1>Tools</h1>
         <ul>
           <li><a href="http://ankisrs.net/">Anki</a> [Memorization][<a href="http://www.omniglot.com/language/srs.php">SRS</a>] - Flashcard memorization program. Recommend using anki as a revision tool and <a href="https://eastasiastudent.net/study/anki-structure/">build your own decks</a>, but if you really want to can find <a href="https://ankiweb.net/shared/decks/">pre-built decks</a> to learn vocabulary. Also see <a href="http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/">this</a>.</li>
@@ -554,7 +610,7 @@
           <li><a href="https://sourceforge.net/projects/jnovelformatter/">JNovelFormter</a> - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function</li>
         </ul>
       </article>
-      <article id="Browser Plugins">
+      <article>
         <h1>Browser Plugins</h1>
         <ul>
           <li>Browser Popup Dictionaries - Several listed in next section</li>
@@ -564,7 +620,7 @@
           <li><a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry</li>
         </ul>
       </article>
-      <article id="Websites">
+      <article>
         <h1>Websites</h1>
         <ul>
           <li><a href="https://www.rabb.it/">Rabbit</a> - Screen sharing. Optional account login and friending. Works for Karaoke too!</li>
@@ -576,7 +632,7 @@
           <li><a href="http://traslate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting</li>
         </ul>
       </article>
-      <article id="Other">
+      <article>
         <h1>Other</h1>
         <ul>
           <li><a href="https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping">Jyutping Converter</a></li>
@@ -594,7 +650,7 @@
           <li><a href="https://www.chinesetextanalyser.com/">Text analyser</a> - Pay for program</li>
         </ul>
       </article>
-      <article id="Recommended Dictionaries">
+      <article>
         <h1>Recommended Dictionaries</h1>
         <ul>
           <li><a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. </li>
@@ -614,7 +670,7 @@
           <li><a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]</li>
         </ul>
       </article>
-      <article id="Other Dictionaries">
+      <article>
         <h1>Other Dictionaries</h1>
         <ul>
           <li><a href="https://baike.baidu.com/">Baidu Baike</a> [ZH→ZH,EN] An encyclopedia, but it does list definitions.</li>
@@ -642,7 +698,7 @@
           <li>http://dictall.com/indu/035/0340368F65C.htm - For technical translation, though wikipedia works too.</li>
         </ul>
       </article>
-      <article id="Reading Material">
+      <article>
         <h1>Reading Material</h1>
         <ul>
           <li><a href="http://storyfree.com/">Children Stories</a></li>
@@ -664,13 +720,13 @@
           <li><a href="http://www.decipherchinese.com/">Decipher</a> - Phone app with paid service. Daily graded articles.</li>
         </ul>
       </article>
-      <article id="Unevaluated">
+      <article>
         <h1>Unevaluated</h1>
         <ul>
           <li>http://www-personal.umich.edu/~dporter/sampler/sampler.html <code>Figure out if this has classical Chinese or not</code></li>
         </ul>
       </article>
-      <article id="Newspaper">
+      <article>
         <h1>Newspaper</h1>
         <ul>
           <li>9Newspaper tailored to learners](http://www.thechairmansbao.com/)</li>
@@ -684,7 +740,7 @@
           <li><a href="http://news.singtao.ca/toronto/">Sing Tao Newspaper</a> (Trad. Chinese) </li>
         </ul>
       </article>
-      <article id="Novels and Visual Novels">
+      <article>
         <h1>Novels and Visual Novels</h1>
         <ul>
           <li><a href="http://www.qidian.com/">Qidian</a></li>
@@ -708,7 +764,7 @@
           <li><a href="http://www.novelupdates.com/series-finder/?sf=1&amp;org=495&amp;sort=abc&amp;order=asc">Novelupdates</a> - In case you want the ~~totally legal~~ fan translations to reference. Fantasy genres <a href="https://www.reddit.com/r/LightNovels/comments/36q51h/as_a_chinese_id_like_to_talk_about_those_chinese/">explanations</a> Xianxia has become kinda catch all in English.</li>
         </ul>
       </article>
-      <article id="Dramas">
+      <article>
         <h1>Dramas</h1>
         <ul>
           <li><a href="https://www.rabb.it/">Rabbit</a> - Screensharing site. Check out description in tools</li>
@@ -724,7 +780,7 @@
           <li><a href="http://www.viki.com/">Viki</a></li>
         </ul>
       </article>
-      <article id="Youtube Lessons">
+      <article>
         <h1>Youtube Lessons</h1>
         <ul>
           <li><a href="https://mandarinmadeez.com/">Mandarin Madeez</a> - YouTube videos by Fiona Tian, these are awesome!</li>
@@ -738,13 +794,13 @@
           <li><a href="https://www.youtube.com/playlist?list=PLRLvrbf9kpcOKZxFUpPXHgoAKIr_wHXvP&amp;">Growing Up With Chinese</a> - Youtube Mandarin course</li>
         </ul>
       </article>
-      <article id="Other Media">
+      <article>
         <h1>Other Media</h1>
         <ul>
           <li>http://live.sk-knower.com/hk - filters twitch Hong Kong streamers</li>
         </ul>
       </article>
-      <article id="Manhua">
+      <article>
         <h1>Manhua</h1>
         <ul>
           <li><a href="http://www.kuaikuaimanhua.com/">Kuai Kuai Manhua</a> - Mandarin</li>
@@ -756,7 +812,7 @@
           <li><a href="http://ac.qq.com/">QQ</a> - Mandarin</li>
         </ul>
       </article>
-      <article id="Donghua">
+      <article>
         <h1>Donghua</h1>
         <ul>
           <li><a href="https://v.qq.com/">QQ Donghua</a></li>
@@ -766,7 +822,7 @@
           <li><a href="https://www.youtube.com/channel/UC-Z7nO8GGZt_FZeG8UMC4Sw">Dai Yi Fansubs</a> - Donghua with english subs</li>
         </ul>
       </article>
-      <article id="Audio">
+      <article>
         <h1>Audio</h1>
         <ul>
           <li><a href="http://singchinesesongs.com/">Sing Chinese Songs</a> - Learn Chinese through song. You sing karaoke with pinyin/characters and then turn off the pinyin.</li>
@@ -776,13 +832,13 @@
           <li><a href="http://www.1ting.com/rank/pop.html">Chinese Songs Classics: Yi Ting</a></li>
         </ul>
       </article>
-      <article id="Radio">
+      <article>
         <h1>Radio</h1>
         <ul>
           <li>http://radio.bbtv.cn/</li>
         </ul>
       </article>
-      <article id="Podcasts">
+      <article>
         <h1>Podcasts</h1>
         <ul>
           <li><a href="http://chinesepod.com/">Chinese Pod</a></li>
@@ -794,7 +850,7 @@
           <li><a href="http://popupcantonese.com/">Popup cantonese</a></li>
         </ul>
       </article>
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li>http://english.moe.gov.tw/lp.asp?ctNode=11446&amp;CtUnit=1351&amp;BaseDSD=16</li>
@@ -814,7 +870,7 @@
           <li>http://www.sinosplice.com/learn-chinese/shanghainese-soundboard</li>
         </ul>
       </article>
-      <article id="Miscellaneous">
+      <article>
         <h1>Miscellaneous</h1>
         <ul>
           <li>http://csulb.learningchineseonline.net/ a whole lot of resources</li>
@@ -838,7 +894,7 @@
           <li>http://www.hackingchinese.com/chinese-character-variants-and-fonts-for-language-learners/</li>
         </ul>
       </article>
-      <article id="Blogs">
+      <article>
         <h1>Blogs</h1>
         <ul>
           <li>http://speakupchinese.tumblr.com/ - A tumblr blog with some useful phrases and articles.</li>
@@ -846,7 +902,7 @@
           <li>https://themandarincornerblog.com</li>
         </ul>
       </article>
-      <article id="Etymology and Calligraphy">
+      <article>
         <h1>Etymology and Calligraphy</h1>
         <ul>
           <li><a href="http://www.chineseetymology.org/why_study.aspx">Character Etymology</a> - Also links two useful apps for searching characters</li>
@@ -860,7 +916,7 @@
           <li><a href="https://www.youtube.com/channel/UCvPiCUjsIEaCdYiHtP4pbPg">Youtube channel on handwriting</a> - Goes over several examples and general advice for handwriting in Mandarin. A <a href="https://www.youtube.com/watch?v=7s6pxhNql70">fifteen-part series</a> on handwriting characters but in Japanese.</li>
         </ul>
       </article>
-      <article id="Nerdy Rubbish">
+      <article>
         <h1>Nerdy Rubbish</h1>
         <ul>
           <li><a href="http://hayataki-masaharu.jp/web-typography-in-japanese/">Typesetting characters</a> in Japanese but also applicable to Chinese</li>
@@ -872,13 +928,13 @@
           <li><a href="http://www.ibiblio.org/chinesehistory/contents/08fea/c02.html#Fonts">Fonts for Older Scripts</a></li>
         </ul>
       </article>
-      <article id="Classical Chinese">
+      <article>
         <h1>Classical Chinese</h1>
         <ul>
           <li><a href="http://ctext.org/dictionary.pl?if=en">Ctext Dictionary</a></li>
         </ul>
       </article>
-      <article id="Dictionaries">
+      <article>
         <h1>Dictionaries</h1>
         <ul>
           <li><a href="http://chinesenotes.com/classical_chinese.html">Notes on Literary Chinese</a> by Alex Ames</li>
@@ -890,7 +946,7 @@
           <li><a href="http://www.invisiblebooks.com/CGCC.htm">A Concise Grammar of Classical Chinese</a> by Yakov Rabinovich, 2010.</li>
         </ul>
       </article>
-      <article id="Texts">
+      <article>
         <h1>Texts</h1>
         <ul>
           <li>Database of texts: <a href="http://ctext.org/">Ctext</a> and http://tls.uni-hd.de/home_en.lasso</li>
@@ -904,7 +960,7 @@
           <li><a href="http://open-lit.com/list.php">List of Novels</a></li>
         </ul>
       </article>
-      <article id="Stuff">
+      <article>
         <h1>Stuff</h1>
         <ul>
           <li><a href="https://discord.gg/BdSb4AJ">A discord focused on classical texts (not just Chinese)</a></li>
@@ -918,7 +974,7 @@
           <li>Kanbun, Hanmun, Chữ Nôm, Cổ văn go!</li>
         </ul>
       </article>
-      <article id="Old Chinese">
+      <article>
         <h1>Old Chinese</h1>
         <ul>
           <li><p><a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a></li>
@@ -929,11 +985,7 @@
     </section>
 
     <section id="Cantonese">
-      
-      
-      
-      
-      <article id="General">
+      <article>
         <h1>General</h1>
         <ul>
           <li><a href="https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit">Quick Starter Guide to Cantonese</a></li>
@@ -957,7 +1009,7 @@
           <li><a href="http://www.cantonese.sheik.co.uk/essays/">Adam Sheik’s Articles</a> [Essays]</li>
         </ul>
       </article>
-      <article id="Word Lists">
+      <article>
         <h1>Word Lists</h1>
         <ul>
           <li><a href="https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047">Frequency List</a></li>
@@ -969,7 +1021,7 @@
           <li>Slang - http://hkdic.my-helper.com/</li>
         </ul>
       </article>
-      <article id="Other Learning">
+      <article>
         <h1>Other Learning</h1>
         <ul>
           <li><a href="http://www.clc.scicube.info/book_link/book_link.html">Cantonese Learning Centre E-book List</a></li>
@@ -981,11 +1033,7 @@
           <li><a href="http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/">Free Hong Kong Cantonese Grammar</a> - Romanization system is non-standard</li>
         </ul>
       </article>
-      
-      
-      
-      
-      <article id="Recommended Dictionaries">
+      <article>
         <h1>Recommended Dictionaries</h1>
         <ul>
           <li><a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.</li>
@@ -997,126 +1045,49 @@
           <li><a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]</li>
         </ul>
       </article>
-      <article id="Other Dictionaries">
+      <article>
         <h1>Other Dictionaries</h1>
         <ul>
           <li><a href="https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro">Hanping Dictionary</a> [EN↔CA] Offline dictionary that you install to your browser. </li>
         </ul>
       </article>
-      
-      
-      
-      <article id="Novels and Visual Novels">
+      <article>
         <h1>Novels and Visual Novels</h1>
         <ul>
           <li><a href="http://forum8.hkgolden.com/topics.aspx?type=SY">HKGolden</a></li>
         </ul>
       </article>
-      <article id="Dramas">
+      <article>
         <h1>Dramas</h1>
         <ul>
           <li><a href="http://dramatvb.com/">TVB</a> (moved to <a href="http://dramatvb.se/">here</a>?)</li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li><a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary</li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Simplified">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Recommended Dictionaries">
+      <article>
         <h1>Recommended Dictionaries</h1>
         <ul>
           <li><a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. </li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Other">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Recommended Dictionaries">
+      <article>
         <h1>Recommended Dictionaries</h1>
         <ul>
           <li><a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. </li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li>http://english.moe.gov.tw/lp.asp?ctNode=11446&amp;CtUnit=1351&amp;BaseDSD=16</li>
@@ -1136,17 +1107,13 @@
           <li>http://www.sinosplice.com/learn-chinese/shanghainese-soundboard</li>
         </ul>
       </article>
-      
-      
-      
-      
-      <article id="Classical Chinese">
+      <article>
         <h1>Classical Chinese</h1>
         <ul>
           <li><a href="http://ctext.org/dictionary.pl?if=en">Ctext Dictionary</a></li>
         </ul>
       </article>
-      <article id="Dictionaries">
+      <article>
         <h1>Dictionaries</h1>
         <ul>
           <li><a href="http://chinesenotes.com/classical_chinese.html">Notes on Literary Chinese</a> by Alex Ames</li>
@@ -1158,7 +1125,7 @@
           <li><a href="http://www.invisiblebooks.com/CGCC.htm">A Concise Grammar of Classical Chinese</a> by Yakov Rabinovich, 2010.</li>
         </ul>
       </article>
-      <article id="Texts">
+      <article>
         <h1>Texts</h1>
         <ul>
           <li>Database of texts: <a href="http://ctext.org/">Ctext</a> and http://tls.uni-hd.de/home_en.lasso</li>
@@ -1172,7 +1139,7 @@
           <li><a href="http://open-lit.com/list.php">List of Novels</a></li>
         </ul>
       </article>
-      <article id="Stuff">
+      <article>
         <h1>Stuff</h1>
         <ul>
           <li><a href="https://discord.gg/BdSb4AJ">A discord focused on classical texts (not just Chinese)</a></li>
@@ -1186,7 +1153,7 @@
           <li>Kanbun, Hanmun, Chữ Nôm, Cổ văn go!</li>
         </ul>
       </article>
-      <article id="Old Chinese">
+      <article>
         <h1>Old Chinese</h1>
         <ul>
           <li><p><a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a></li>
@@ -1196,78 +1163,23 @@
       </article>
     </section>
 
-    <section id="?">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+    <section id="Hokkien">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li>http://english.moe.gov.tw/lp.asp?ctNode=11446&amp;CtUnit=1351&amp;BaseDSD=16</li>
         
           <li>http://english.moe.gov.tw/ct.asp?xItem=14768&amp;ctNode=11446&amp;mp=1</li>
+        
+          <li><a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary</li>
+        
+          <li><a href="http://twblg.dict.edu.tw/holodict_new/default.jsp">Hokkien/臺語/闽南话 dictionary</a> </li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Hakka">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li>http://wiki.hakka.gov.tw/ hakka dictionary</li>
@@ -1275,229 +1187,43 @@
           <li>http://web3.hakka.gov.tw/lp.asp?ctNode=2355&amp;CtUnit=760&amp;BaseDSD=7&amp;mp=11&amp;ps=</li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </section>
-
-    <section id="Hokkien">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
-        <h1>Other Chinese Languages</h1>
-        <ul>
-          <li><a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary</li>
-        
-          <li><a href="http://twblg.dict.edu.tw/holodict_new/default.jsp">Hokkien/臺語/闽南话 dictionary</a> </li>
-        </ul>
-      </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Wu">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li><a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary</li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Taishanese">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li><a href="http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html">Stephen Li Taishanese Dictionary</a></li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Shanghainese">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Other Chinese Languages">
+      <article>
         <h1>Other Chinese Languages</h1>
         <ul>
           <li>http://www.sinosplice.com/learn-chinese/shanghainese-soundboard</li>
         </ul>
       </article>
-      
-      
-      
-      
-      
-      
-      
-      
-      
     </section>
 
     <section id="Classical">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Classical Chinese">
+      <article>
         <h1>Classical Chinese</h1>
         <ul>
           <li><a href="http://ctext.org/dictionary.pl?if=en">Ctext Dictionary</a></li>
         </ul>
       </article>
-      <article id="Dictionaries">
+      <article>
         <h1>Dictionaries</h1>
         <ul>
           <li><a href="http://chinesenotes.com/classical_chinese.html">Notes on Literary Chinese</a> by Alex Ames</li>
@@ -1509,7 +1235,7 @@
           <li><a href="http://www.invisiblebooks.com/CGCC.htm">A Concise Grammar of Classical Chinese</a> by Yakov Rabinovich, 2010.</li>
         </ul>
       </article>
-      <article id="Texts">
+      <article>
         <h1>Texts</h1>
         <ul>
           <li>Database of texts: <a href="http://ctext.org/">Ctext</a> and http://tls.uni-hd.de/home_en.lasso</li>
@@ -1523,7 +1249,7 @@
           <li><a href="http://open-lit.com/list.php">List of Novels</a></li>
         </ul>
       </article>
-      <article id="Stuff">
+      <article>
         <h1>Stuff</h1>
         <ul>
           <li><a href="https://discord.gg/BdSb4AJ">A discord focused on classical texts (not just Chinese)</a></li>
@@ -1537,45 +1263,10 @@
           <li>Kanbun, Hanmun, Chữ Nôm, Cổ văn go!</li>
         </ul>
       </article>
-      
     </section>
 
     <section id="Old">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <article id="Old Chinese">
+      <article>
         <h1>Old Chinese</h1>
         <ul>
           <li><p><a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a></li>

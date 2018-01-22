@@ -3,9 +3,10 @@ module.exports = `
       margin: 0px;
     }
     nav {
-      /* position: fixed; */
+      position: fixed;
       background-color: grey;
       width: 100%;
+      top: 0;
       z-index: 1;
       /* padding: 0px 10px 0px 10px; */
     }
@@ -24,8 +25,6 @@ module.exports = `
       border-color: white; */
     }
 
-    main {
-    }
     main section {
       display: none;
       background-color: white;
