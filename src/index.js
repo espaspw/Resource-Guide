@@ -83,81 +83,67 @@ sections.set('HSK', [
 
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.chinaeducenter.com/en/hsk/hsktestscore.php">Conversion</a> - Old HSK to New HSK` },
-
-
-
-  { tags: setTags('Cantonese'),
-    body: `<a href="https://chinese.yabla.com/chinese-pinyin-chart.php">Yabla Audio Chart</a> [Pinyin][Reference] Southern accent, tones are enunciated so better for learners.`},
-  { tags: setTags('Cantonese'),
-    body: `<a href="https://chinese.yabla.com/chinese-pinyin-chart.php">Yabla Audio Chart</a> [Pinyin][Reference] Southern accent, tones are enunciated so better for learners.`},
 ]);
-
-// sections.set('Stuff', [
-//   { tags: setTags('Hokkien'),
-//     body: `<a href="https://chinese.yabla.com/chinese-pinyin-chart.php">Yabla Audio Chart</a> [Pinyin][Reference] Southern accent, tones are enunciated so better for learners.`},
-//   { tags: setTags('Mee'),
-//     body: `<a href="https://chinese.yabla.com/chinese-pinyin-chart.php">Yabla Audio Chart</a> [Pinyin][Reference] Southern accent, tones are enunciated so better for learners.`},
-// ]);
 
 // <p>There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives often use the third. Also take a look at Mandarin section for some start character tips should it be relevant (since dialect learning focuses on speaking).</p>
 
 sections.set('General', [
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit">Quick Starter Guide to Cantonese</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://cantolounge.com/jyutping-chart/">Canto Lounge’s Audio Chart</a> [Jyutping][Sounds][Tones]` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://www.cantoneseclass101.com/cantonese-alphabet/">Cantonese Class 101’s Audio Chart</a> [Jyutping][Sounds]` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing">Sietse’s Learning Pack</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://cantonese.ca/">Learn Cantonese!</a> Non-standard romanization` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://www.ocf.berkeley.edu/~canto/Public%20Access/Beginning/Beginning%20reader%20for%20Students%20L1%20to%20L6.pdf">Berkley Beginning Cantonese</a> [Yale]` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://www.chinese-lessons.com/cantonese/">http://www.chinese-lessons.com/cantonese/</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://podcast.rthk.org.hk/podcast/item_all.php?pid=45&amp;current_year=2007">Podcast: Naked Cantonese</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://culturequote.files.wordpress.com/2013/03/cantonese-basic.pdf">Culture Quote</a> [Yale]` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://www.cantonese.sheik.co.uk/essays/">Adam Sheik’s Articles</a> [Essays]` },
 ]);
 
 sections.set('Word Lists', [
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047">Frequency List</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://docs.google.com/spreadsheets/d/1Aglvq1BeuKweRnKrY3wRMIuKu4FRDAhwdM98cqjqJSQ/htmlview">Slang Google Doc</a> - A bit outdated` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `Slang - http://evchk.wikia.com/wiki/%E9%A6%96%E9%A0%81` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `Slang - http://hkdic.my-helper.com/` },
 ]);
 
 sections.set('Other Learning', [
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://www.clc.scicube.info/book_link/book_link.html">Cantonese Learning Centre E-book List</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://www.chinese-lessons.com/cantonese/">Cantonese Lessons</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://www.youtube.com/channel/UCqDaS_9aDl_N7ipFlSQ6LTw/playlists?shelf_id=0&amp;view=1&amp;sort=dd">High School Class Youtube Recordings</a>` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/">Free Hong Kong Cantonese Grammar</a> - Romanization system is non-standard` },
 ]);
 
@@ -228,29 +214,27 @@ sections.set('Other', [
 //<p>More important introduction coming soon. Such dictionaries are organized by pinyin, but also come with a character index at the start that is organized by number of strokes in the radical, then by number of strokes excluding the radical.</p>
 
 sections.set('Recommended Dictionaries', [
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Mandarin', 'Simplified'),
   body: `<a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. ` },
-
-  { tags: setTags('Mandarin'),
-  body: `<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.` },
 
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.zdic.net/">Zdic</a> [C↔C,EN][Online] Etymology, stroke-based IME lookup, dialect readings (音韵方言), etc.` },
 
   { tags: setTags('Mandarin'),
-  body: `<a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]` },
-
-  { tags: setTags('Mandarin'),
   body: `<a href="http://www.mdbg.net/chindict/chindict.php">MDCG</a> [EN↔ZH][Online] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.` },
-
-  { tags: setTags('Mandarin'),
-  body: `<a href="https://addons.mozilla.org/en-US/firefox/addon/cantofish/">Cantofish</a> (FF) or <a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai. Firefox version supports Jyutping, Yale, Pinyin. Supports Anki import.` },
 
   { tags: setTags('Mandarin'),
   body: `Zhong Wen (<a href="https://addons.mozilla.org/en-us/firefox/addon/zhong-wen/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend Cantofish/PCD though they are Cantonese-based. Firefox versions not compatible with newest version yet.` },
 
-  { tags: setTags('Mandarin'),
+  // Cantonese
+  { tags: setTags('Cantonese'),
+  body: `<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.` },
+  { tags: setTags('Cantonese', 'Mandarin'),
+  body: `<a href="https://addons.mozilla.org/en-US/firefox/addon/cantofish/">Cantofish</a> (FF) or <a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai. Firefox version supports Jyutping, Yale, Pinyin. Supports Anki import.` },
+  { tags: setTags('Cantonese'),
   body: `<a href="http://cantonese.org/">Pleco</a> [EN↔ZH,CA][Android][iOS] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.` },
+  { tags: setTags('Cantonese'),
+  body: `<a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]` },
 ]);
 
 //<p>Recommend getting a Cantofish over (even for Mandarin), especially if you plan on doing any sort of learning through reading.</p>
@@ -271,7 +255,7 @@ sections.set('Other Dictionaries', [
   { tags: setTags('Mandarin'),
   body: `<a href="https://www.wenlin.com/download">Wenlin</a> [EN↔ZH] free/paid version, quite a good offline dictionary. Handwriting recognition, marks tone changes, really great for tracing the origin of characters.` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro">Hanping Dictionary</a> [EN↔CA] Offline dictionary that you install to your browser. ` },
 
   { tags: setTags('Mandarin'),
@@ -285,9 +269,7 @@ sections.set('Other Dictionaries', [
 
   { tags: setTags('Mandarin'),
   body: `<a href="http://hanzicraft.com/">HanziCraft</a>, Breaks down character into radicals and assorted strokes. Also features a table list of homonyms.` },
-]);
 
-sections.set('Unevaluated', [
   { tags: setTags('Mandarin'),
   body: `http://dict.revised.moe.edu.tw/cbdic/search.htm` },
 
@@ -349,35 +331,22 @@ sections.set('Newspaper', [
 sections.set('Novels and Visual Novels', [
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.qidian.com/">Qidian</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.xxsy.net/">xxsy</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://xs.cn/">xs</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.jjwxc.net/">jjwxc</a>` },
-
   { tags: setTags('Mandarin'),
   body: `Cantonese webnovels` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="https://vndb.org/v/all?q=&amp;fil=olang-zh&amp;rfil=">Chinese Visual Novels originals</a> - In case you don’t know these are basically books with pretty pictures and music in -the background. You can find some of these on Steam. For all translated to Chinese, <a href="https://vndb.org/v/all?q=&amp;fil=lang-zh&amp;rfil=">here</a>.` },
-
-]);
-
-
-sections.set('Stuff', [
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese', 'Mandarin'),
   body: `<a href="http://forum8.hkgolden.com/topics.aspx?type=SY">HKGolden</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://shikoto.com/">Shikoto</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://haodoo.net/">Fan-transcribed E-books</a>` },
-
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.novelupdates.com/series-finder/?sf=1&amp;org=495&amp;sort=abc&amp;order=asc">Novelupdates</a> - In case you want the ~~totally legal~~ fan translations to reference. Fantasy genres <a href="https://www.reddit.com/r/LightNovels/comments/36q51h/as_a_chinese_id_like_to_talk_about_those_chinese/">explanations</a> Xianxia has become kinda catch all in English.` },
 ]);
@@ -392,7 +361,7 @@ sections.set('Dramas', [
   { tags: setTags('Mandarin'),
   body: `<a href="https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg">Croton's</a> Official Youtube [ZH]` },
 
-  { tags: setTags('Mandarin'),
+  { tags: setTags('Cantonese'),
   body: `<a href="http://dramatvb.com/">TVB</a> (moved to <a href="http://dramatvb.se/">here</a>?)` },
 
   { tags: setTags('Mandarin'),
