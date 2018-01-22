@@ -8,7 +8,7 @@ module.exports = function chapter(map, heading, label) {
     : `<article id="${heading}">
         <h1>${heading}</h1>
         <ul>${links.map(link => `
-          ${link.body}
+          <li>${link.body}</li>
         `).join('')}</ul>
       </article>`;
   return string;
