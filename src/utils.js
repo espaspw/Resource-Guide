@@ -7,7 +7,7 @@ const toExport = {
     Cantonese: 'Cantonese', 
     Hokkien: 'Hokkien/臺語/闽南话',
     Hakka: 'Hakka/客家話',
-    Wu: 'Wu',
+    Wu: 'Wu/吴',
     Taishanese: 'Taishanese',
 
     Simplified: 'Simplified/简体',
