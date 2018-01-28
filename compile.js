@@ -1,5 +1,5 @@
 const fs = require('fs');
-const {Strict} = require('./lib/fp');
+const {Eager} = require('denotational');
 const {isNotInCommon} = require('./src/utils');
 
 
@@ -7,7 +7,7 @@ const data = require('./src/index');
 const style = require('./src/components/style');
 const sieveToLabel = require('./src/components/chapter');
 
-const tags = (Strict(Array.from(data.values()))
+const tags = (Eager(Array.from(data.values()))
   .flatten(1) // All sections of links -> array of links
   .map(x => x.tags) // Links -> array of array of tags
   .flatten(1) // 2d array of tags -> 1d
@@ -34,7 +34,7 @@ ${style}
     <td><a href="#Mandarin">Mandarin</a></td>
     <td><a href="#Other">Other</a></td>
     <td><a href="#English">English</a></td>${
-  Strict(tags).sieve(isNotInCommon).map(label => `
+  Eager(tags).sieve(isNotInCommon).map(label => `
     <td><a href="#${label}">${label}</a></td>`
   ).val().join('')}
   </tr></table></nav>
@@ -45,7 +45,7 @@ ${style}
   <main>${
   tags.map(label => `
     <section id="${label}">${
-    Strict(chapters)
+    Eager(chapters)
     .map(chapter => `
       ${sieveToLabel(data, chapter, label)}`
     )

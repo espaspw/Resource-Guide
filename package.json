@@ -1,0 +1,22 @@
+{
+  "name": "resources",
+  "version": "1.0.0",
+  "description": "Resources for the Chinese-English Exchange Discord server.",
+  "main": "compile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super-Panama-World/Resource-Guide.git"
+  },
+  "author": "Aryailia <Aryailia@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Super-Panama-World/Resource-Guide/issues"
+  },
+  "homepage": "https://github.com/Super-Panama-World/Resource-Guide#readme",
+  "dependencies": {
+    "denotational": "^0.1.0"
+  }
+}
