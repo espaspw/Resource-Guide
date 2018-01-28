@@ -62,11 +62,11 @@ console.log(strings);
 // return;
 
 // Overwrites file by default
-fs.writeFile("./index.html", strings, function(err) {
+fs.writeFile('./index.html', strings, function(err) {
   if (err) {
     return console.log(err);
   }
-  console.log("Success");
+  console.log('Success');
 });
 
 // console.log(a);
