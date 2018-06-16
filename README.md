@@ -70,6 +70,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Hello Chinese](http://www.hellochinese.cc/) [Lessons][Vocab] - Gamification A Duolingo-like course
 - [Clozemaster](https://www.clozemaster.com/languages/) [Lessons] - Gamification
 - [Spoonfed Anki Deck](https://ankiweb.net/shared/info/867291675) [Vocab][Anki]
+- [Popup Chinese](http://popupchinese.com/) [Lessons][Podcast]
 
 ### Textbooks 
 
@@ -257,6 +258,7 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 - Mandarin Audio Books: [RTHK’s podcast](http://podcast.rthk.hk/podcast/item_epi.php?pid=448) and [Tingbook](http://tingbook.com/)
 - Cantonese Audio Books: [RTHK’s podcasts](http://podcast.rthk.hk/podcast/item_epi.php?pid=447) (Mandarin-original) 
 - [Popup cantonese](http://popupcantonese.com/)
+- [Popup Chinese](http://popupchinese.com/)
 
 
 ## Other Chinese Languages
