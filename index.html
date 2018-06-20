@@ -11,7 +11,7 @@
 <body>
   <div class="splitview">
     <nav>
-      <div class="navbar__drop-menu">Sections</div>
+      <div class="navbar__drop-menu" onclick="">Sections</div>
       <div class="navbar__container">
         <a href="#All" id="navbar__main-btn">All</a></td>
         <a href="#Cantonese">Cantonese</a>
@@ -1272,7 +1272,7 @@
   // Redirects to #All tag on page load as text is hidden on default index
   window.onload = () => {
     window.location.href = "#All";
-
+    window.scrollTo(0,0);
   }
   // Scrolls to top after using fragment ID
   window.onhashchange = () => {
