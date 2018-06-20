@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -10,16 +11,19 @@ body {
 }
 
 nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
     background-color: rgb(53, 53, 53);
     width: 200px;
     height: 100%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding: 50px 0;
 
     -webkit-box-shadow: 4px 0px 12px -4px rgba(69,69,69,0.75);
-    -moz-box-shadow: 4px 0px 12px -4px rgba(69,69,69,0.75);
     box-shadow: 4px 0px 12px -4px rgba(69,69,69,0.75);
 
 }
@@ -32,6 +36,8 @@ nav a {
     display: inline-block;
     color: white;
     padding: 10px 35px;
+    -webkit-transition: background-color 0.1s linear, color 0.1s linear;
+    -o-transition: background-color 0.1s linear, color 0.1s linear;
     transition: background-color 0.1s linear, color 0.1s linear;
 }
 
@@ -73,13 +79,20 @@ ul a {
 }
 
 .splitview {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .navbar__container {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .navbar__drop-menu {
@@ -99,6 +112,8 @@ ul a {
 
 #navbar__main-btn {
     background-color: rgb(255, 137, 58);
+    -webkit-transition: background-color 0.1s linear, color 0.1s linear;
+    -o-transition: background-color 0.1s linear, color 0.1s linear;
     transition: background-color 0.1s linear, color 0.1s linear;
     margin-bottom: 20px;
 }
@@ -113,18 +128,19 @@ ul a {
 @media (max-width: 768px) {
     
     body {
-        word-break: break-all;
-        font-size: 15px;
+        overflow-wrap: break-word;
+        /* /=word-break: break-all; */
+        font-size: 13px;
     }
 
     nav {
         width: 100%;
         height: 50px;
         padding: 0;
-        justify-content: right;
-
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
         -webkit-box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
-        -moz-box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
         box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
     }
 
@@ -133,15 +149,21 @@ ul a {
     }
 
     main {
-        flex: 1 1 auto;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
         width: 100%;
-        margin-left: 30px;
-        margin-right: 40px;
-        max-width: 80%;
+        margin-left: 0;
     }
 
     .splitview {
-        flex-direction: column;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .navbar__container {
@@ -170,8 +192,13 @@ ul a {
     .navbar__drop-menu__container {
         background-color: rgb(53, 53, 53);
         color: white;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .navbar__drop-menu__container a {
@@ -189,6 +216,12 @@ ul a {
     .responsive-spacer {
         display: block;
         height: 45px;
+    }
+
+    .main-container {
+        margin: auto;
+        width: 75%;
+
     }
 
     #navbar__main-btn {
