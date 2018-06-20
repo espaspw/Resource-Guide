@@ -209,7 +209,7 @@ ul a {
         display: block;
     }
 
-    .navbar__drop-menu__flexbox:hover {
+    .navbar__drop-menu__flexbox:hover, .navbar__drop-menu__flexbox:active {
         display: block;
     }
 
