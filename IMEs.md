@@ -24,7 +24,6 @@ Typically input methods do not support tone discrimination on default, but some 
     - [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)
     - [Linux](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)
 - **[Rime](http://rime.im/) [CA][ZH]** - Multi-OS Support. Allows for installed dictionaries.
-- **[Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) [ZH]** - Supports both simplified and traditional. I imagine it has better character recognition but need an opinion of someone who has used this.
 - **CAP [CA]** - `Dead?` Multi-OS support, Yale or Similar to Rime in terms of dictionary. 
 - **[CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en)** Jyutping and Yale phonetic input for Cantonese.
 - **[FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)**

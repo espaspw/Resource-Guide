@@ -43,7 +43,6 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
     - [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)
     - [Linux](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)
 - [Rime](http://rime.im/) [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.
-- [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) [ZH][简][繁][Win]
 - [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) [CA] - Jyutping and Yale phonetic input for Cantonese.
 - [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)
 

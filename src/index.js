@@ -26,8 +26,6 @@ sections.set('Phonetic Input Methods', [
   { tags: setTags('Mandarin'),
   body: `<a href="http://rime.im/">Rime</a> [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.` },
   { tags: setTags('Mandarin'),
-  body: `<a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a> [ZH][简][繁][Win]` },
-  { tags: setTags('Mandarin'),
   body: `<a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a> [CA] - Jyutping and Yale phonetic input for Cantonese.` },
   { tags: setTags('Mandarin'),
   body: `<a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a>` },
