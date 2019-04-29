@@ -4,7 +4,6 @@ const {isNotInCommon} = require('./src/utils');
 
 
 const data = require('./src/index');
-const style = require('./src/components/style');
 const sieveToLabel = require('./src/components/chapter');
 
 const tags = (Eager(Array.from(data.values()))

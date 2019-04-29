@@ -450,9 +450,6 @@ sections.set('Audio', [
   body: `<a href="http://singchinesesongs.com/">Sing Chinese Songs</a> - Learn Chinese through song. You sing karaoke with pinyin/characters and then turn off the pinyin.` },
 
   { tags: setTags('Mandarin'),
-  body: `<a href="https://www.youtube.com/channel/UCafN-F8I7z-8lTcXAhGgTWg">Cantonese Audio Dramas: Ka Yi’s Youtube Series</a>` },
-
-  { tags: setTags('Mandarin'),
   body: `<a href="http://www.1ting.com/rank/pop.html">Chinese Songs Classics: Yi Ting</a>` },
 ]);
 
