@@ -247,7 +247,6 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 ## Audio
 ### General
 - [Sing Chinese Songs](http://singchinesesongs.com/) - Learn Chinese through song. You sing karaoke with pinyin/characters and then turn off the pinyin.
-- [Cantonese Audio Dramas: Ka Yi’s Youtube Series](https://www.youtube.com/channel/UCafN-F8I7z-8lTcXAhGgTWg)
 - [Chinese Songs Classics: Yi Ting](http://www.1ting.com/rank/pop.html)
 
 ### Radio
