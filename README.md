@@ -330,4 +330,3 @@ More important introduction coming soon. Such dictionaries are organized by piny
 
 ### Old Chinese
 [United Nations of Ancient and Endangered Languages Discord](https://discordapp.com/invite/te89K64)
-`Coming Soon™`
