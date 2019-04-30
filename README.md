@@ -213,7 +213,7 @@ More important introduction coming soon. Such dictionaries are organized by piny
 - [Rabbit](https://www.rabb.it/) - Screensharing site. Check out description in tools
 - [MyDramalist](http://mydramalist.com/) - Drama information and watchlist site
 - [Croton's](https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg) Official Youtube [ZH]
-- [TVB](http://dramatvb.com/)
+- [TVB](https://www.tvbanywhere.com/)
 - [Dnvod](http://www.dnvod.tv/) - Loads of movies with Chinese subs/dubs.
 - [Viki](http://www.viki.com/)
 
