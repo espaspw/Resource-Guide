@@ -193,7 +193,7 @@ More important introduction coming soon. Such dictionaries are organized by piny
 - [Mandarin Weekly](http://mandarinweekly.com/) - A weekly newsletter containing Mandarin study stuff!
 - [New York Times in Chinese](http://cn.nytimes.com/)
 - [Ming Pao Newspaper](http://www.mingpao.com/) (Trad. Chinese)
-- [Sing Tao Newspaper](http://news.singtao.ca/toronto/) (Trad. Chinese)
+- [Sing Tao Newspaper](https://www.singtao.ca/toronto/) (Trad. Chinese)
 
 ### Entertainment
 - [Chinese Visual Novels originals](https://vndb.org/v/all?q=&fil=olang-zh&rfil=) - In case you don’t know these are basically books with pretty pictures and music in -the background. You can find some of these on Steam. For all translated to Chinese, [here](https://vndb.org/v/all?q=&fil=lang-zh&rfil=).
