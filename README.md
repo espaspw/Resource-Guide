@@ -127,7 +127,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 - [Rabbit](https://www.rabb.it/) - Screen sharing. Optional account login and friending. Works for Karaoke too!
 - Wikipedia - Great for translating technical jargon or just generally specific words. Find the article, then click on the chinese version of that article.
 - [Baidu translate](http://fanyi.baidu.com/#zh/yue/) [MTL] Machine translator. Has Mandarin, Cantonese, and Classical.
-- [Google Translate](http://traslate.google.com/) [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting
+- [Google Translate](http://translate.google.com/) [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting
 
 ### Other
 - [Jyutping Converter](https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping)
