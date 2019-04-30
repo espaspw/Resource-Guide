@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Super-Panama-World/Resource-Guide#readme",
   "dependencies": {
-    "denotational": "^0.1.0"
+    "denotational": "^0.1.0",
+    "markdown-link-check": "^3.7.2"
   }
 }
