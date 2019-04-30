@@ -120,7 +120,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 
 ### Browser Plugins
 - Browser Popup Dictionaries - Several listed in next section
-- Simplified↔Traditional Conversion [[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)][[Firefox](https://addons.mozilla.org/en-us/firefox/addon/meihua-chinese-converter/)] - Firefox not yet compatible
+- Simplified↔Traditional Conversion [[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)]
 - [Real Time Anki Import](https://ankiweb.net/shared/info/2512410601) - To automate anki entry
 
 ### Websites
