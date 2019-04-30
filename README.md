@@ -152,7 +152,7 @@ More important introduction coming soon. Such dictionaries are organized by piny
 - [Zdic](http://www.zdic.net/) [C↔C,EN][Online] Etymology, stroke-based IME lookup, dialect readings (音韵方言), etc.
 - [Jyutdin](http://words.hk/) [CA↔CA][Online]
 - [MDCG](http://www.mdbg.net/chindict/chindict.php) [EN↔ZH][Online] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.
-- [Cantofish](https://addons.mozilla.org/en-US/firefox/addon/cantofish/) (FF) or [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) [EN↔CA,ZH][Browser] Popup dictionary much like Rikai. Firefox version supports Jyutping, Yale, Pinyin. Supports Anki import.
+- [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) [EN↔CA,ZH][Browser] Popup dictionary much like Rikai.
 - Zhong Wen ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)) ([Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en)). Mandarin popup dictionaries available for both browsers. Still recommend Cantofish/PCD though they are Cantonese-based. Firefox versions not compatible with newest version yet.
 - [Pleco](http://cantonese.org/) [EN↔ZH,CA][Android][iOS] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.
 
