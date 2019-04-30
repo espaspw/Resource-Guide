@@ -6,7 +6,7 @@ If you find any problems with these resources listed or have suggestions, please
 
 Mandarin and Cantonese lessons sections should be focused around getting a person with no knowledge to beginner/intermediate level. Once they reach that point, they should be looking towards native content for self-study.
 
-## Table of Contents 
+## Table of Contents
 
 - [Table of Contents](#table-of-contents)
     - [Key](#key)
@@ -32,26 +32,22 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 | ZH      | Mandarin               |
 | EN      | English                |
 | CA      | Cantonese              |
-     
+
 ## Chinese Input Methods
 
 [Detailed Explanation of Chinese IMEs](https://github.com/Super-Panama-World/Resource-Guide/blob/master/IMEs.md)
 
-### Phonetic 
-- System Default [ZH][简][繁]
-    - [Windows](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.
-    - [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)
-    - [Linux](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)
-- [Rime](http://rime.im/) [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.
-- [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) [ZH][简][繁][Win]
-- [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) [CA] - Jyutping and Yale phonetic input for Cantonese.
-- [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)
-
-### Shape-based
-- System installed** [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8.
-- [Rime](http://rime.im/) [倉頡][五笔][郑码]
-- [Sogou](https://pinyin.sogou.com/)
-- [FreeWB](http://www.freewb.org/)
+| Name                | Description                                                                                                                                                                                                                                          | Type                 | OS            | 简 | 繁 | ZH | CA | Link                                                                                            |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|---------------|---|---|----|----|-------------------------------------------------------------------------------------------------|
+| System Default      | For windows, you want to find Chinese Simplified (PRC) ? Microsoft Pinyin New Experience Input St. You can switch between Traditional and Simplified, and even assign that to a shortcut key. [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8. | Phonetic/Shape-based | Windows       | Y | Y | Y  |    | [link](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) |
+| System Default      |                                                                                                                                                                                                                                                      | Phonetic             | Mac           | Y | Y | Y  |    | [link](http://www.languagegeek.com/keyboard_general/mac_installation1.html)                     |
+| System Default      |                                                                                                                                                                                                                                                      | Phonetic             | Linux         | Y | Y | Y  |    | [link](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)               |
+| Rime                | Framework for custom IMEs. Cantonese has Jyutping and Yale.                                                                                                                                                                                          | Phonetic/Shape-based | Win/Mac/Linux | Y | Y | Y  | Y  | [link](http://rime.im/)                                                                         |
+| Google Input        |                                                                                                                                                                                                                                                      | Phonetic             | Win           | Y | Y | Y  |    | [link](https://www.google.com/intl/zh-CN/ime/pinyin/)                                           |
+| CPIME               | Jyutping and Yale phonetic input for Cantonese.                                                                                                                                                                                                      | Phonetic             |               |   |   |    | Y  | [link](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en)                      |
+| FHL Taigi-Hakka IME |                                                                                                                                                                                                                                                      | Phonetic             |               |   |   |    |    | [link](http://taigi.fhl.net/TaigiIME/)                                                          |
+| Sogou               |                                                                                                                                                                                                                                                      | Shape-based          |               |   |   |    |    | [link](https://pinyin.sogou.com/)                                                               |
+| FreeWB              |                                                                                                                                                                                                                                                      | Shape-based          |               |   |   |    |    | [link](http://www.freewb.org/)                                                                  |
 
 ## Mandarin Resources
 ### Pronunciation/Pinyin
@@ -72,7 +68,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Spoonfed Anki Deck](https://ankiweb.net/shared/info/867291675) [Vocab][Anki]
 - [Popup Chinese](http://popupchinese.com/) [Lessons][Podcast]
 
-### Textbooks 
+### Textbooks
 
 - Mandarin Chinese Grammar [Grammar] by Claudia Ross
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
@@ -90,7 +86,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 
 There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives often use the third. Also take a look at Mandarin section for some start character tips should it be relevant (since dialect learning focuses on speaking).
 
-### General 
+### General
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Canto Lounge’s Audio Chart](https://cantolounge.com/jyutping-chart/) [Jyutping][Sounds][Tones]
 - [Cantonese Class 101’s Audio Chart](https://www.cantoneseclass101.com/cantonese-alphabet/) [Jyutping][Sounds]
@@ -124,7 +120,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 
 ### Browser Plugins
 - Browser Popup Dictionaries - Several listed in next section
-- Simplified↔Traditional Conversion [[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)][[Firefox](https://addons.mozilla.org/en-us/firefox/addon/meihua-chinese-converter/)] - Firefox not yet compatible 
+- Simplified↔Traditional Conversion [[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)][[Firefox](https://addons.mozilla.org/en-us/firefox/addon/meihua-chinese-converter/)] - Firefox not yet compatible
 - [Real Time Anki Import](https://ankiweb.net/shared/info/2512410601) - To automate anki entry
 
 ### Websites
@@ -151,7 +147,7 @@ More important introduction coming soon. Such dictionaries are organized by piny
 
 ### Recommended
 
-- [Line](http://www.linedict.com/) (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. 
+- [Line](http://www.linedict.com/) (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow.
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.
 - [Zdic](http://www.zdic.net/) [C↔C,EN][Online] Etymology, stroke-based IME lookup, dialect readings (音韵方言), etc.
 - [Jyutdin](http://words.hk/) [CA↔CA][Online]
@@ -167,14 +163,14 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 - [Baidu Baike](https://baike.baidu.com/) [ZH→ZH,EN] An encyclopedia, but it does list definitions.
 - [Pin Pin](http://dictionary.pinpinchinese.com/) [EN↔ZH] Fast, clean, and responsive.
 - [Multi-function Chinese Character Database CC-English-C](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/) (Uses homophones in addition to romanisation for pronunciation, for those that are more comfortable with that than romanisation) (Also has audio clips, but those can be a little stretched out to emphasise the tones)
-- 现代汉语词典5th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses. 
+- 现代汉语词典5th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses.
 - [Wenlin](https://www.wenlin.com/download) [EN↔ZH] free/paid version, quite a good offline dictionary. Handwriting recognition, marks tone changes, really great for tracing the origin of characters.
-- [Hanping Dictionary](https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro) [EN↔CA] Offline dictionary that you install to your browser. 
+- [Hanping Dictionary](https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro) [EN↔CA] Offline dictionary that you install to your browser.
 - [Zhongwen](http://www.zhongwen.com/) [EN↔ZH][Online] (Unrelated to popup dictionary). Lightweight and responsive. Alternative to Wenlin for radical-based breakdown of characters and shared-radical map. However, character search does not work (might be encoding issue) and unable to copy paste.
 - [Perapera](http://www.perapera.org/) [EN↔ZH] Another Mandarin popup dictionary.
 - [Ichacha](http://ichacha.net/)
 - [HanziCraft](http://hanzicraft.com/), Breaks down character into radicals and assorted strokes. Also features a table list of homonyms.
- 
+
 ##### Unevaluated
 - http://dict.revised.moe.edu.tw/cbdic/search.htm
 - http://dictall.com/indu/035/0340368F65C.htm - For technical translation, though wikipedia works too.
@@ -183,9 +179,9 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 ### General
 - [Children Stories](http://storyfree.com/)
 - [Chinese Book Club on Reddit](https://www.reddit.com/r/chinesebookclub/)
-- [Tsoi Dug’s bilingual site](http://www.tsoidug.org/) - Essays, poetry, articles on culture, etc. in both English and Chinese. 
+- [Tsoi Dug’s bilingual site](http://www.tsoidug.org/) - Essays, poetry, articles on culture, etc. in both English and Chinese.
 - [每天為你讀一首詩](http://cendalirit.blogspot.hk/) - A blog featuring daily posts on modern Chinese poetry
-- [Chinese Stories](http://www.chinese-stories.com/) - Graded Reading. 
+- [Chinese Stories](http://www.chinese-stories.com/) - Graded Reading.
 - [Chinese Stories Platform](http://web.archive.org/web/20130709010055/http://www.chinesestoriesplatform.com/) - Graded reading
 - [Just Learn Chinese](http://justlearnchinese.com/mini-novels/) - Graded reading
 - [Du Chinese](https://www.duchinese.net/) - Phone app. Graded reading with mouse over translations and transliterations
@@ -198,8 +194,8 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 - 9Newspaper tailored to learners](http://www.thechairmansbao.com/)
 - [Mandarin Weekly](http://mandarinweekly.com/) - A weekly newsletter containing Mandarin study stuff!
 - [New York Times in Chinese](http://cn.nytimes.com/)
-- [Ming Pao Newspaper](http://www.mingpao.com/) (Trad. Chinese) 
-- [Sing Tao Newspaper](http://news.singtao.ca/toronto/) (Trad. Chinese) 
+- [Ming Pao Newspaper](http://www.mingpao.com/) (Trad. Chinese)
+- [Sing Tao Newspaper](http://news.singtao.ca/toronto/) (Trad. Chinese)
 
 ### Entertainment
 - [Chinese Visual Novels originals](https://vndb.org/v/all?q=&fil=olang-zh&rfil=) - In case you don’t know these are basically books with pretty pictures and music in -the background. You can find some of these on Steam. For all translated to Chinese, [here](https://vndb.org/v/all?q=&fil=lang-zh&rfil=).
@@ -217,7 +213,7 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 ## Media
 ### Dramas
 - [Rabbit](https://www.rabb.it/) - Screensharing site. Check out description in tools
-- [MyDramalist](http://mydramalist.com/) - Drama information and watchlist site 
+- [MyDramalist](http://mydramalist.com/) - Drama information and watchlist site
 - [Croton's](https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg) Official Youtube [ZH]
 - [TVB](http://dramatvb.com/) (moved to [here](http://dramatvb.se/)?)
 - [Dnvod](http://www.dnvod.tv/) - Loads of movies with Chinese subs/dubs.
@@ -255,7 +251,7 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 ### Podcasts
 - [Chinese Pod](http://chinesepod.com/)
 - Mandarin Audio Books: [RTHK’s podcast](http://podcast.rthk.hk/podcast/item_epi.php?pid=448) and [Tingbook](http://tingbook.com/)
-- Cantonese Audio Books: [RTHK’s podcasts](http://podcast.rthk.hk/podcast/item_epi.php?pid=447) (Mandarin-original) 
+- Cantonese Audio Books: [RTHK’s podcasts](http://podcast.rthk.hk/podcast/item_epi.php?pid=447) (Mandarin-original)
 - [Popup cantonese](http://popupcantonese.com/)
 - [Popup Chinese](http://popupchinese.com/)
 
@@ -286,10 +282,10 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 - [China Simplified](http://www.chinasimplified.com/) - Useful articles about studying Mandarin and the language itself.
 - [Glossicka’s Courses](https://glossika.com/courses/) - A pay-for course. Has Cantonese, Hakka, Mandarin (Mainland/Taiwan), and Taiwanese Hokkien flavours.
 - [FluentU](http://fluentu.com/) - A site that provides short Chinese videos with subtitles with characters, pinyin and English.
-- [Three Thousand Hanzi](http://www.zein.se/patrick/3000char.html) by frequency by Patrick Hassel Zein 
+- [Three Thousand Hanzi](http://www.zein.se/patrick/3000char.html) by frequency by Patrick Hassel Zein
 - [Ling and Lang discord](https://discord.gg/BWaZeP8) - A discord server focused around learning multiple languages
 - [Lang-8](http://www.lang-8.com/) - an exchange based around writing in a foreign language providing corrections. Good for getting grammar corrected. They recommend writing no more than a couple of paragraphs and recommend writing a translation of what you wanted to say.
-- [HelloTalk](http://hellotalk.com/), [HiNative](https://hinative.com/), [WeChat](http://www.wechat.com/en/) . For meeting and talking with Natives. Be sure to google how to make the most of a language exchange. 
+- [HelloTalk](http://hellotalk.com/), [HiNative](https://hinative.com/), [WeChat](http://www.wechat.com/en/) . For meeting and talking with Natives. Be sure to google how to make the most of a language exchange.
 - [Onomatopoeia list](http://confusedlaowai.com/2013/07/comprehensive-onomatopoeia-list/) - Sound words in Mandarin
 - http://www.hackingchinese.com/chinese-character-variants-and-fonts-for-language-learners/
 
@@ -337,4 +333,3 @@ Recommend getting a Cantofish over (even for Mandarin), especially if you plan o
 ### Old Chinese
 [United Nations of Ancient and Endangered Languages Discord](https://discordapp.com/invite/te89K64)
 `Coming Soon™`
-
