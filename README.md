@@ -108,7 +108,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 - [Cantonese Learning Centre E-book List](http://www.clc.scicube.info/book_link/book_link.html)
 - [Cantonese Lessons](http://www.chinese-lessons.com/cantonese/)
 - [High School Class Youtube Recordings](https://www.youtube.com/channel/UCqDaS_9aDl_N7ipFlSQ6LTw/playlists?shelf_id=0&view=1&sort=dd)
-- [Free Hong Kong Cantonese Grammar](http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/) - Romanization system is non-standard
+- [Free Hong Kong Cantonese Grammar](https://web.archive.org/web/20170604202810/http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/) - Romanization system is non-standard
 
 ## Learning Tools
 
