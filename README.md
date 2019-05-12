@@ -97,6 +97,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 - [Podcast: Naked Cantonese](http://podcast.rthk.org.hk/podcast/item_all.php?pid=45&current_year=2007)
 - [Culture Quote](https://culturequote.files.wordpress.com/2013/03/cantonese-basic.pdf) [Yale]
 - [Adam Sheik’s Articles](http://www.cantonese.sheik.co.uk/essays/) [Essays]
+- [How to study Cantonese](https://www.howtostudycantonese.com/)
 
 ### Word Lists
 - [Frequency List](https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047)
