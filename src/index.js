@@ -171,7 +171,7 @@ sections.set('Other Learning', [
   body: `<a href="https://www.youtube.com/channel/UCqDaS_9aDl_N7ipFlSQ6LTw/playlists?shelf_id=0&amp;view=1&amp;sort=dd">High School Class Youtube Recordings</a>` },
 
   { tags: setTags('Cantonese'),
-  body: `<a href="http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/">Free Hong Kong Cantonese Grammar</a> - Romanization system is non-standard` },
+  body: `<a href="https://web.archive.org/web/20170604202810/http://www.freehongkong.net/learn-cantonese-grammar-conjunction-and-sentence-connector/">Free Hong Kong Cantonese Grammar</a> - Romanization system is non-standard` },
 ]);
 
 sections.set('Tools', [
@@ -193,7 +193,7 @@ sections.set('Browser Plugins', [
   body: `Browser Popup Dictionaries - Several listed in next section` },
 
   { tags: setTags('Mandarin'),
-  body: `Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>][<a href="https://addons.mozilla.org/en-us/firefox/addon/meihua-chinese-converter/">Firefox</a>] - Firefox not yet compatible ` },
+  body: `Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>]` },
 
   { tags: setTags('Mandarin'),
   body: `<a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry` },
@@ -210,7 +210,7 @@ sections.set('Websites', [
   body: `<a href="http://fanyi.baidu.com/#zh/yue/">Baidu translate</a> [MTL] Machine translator. Has Mandarin, Cantonese, and Classical.` },
 
   { tags: setTags('Mandarin'),
-  body: `<a href="http://traslate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting` },
+  body: `<a href="http://translate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting` },
 ]);
 
 sections.set('Other', [
@@ -251,13 +251,13 @@ sections.set('Recommended Dictionaries', [
   body: `<a href="http://www.mdbg.net/chindict/chindict.php">MDCG</a> [EN↔ZH][Online] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.` },
 
   { tags: setTags('Mandarin'),
-  body: `Zhong Wen (<a href="https://addons.mozilla.org/en-us/firefox/addon/zhong-wen/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend Cantofish/PCD though they are Cantonese-based. Firefox versions not compatible with newest version yet.` },
+  body: `Zhong Wen (<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend CPD as it is Cantonese-based.` },
 
   // Cantonese
   { tags: setTags('Cantonese'),
   body: `<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.` },
   { tags: setTags('Cantonese', 'Mandarin'),
-  body: `<a href="https://addons.mozilla.org/en-US/firefox/addon/cantofish/">Cantofish</a> (FF) or <a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai. Firefox version supports Jyutping, Yale, Pinyin. Supports Anki import.` },
+  body: `<a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai.` },
   { tags: setTags('Cantonese'),
   body: `<a href="http://cantonese.org/">Pleco</a> [EN↔ZH,CA][Android][iOS] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.` },
   { tags: setTags('Cantonese'),
@@ -352,7 +352,7 @@ sections.set('Newspaper', [
   body: `<a href="http://www.mingpao.com/">Ming Pao Newspaper</a> (Trad. Chinese) ` },
 
   { tags: setTags('Mandarin'),
-  body: `<a href="http://news.singtao.ca/toronto/">Sing Tao Newspaper</a> (Trad. Chinese) ` },
+  body: `<a href="https://www.singtao.ca/toronto/">Sing Tao Newspaper</a> (Trad. Chinese) ` },
 ]);
 
 sections.set('Novels and Visual Novels', [
@@ -389,7 +389,7 @@ sections.set('Dramas', [
   body: `<a href="https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg">Croton's</a> Official Youtube [ZH]` },
 
   { tags: setTags('Cantonese'),
-  body: `<a href="http://dramatvb.com/">TVB</a> (moved to <a href="http://dramatvb.se/">here</a>?)` },
+  body: `<a href="https://www.tvbanywhere.com/">TVB</a>` },
 
   { tags: setTags('Mandarin'),
   body: `<a href="http://www.dnvod.tv/">Dnvod</a> - Loads of movies with Chinese subs/dubs.` },

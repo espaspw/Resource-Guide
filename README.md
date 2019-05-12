@@ -115,7 +115,7 @@ There are three ways that Cantonese is romanized. You’ll likely have to get us
 ### Software
 - [Anki](http://ankisrs.net/) [Memorization][[SRS](http://www.omniglot.com/language/srs.php)] - Flashcard memorization program. Recommend using anki as a revision tool and [build your own decks](https://eastasiastudent.net/study/anki-structure/), but if you really want to can find [pre-built decks](https://ankiweb.net/shared/decks/) to learn vocabulary. Also see [this](http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/).
 - [Zhtoolkit](http://www.zhtoolkit.com/apps/chinese_word_extractor/) [Text Analysis] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.
-- [Pomodoro] Technique](http://pomodorotechnique.com/get-started/#how) - Help stay focused
+- [Pomodoro Technique](http://pomodorotechnique.com/get-started/#how) - Help stay focused
 - [JNovelFormter](https://sourceforge.net/projects/jnovelformatter/) - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function
 
 ### Browser Plugins
@@ -294,7 +294,7 @@ More important introduction coming soon. Such dictionaries are organized by piny
 ### Etymology and Calligraphy
 - [Character Etymology](http://www.chineseetymology.org/why_study.aspx) - Also links two useful apps for searching characters
 - [App for Learning Oracle Bone Script](https://itunes.apple.com/us/app/%E5%8F%A4%E6%96%87%E5%AD%97%E7%8C%9C%E7%8C%9C%E6%A8%82/id1193864419?mt=8) [iOS]
-- [A Quorra article on dictionary character sorting](https://www.quora.com/How-are-Chinese-dictionaries-organized)
+- [A Quora article on dictionary character sorting](https://www.quora.com/How-are-Chinese-dictionaries-organized)
 - [Calligraphy Dictionary](http://www.shufazidian.com/)
 - [Youtube channel on handwriting](https://www.youtube.com/channel/UCvPiCUjsIEaCdYiHtP4pbPg) - Goes over several examples and general advice for handwriting in Mandarin. A [fifteen-part series](https://www.youtube.com/watch?v=7s6pxhNql70) on handwriting characters but in Japanese.
 
@@ -330,3 +330,4 @@ More important introduction coming soon. Such dictionaries are organized by piny
 
 ### Old Chinese
 [United Nations of Ancient and Endangered Languages Discord](https://discordapp.com/invite/te89K64)
+`Coming Soon™`
