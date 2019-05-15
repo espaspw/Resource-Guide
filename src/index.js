@@ -144,6 +144,9 @@ sections.set('General', [
 
   { tags: setTags('Cantonese'),
   body: `<a href="http://www.cantonese.sheik.co.uk/essays/">Adam Sheik’s Articles</a> [Essays]` },
+  
+  { tags: setTags('Cantonese'),
+  body: `<a href="https://howtostudycantonese.com/">How to study Cantonese</a>` },
 ]);
 
 sections.set('Word Lists', [
@@ -625,9 +628,6 @@ sections.set('Stuff', [
 sections.set('Old Chinese', [
   { tags: setTags('Old'),
   body: `<p><a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a>` },
-
-  { tags: setTags('Old'),
-  body: `<code>Coming Soon™</code></p>` },
 ]);
 
 module.exports = sections;
