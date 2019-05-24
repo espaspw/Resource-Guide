@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+  Please build with `./build.sh all` or refer to `./build.sh help`
+  To add links, edit 'links.yaml' and then run the build script
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chinese-English Exchange Discord Server Resource List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="splitview">
+
+    <nav>
+      <div class="navbar__drop-menu" onclick="">Sections</div>
+      <div class="navbar__container">
+        <a href="#All" id="navbar__main-btn">All</a></td>
+        <a href="#Cantonese">Cantonese</a>
+        <a href="#Mandarin">Mandarin</a>
+<!-- build.sh replaces this -->
+        <a href="#Classical">Classical</a>
+        <a href="#Old">Old</a>
+      </div>
+      <div class="navbar__drop-menu__flexbox">
+        <div class="navbar__drop-menu__container">
+          <a href="#All" id="navbar__main-btn">All</a></td>
+          <a href="#Cantonese">Cantonese</a>
+          <a href="#Mandarin">Mandarin</a>
+<!-- build.sh replaces this -->
+          <a href="#Classical">Classical</a>
+          <a href="#Old">Old</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="responsive-spacer"></div>
+
+    <main class="main-container">
+<!-- build.sh replaces this -->
+    </main>
+  </div>
+</body>
+<script>
+  // NOTE: Ideally we want to avoid as much javascript as possible
+  //       Site should function without javascript
+  "use strict";
+
+  // Redirects to #All tag on page load as text is hidden on default index
+  window.onload = function() {
+    window.location.href = "#All";
+    window.scrollTo(0, 0);
+  }
+  // Scrolls to top after using fragment ID
+  window.onhashchange = function() {
+    window.scrollTo(0, 0);
+  }
+</script>
+</html>
