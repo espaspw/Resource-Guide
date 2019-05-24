@@ -53,6 +53,9 @@ main() {
   html_template="${path}/template.html"
   [ -r "${html_template}" ] \
     || die 1 "FATAL: ${name} -- 'template.html' file not found"
+  md_template="${path}/template.md"
+  [ -r "${md_template}" ] \
+    || die 1 "FATAL: ${name} -- 'template.md' file not found"
 
   [ -w "${path}" ] \
     || die 1 "FATAL: ${name} -- '${path}' directory not writeable"
@@ -84,6 +87,12 @@ main() {
 process_html() {
   puterr "${name} -- Writing to '${html_target}'"
   key="<!-- build.sh replaces this -->"
+  yq_tag_list_to_nav='
+    | $tagList
+    | map(select(. as $x | $excludeTheseTags | any(.[]; . == $x) | not))
+    | map("<a href=\"#\(.)\">\(.)</a>")
+  '
+
   <"${html_template}" \
     insert_into_template "${key}" "$(<"${links}" yq --raw-output '
       '"${yq_set_variables}
@@ -96,8 +105,23 @@ process_html() {
       "' | indent(8) | join("\n")
     ')" \
     | insert_into_template "${key}" "$(<"${links}" yq --raw-output '
-      '"${yq_set_variables}
-      ${yq_display_html}"'
+      '"${yq_set_variables}"'
+      # The formatting portion, does not matter what order these are in
+      | ["All"] + $tagList
+        | map([
+          "<section id=\"\(.)\">",
+          ($linksByTagsThenSections[.] | map([
+             "<article>",
+             "  <h1>\(.header)</h1>",
+             "  <ul>",
+             (.entries | map("<li>" + . + "</li>") | indent(4)),
+             "  </ul>",
+             "</article>"
+          ] | indent(2))),
+          "</section>",
+          ""
+        ]
+      ) | flatten
       | indent(6) | join("\n")
     ')" > "${html_target}"
 }
@@ -105,17 +129,39 @@ process_html() {
 # TODO: html code for open/close square bracket
 process_md() {
   puterr "${name} -- Writing to '${md_target}'"
-  <"${links}" yq -r '
-    '"${yq_set_variables}
-    ${yq_display_md}"'
-    | join("\n")
-  ' | sed '
-    s/\[/\\[/g
-    s/]/\\]/g
+  {
+    cat "${md_template}"
 
-    # Reformat links
-    s|<a href="\([^"]*\)">\([^<]*\)</a>|[\2](\1)|g
-  ' > "${md_target}"
+    # Github format for table of contents
+    <"${links}" yq --raw-output ' 
+      '"${yq_set_variables}"'
+      | $linksByTagsThenSections.All
+      | map("- [\(.header)](#\(.header | gsub("[ /]"; "-")))")
+      | join("\n")
+    '
+
+    puts  # Add a newline
+
+    # Dump all the sections and links from "All" tag
+    <"${links}" yq --raw-output '
+      '"${yq_set_variables}"'
+      | $linksByTagsThenSections.All
+      | map([
+        "# \(.header)",
+        (.entries | map("- \(.)")),
+        ""
+      ])
+      | flatten
+      | join("\n")
+
+    ' | sed '
+      s/\[/\\[/g
+      s/]/\\]/g
+
+      # Reformat links
+      s|<a href="\([^"]*\)">\([^<]*\)</a>|[\2](\1)|g
+    '
+  } > "${md_target}"
 }
 
 insert_into_template() {
@@ -169,40 +215,6 @@ yq_set_variables='
     )
     + { All: $source | getEntriesByTag(1) }
   ) as $linksByTagsThenSections
-'
-
-# Select one of the following for actions to take after setting the variables
-yq_tag_list_to_nav='
-  | $tagList
-    | map(select(. as $x | $excludeTheseTags | any(.[]; . == $x) | not))
-    | map("<a href=\"#\(.)\">\(.)</a>")
-'
-
-yq_display_html='
-  # The formatting portion, does not matter what order these are in
-  | ["All"] + $tagList
-    | map([
-      "<section id=\"\(.)\">",
-      ($linksByTagsThenSections[.] | map([
-         "<article>",
-         "  <h1>\(.header)</h1>",
-         "  <ul>",
-         (.entries | map("<li>" + . + "</li>") | indent(4)),
-         "  </ul>",
-         "</article>"
-      ] | indent(2))),
-      "</section>",
-      ""
-    ]
-  ) | flatten
-'
-yq_display_md='
-  # Just display the "All" tag
-  | $linksByTagsThenSections.All | map([
-    "# \(.header)",
-    (.entries | map("- \(.)")),
-    ""
-  ]) | flatten
 '
 
 

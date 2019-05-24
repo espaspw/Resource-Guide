@@ -1,3 +1,51 @@
+# Chinese-English Exchange Resources
+
+The resource document list for the Chinese-English exchange discord server: https://discord.gg/ADdR45y. Mostly tailors to learning Mandarin and Cantonese. Links dialects, Classical, and older Chinese however are more than welcome.
+
+If you find any problems with these resources listed or have suggestions, please leave comments in the resources channel of the discord. Many of these links have not been vetted, so usage experience is more than welcome.
+
+Mandarin and Cantonese lessons sections should be focused around getting a person with no knowledge to beginner/intermediate level. Once they reach that point, they should be looking towards native content for self-study.
+
+# Table of Contents
+
+- [Phonetic Input Methods](#Phonetic-Input-Methods)
+- [Shape-Based Input Methods](#Shape-Based-Input-Methods)
+- [Guides](#Guides)
+- [Online Grammar/Lessons](#Online-Grammar-Lessons)
+- [Textbooks](#Textbooks)
+- [HSK](#HSK)
+- [General](#General)
+- [Character/Word Lists](#Character-Word-Lists)
+- [Other Learning](#Other-Learning)
+- [Tools](#Tools)
+- [Browser Plugins](#Browser-Plugins)
+- [Websites](#Websites)
+- [Other](#Other)
+- [Recommended Dictionaries](#Recommended-Dictionaries)
+- [Other Dictionaries](#Other-Dictionaries)
+- [Reading Material](#Reading-Material)
+- [Unevaluated](#Unevaluated)
+- [Newspaper](#Newspaper)
+- [Novels and Visual Novels](#Novels-and-Visual-Novels)
+- [Dramas](#Dramas)
+- [Youtube Lessons](#Youtube-Lessons)
+- [Other Media](#Other-Media)
+- [Manhua](#Manhua)
+- [Donghua](#Donghua)
+- [Audio](#Audio)
+- [Radio](#Radio)
+- [Podcasts](#Podcasts)
+- [Other Chinese Languages](#Other-Chinese-Languages)
+- [Miscellaneous](#Miscellaneous)
+- [Blogs](#Blogs)
+- [Etymology and Calligraphy](#Etymology-and-Calligraphy)
+- [Nerdy Rubbish](#Nerdy-Rubbish)
+- [Classical Chinese](#Classical-Chinese)
+- [Dictionaries](#Dictionaries)
+- [Texts](#Texts)
+- [Stuff](#Stuff)
+- [Old Chinese](#Old-Chinese)
+
 # Phonetic Input Methods
 - System Default \[ZH\]\[简\]\[繁\]
 - [Windows](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.
@@ -55,7 +103,8 @@
 - [Adam Sheik’s Articles](http://www.cantonese.sheik.co.uk/essays/) \[Essays\]
 - [How to study Cantonese](https://howtostudycantonese.com/)
 
-# Word Lists
+# Character/Word Lists
+- [Three Thousand Hanzi](http://www.zein.se/patrick/3000char.html) by frequency by Patrick Hassel Zein 
 - [Frequency List](https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047)
 - [Slang Google Doc](https://docs.google.com/spreadsheets/d/1Aglvq1BeuKweRnKrY3wRMIuKu4FRDAhwdM98cqjqJSQ/htmlview) - A bit outdated
 - Slang - http://evchk.wikia.com/wiki/%E9%A6%96%E9%A0%81
@@ -207,7 +256,6 @@
 - [China Simplified](http://www.chinasimplified.com/) - Useful articles about studying Mandarin and the language itself.
 - [Glossicka’s Courses](https://glossika.com/courses/) - A pay-for course. Has Cantonese, Hakka, Mandarin (Mainland/Taiwan), and Taiwanese Hokkien flavours.
 - [FluentU](http://fluentu.com/) - A site that provides short Chinese videos with subtitles with characters, pinyin and English.
-- [Three Thousand Hanzi](http://www.zein.se/patrick/3000char.html) by frequency by Patrick Hassel Zein 
 - [Ling and Lang discord](https://discord.gg/BWaZeP8) - A discord server focused around learning multiple languages
 - [Lang-8](http://www.lang-8.com/) - an exchange based around writing in a foreign language providing corrections. Good for getting grammar corrected. They recommend writing no more than a couple of paragraphs and recommend writing a translation of what you wanted to say.
 - [HelloTalk](http://hellotalk.com/), [HiNative](https://hinative.com/), [WeChat](http://www.wechat.com/en/) . For meeting and talking with Natives. Be sure to google how to make the most of a language exchange. 
@@ -255,5 +303,5 @@
 - Kanbun, Hanmun, Chữ Nôm, Cổ văn go!
 
 # Old Chinese
-- <p>[United Nations of Ancient and Endangered Languages Discord](https://discordapp.com/invite/te89K64)
+- [United Nations of Ancient and Endangered Languages Discord](https://discordapp.com/invite/te89K64)
 
