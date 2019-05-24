@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 <div class="splitview">
@@ -1247,6 +1246,10 @@
 </div>
 </body>
 <script>
+  // NOTE: Ideally we want to avoid as much javascript as possible
+  //       Site should function without javascript
+  "use strict";
+
   // Redirects to #All tag on page load as text is hidden on default index
   window.onload = () => {
     window.location.href = "#All";
