@@ -48,18 +48,18 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Input Methods
 | Name | Type | OS | Language | Description |
 | --- | --- | --- | --- | --- |
-| [System Default](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) | Phonetic/Shape-based | Windows | 倉頡、速成、郑码(Pre-Win8) | You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St." |
+| [System Default](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) | Phonetic/Shape | Windows | 倉頡、速成、郑码(Pre-Win8) | You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St." |
 | [System Default](http://www.languagegeek.com/keyboard_general/mac_installation1.html) | Phonetic | Mac |  |  |
 | [System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm) | Phonetic | Linux |  |  |
-| [Rime](http://rime.im/) | Phonetic/Shape-based | Win/Mac/Linux |  | Framework for custom IMEs. Cantonese has Jyutping and Yale. |
+| [Rime](http://rime.im/) | Phonetic/Shape | Win/Mac/Linux |  | Framework for custom IMEs. Cantonese has Jyutping and Yale. |
 | [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) | Phonetic | Win |  |  |
 | [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) | Phonetic |  |  | Jyutping and Yale phonetic input for Cantonese. |
 | [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/) | Phonetic |  |  |  |
-| [Sogou](https://pinyin.sogou.com/) | Phonetic/Shape-based | Win | 拼音、五笔 |  |
-| [FreeWB](http://www.freewb.org/) | Shape-based |  |  |  |
+| [Sogou](https://pinyin.sogou.com/) | Phonetic/Shape | Win | 拼音、五笔 |  |
+| [FreeWB](http://www.freewb.org/) | Shape |  |  |  |
 
 # Guides
-- [Guide to Learning Chinese](https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md)
+- [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
 - [Hacking Chinese’s Guide to Pinyin](http://www.hackingchinese.com/a-guide-to-pinyin-traps-and-pitfalls/)
 - [Yabla Audio Chart](https://chinese.yabla.com/chinese-pinyin-chart.php) \[Pinyin\]\[Reference\] Southern accent, tones are enunciated so better for learners.
 - [Pinyin Audio Chart](http://www.yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table) \[Pinyin\]\[Reference\] Northern (more standard) accent. Third tone is said quickly as one would naturally say it, so not as ideal for learners.

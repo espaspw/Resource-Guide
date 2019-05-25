@@ -64,7 +64,7 @@ IME:
 
 Guides:
 - tags: ['Mandarin']
-  body: '<a href="https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a>'
+  body: '<a href="https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a>'
 
 - tags: ['Mandarin']
   body: '<a href="http://www.hackingchinese.com/a-guide-to-pinyin-traps-and-pitfalls/">Hacking Chinese’s Guide to Pinyin</a>'
@@ -264,25 +264,26 @@ Other:
 #<p>Because of disconnect between phonetic reading and graphic representation of hanzi, knowing how to seperate character into its radical and phonetic component in addition to learning characters by their strokes. Not only number of strokes but order of strokes is especially useful for getting handwriting recognition to work for you.</p>
 #<p>More important introduction coming soon. Such dictionaries are organized by pinyin, but also come with a character index at the start that is organized by number of strokes in the radical, then by number of strokes excluding the radical.</p>
 
+# TODO: Check if 'yq' supports cross referencing variables
 Recommended Dictionaries:
-- tags: ['Mandarin', 'Simplified']
+- tags: ['Mandarin', 'English', 'Simplified']
   body: '<a href="http://www.linedict.com/">Line</a> (formerly Nciku) [EN→ZH][EN←ZH][EN↔Thai][Online] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. '
 
 - tags: ['Mandarin']
   body: '<a href="http://www.zdic.net/">Zdic</a> [C↔C,EN][Online] Etymology, stroke-based IME lookup, dialect readings (音韵方言), etc.'
 
-- tags: ['Mandarin']
+- tags: ['Mandarin', 'English']
   body: '<a href="http://www.mdbg.net/chindict/chindict.php">MDCG</a> [EN↔ZH][Online] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.'
 
-- tags: ['Mandarin']
+- tags: ['Mandarin', 'English']
   body: 'Zhong Wen (<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.'
 
 # Cantonese
-- tags: ['Cantonese']
+- tags: ['Cantonese', 'English']
   body: '<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.'
-- tags: ['Cantonese', 'Mandarin']
+- tags: ['Cantonese', 'Mandarin', 'English']
   body: '<a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> <a href="https://addons.mozilla.org/en-US/firefox/addon/liuchan/">Liuchan (Firefox)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai.'
-- tags: ['Cantonese']
+- tags: ['Cantonese', 'Mandarin', 'English']
   body: '<a href="http://cantonese.org/">Pleco</a> [EN↔ZH,CA][Android][iOS] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.'
 - tags: ['Cantonese']
   body: '<a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]'

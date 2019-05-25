@@ -50,10 +50,10 @@ main() {
 
   links="${path}/links.yaml"
   [ -r "${links}" ] || die 1 "FATAL: ${name} -- '${links}' file not found"
-  html_template="${path}/template.html"
+  html_template="${path}/src/template.html"
   [ -r "${html_template}" ] \
     || die 1 "FATAL: ${name} -- 'template.html' file not found"
-  md_template="${path}/template.md"
+  md_template="${path}/src/template.md"
   [ -r "${md_template}" ] \
     || die 1 "FATAL: ${name} -- 'template.md' file not found"
 
