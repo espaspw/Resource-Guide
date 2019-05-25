@@ -8,8 +8,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 
 # Table of Contents
 
-- [Phonetic Input Methods](#Phonetic-Input-Methods)
-- [Shape-Based Input Methods](#Shape-Based-Input-Methods)
+- [Input Methods](#Input-Methods)
 - [Guides](#Guides)
 - [Online Grammar/Lessons](#Online-Grammar-Lessons)
 - [Textbooks](#Textbooks)
@@ -46,21 +45,18 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Stuff](#Stuff)
 - [Old Chinese](#Old-Chinese)
 
-# Phonetic Input Methods
-- System Default \[ZH\]\[简\]\[繁\]
-- [Windows](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.
-- [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)
-- [Linux](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)
-- [Rime](http://rime.im/) \[CA\]\[ZH\]\[简\]\[繁\]\[Win\]\[Mac\]\[Linux\] - Framework for custom IMEs. Cantonese has Jyutping and Yale.
-- [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) \[ZH\]\[简\]\[繁\]\[Win\]
-- [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) \[CA\] - Jyutping and Yale phonetic input for Cantonese.
-- [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)
-
-# Shape-Based Input Methods
-- System installed** \[倉頡\]\[速成\]\[郑码\] - 郑码 no longer supported after Windows 8.
-- [Rime](http://rime.im/) \[倉頡\]\[五笔\]\[郑码\]
-- [Sogou](https://pinyin.sogou.com/)
-- [FreeWB](http://www.freewb.org/)
+# Input Methods
+| Name | Type | OS | Language | Description |
+| --- | --- | --- | --- | --- |
+| [System Default](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) | Phonetic/Shape-based | Windows | 倉頡、速成、郑码(Pre-Win8) | You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St." |
+| [System Default](http://www.languagegeek.com/keyboard_general/mac_installation1.html) | Phonetic | Mac |  |  |
+| [System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm) | Phonetic | Linux |  |  |
+| [Rime](http://rime.im/) | Phonetic/Shape-based | Win/Mac/Linux |  | Framework for custom IMEs. Cantonese has Jyutping and Yale. |
+| [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) | Phonetic | Win |  |  |
+| [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) | Phonetic |  |  | Jyutping and Yale phonetic input for Cantonese. |
+| [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/) | Phonetic |  |  |  |
+| [Sogou](https://pinyin.sogou.com/) | Phonetic/Shape-based | Win | 拼音、五笔 |  |
+| [FreeWB](http://www.freewb.org/) | Shape-based |  |  |  |
 
 # Guides
 - [Guide to Learning Chinese](https://github.com/Super-Panama-World/Resource-Guide/blob/master/Guide%20to%20Learning%20Chinese.md)
@@ -124,7 +120,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 
 # Browser Plugins
 - Browser Popup Dictionaries - Several listed in next section
-- Simplified↔Traditional Conversion \[[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)\]
+- Simplified↔Traditional Conversion \[[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)\] \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/new_tongwentang/)\]
 - [Real Time Anki Import](https://ankiweb.net/shared/info/2512410601) - To automate anki entry
 
 # Websites
@@ -146,9 +142,9 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Line](http://www.linedict.com/) (formerly Nciku) \[EN→ZH\]\[EN←ZH\]\[EN↔Thai\]\[Online\] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. 
 - [Zdic](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Etymology, stroke-based IME lookup, dialect readings (音韵方言), etc.
 - [MDCG](http://www.mdbg.net/chindict/chindict.php) \[EN↔ZH\]\[Online\] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.
-- Zhong Wen ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)) ([Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en)). Mandarin popup dictionaries available for both browsers. Still recommend CPD as it is Cantonese-based.
+- Zhong Wen ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)) ([Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/)). Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) \[EN↔CA\]\[Online\] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.
-- [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) \[EN↔CA,ZH\]\[Browser\] Popup dictionary much like Rikai.
+- [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) [Liuchan (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/liuchan/) \[EN↔CA,ZH\]\[Browser\] Popup dictionary much like Rikai.
 - [Pleco](http://cantonese.org/) \[EN↔ZH,CA\]\[Android\]\[iOS\] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.
 - [Jyutdin](http://words.hk/) \[CA↔CA\]\[Online\]
 
@@ -269,7 +265,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Etymology and Calligraphy
 - [Character Etymology](http://www.chineseetymology.org/why_study.aspx) - Also links two useful apps for searching characters
 - [App for Learning Oracle Bone Script](https://itunes.apple.com/us/app/%E5%8F%A4%E6%96%87%E5%AD%97%E7%8C%9C%E7%8C%9C%E6%A8%82/id1193864419?mt=8) \[iOS\]
-- [A Quorra article on dictionary character sorting](https://www.quora.com/How-are-Chinese-dictionaries-organized)
+- [A Quora article on dictionary character sorting](https://www.quora.com/How-are-Chinese-dictionaries-organized)
 - [Calligraphy Dictionary](http://www.shufazidian.com/)
 - [Youtube channel on handwriting](https://www.youtube.com/channel/UCvPiCUjsIEaCdYiHtP4pbPg) - Goes over several examples and general advice for handwriting in Mandarin. A [fifteen-part series](https://www.youtube.com/watch?v=7s6pxhNql70) on handwriting characters but in Japanese.
 

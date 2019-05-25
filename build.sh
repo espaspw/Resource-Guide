@@ -83,7 +83,6 @@ main() {
 
 }
 
-
 process_html() {
   puterr "${name} -- Writing to '${html_target}'"
   key="<!-- build.sh replaces this -->"
@@ -93,40 +92,77 @@ process_html() {
     | map("<a href=\"#\(.)\">\(.)</a>")
   '
 
-  <"${html_template}" \
-    insert_into_template "${key}" "$(<"${links}" yq --raw-output '
-      '"${yq_set_variables}
-      ${yq_tag_list_to_nav}
-      "' | indent(6) | join("\n")
-    ')" \
-    | insert_into_template "${key}" "$(<"${links}" yq --raw-output '
+  <"${html_template}" cat - | {
+    puts_until "${key}"
+
+    # Navigation bar - wide screen
+    <"${links}" yq --raw-output '
       '"${yq_set_variables}
       ${yq_tag_list_to_nav}
       "' | indent(8) | join("\n")
-    ')" \
-    | insert_into_template "${key}" "$(<"${links}" yq --raw-output '
+    '
+    puts_until "${key}"
+
+    # Navigation bar - narrow screen
+    <"${links}" yq --raw-output '
+      '"${yq_set_variables}
+      ${yq_tag_list_to_nav}
+      "' | indent(10) | join("\n")
+    '
+    puts_until "${key}"
+
+    # The main body
+    <"${links}" yq --raw-output '
       '"${yq_set_variables}"'
       # The formatting portion, does not matter what order these are in
-      | ["All"] + $tagList
+      | ""
+      + (["All"] + $tagList
         | map([
           "<section id=\"\(.)\">",
-          ($linksByTagsThenSections[.] | map([
-             "<article>",
-             "  <h1>\(.header)</h1>",
-             "  <ul>",
-             (.entries | map("<li>" + . + "</li>") | indent(4)),
-             "  </ul>",
-             "</article>"
-          ] | indent(2))),
+
+          # Do IME first
+          ($linksByTagsThenSections[.][]
+            | select(.header == "IME").entries
+            | [
+              "<article>",
+              "  <h1>\($source.IME[0].title)</h1>",
+              "  <table>",
+              (map([
+                "<tr>",
+                map("  <td>\(.)</td>"),
+                "</tr>"
+              ]) | indent(4)),
+              "  </table>",
+              "</article>"
+            ] | indent(2)
+          ),
+          "",
+
+          # All the other links
+          ($linksByTagsThenSections[.]
+            | map(select(.header != "IME"))
+            | map([
+               "<article>",
+               "  <h1>\(.header)</h1>",
+               "  <ul>",
+               (.entries | map("<li>" + . + "</li>") | indent(4)),
+               "  </ul>",
+               "</article>"
+            ] | indent(2))
+          ),
           "</section>",
           ""
-        ]
-      ) | flatten
-      | indent(6) | join("\n")
-    ')" > "${html_target}"
+        ])
+        | flatten
+        | indent(6)
+        | join("\n")
+      )
+    ' | sed 's/^\s*$//'
+    puts_until "${key}"
+
+  } >"${html_target}"
 }
 
-# TODO: html code for open/close square bracket
 process_md() {
   puterr "${name} -- Writing to '${md_target}'"
   {
@@ -136,9 +172,30 @@ process_md() {
     <"${links}" yq --raw-output ' 
       '"${yq_set_variables}"'
       | $linksByTagsThenSections.All
-      | map("- [\(.header)](#\(.header | gsub("[ /]"; "-")))")
+      | map(
+        (if .header == "IME"
+           then $source.IME[0].title
+           else .header
+        end) as $h
+        | "- [\($h)](#\($h | gsub("[ /]"; "-")))")
       | join("\n")
     '
+    puts  # Add a newline
+
+    <"${links}" yq --raw-output '
+      '"${yq_set_variables}"'
+      | $linksByTagsThenSections.All[]
+      | select(.header == "IME").entries
+      | "# \($source.IME[0].title)\n" + (
+        [
+          .[0],
+          (.[0] | map("---")),
+          .[range(1; . | length)]
+        ]
+        | map("| " + join(" | ") + " |")
+        | join("\n")
+      )
+    ' | format_to_md
 
     puts  # Add a newline
 
@@ -146,6 +203,7 @@ process_md() {
     <"${links}" yq --raw-output '
       '"${yq_set_variables}"'
       | $linksByTagsThenSections.All
+      | map(select(.header != "IME"))
       | map([
         "# \(.header)",
         (.entries | map("- \(.)")),
@@ -153,24 +211,25 @@ process_md() {
       ])
       | flatten
       | join("\n")
-
-    ' | sed '
-      s/\[/\\[/g
-      s/]/\\]/g
-
-      # Reformat links
-      s|<a href="\([^"]*\)">\([^<]*\)</a>|[\2](\1)|g
-    '
-  } > "${md_target}"
+    ' | format_to_md
+  } >"${md_target}"
 }
 
-insert_into_template() {
+format_to_md() {
+ <&0 sed '
+   s/\[/\\[/g
+   s/]/\\]/g
+
+   # Reformat links
+   s|<a href="\([^"]*\)">\([^<]*\)</a>|[\2](\1)|g
+ '
+}
+
+puts_until() {
   while { IFS= <&0 read -r line; }; do
     [ "${line}" = "$1" ] && break
     puts "${line}"
   done
-  puts "$2"
-  <&0 cat -
 }
 
 # Does not work cause sed eats the rest of the stream on non-file pipes
@@ -187,7 +246,7 @@ yq_set_variables='
     | map({
       header: .key,
       entries: .value
-        | map(select(f))
+        | map(select(f or any(.tags[]; . == "All")))
         | map(.body)
     })
     | map(select(.entries | length > 0));
@@ -198,7 +257,8 @@ yq_set_variables='
   | { Classical: "Classical Chinese", Old: "Old Chinese" } as $tagnameToDisplay
   | ["All", "Cantonese", "Mandarin", "Classical", "Old"] as $excludeTheseTags
 
-  | (reduce .[] as $i ([]; . + ($i | map(.tags)))
+  | ($source
+    | reduce .[] as $i ([]; . + ($i | map(.tags)))
     | flatten
     | unique
     #| exclude(. as $x | $putTheseTagsLast | any(.[]; . == $x))

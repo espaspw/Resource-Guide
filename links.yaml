@@ -1,32 +1,66 @@
-Phonetic Input Methods:
-- tags: ['Mandarin']
-  body: 'System Default [ZH][简][繁]'
-- tags: ['Mandarin']
-  body: '<a href="https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/">Windows</a> - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.'
-- tags: ['Mandarin']
-  body: '<a href="http://www.languagegeek.com/keyboard_general/mac_installation1.html">Mac</a>'
-- tags: ['Mandarin']
-  body: '<a href="http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm">Linux</a>'
-- tags: ['Mandarin']
-  body: '<a href="http://rime.im/">Rime</a> [CA][ZH][简][繁][Win][Mac][Linux] - Framework for custom IMEs. Cantonese has Jyutping and Yale.'
-- tags: ['Mandarin']
-  body: '<a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a> [ZH][简][繁][Win]'
-- tags: ['Mandarin']
-  body: '<a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a> [CA] - Jyutping and Yale phonetic input for Cantonese.'
-- tags: ['Mandarin']
-  body: '<a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a>'
+# Note about tags is that this is not designed to handle strange tags
 
+# This is treated differently
+# Must be named IME
+IME:
+- tags: ['All']
+  # This is the title to be used by the section
+  title: 'Input Methods'
+  body: ['Name', 'Type', 'OS', 'Language', 'Description']
 
-Shape-Based Input Methods:
-- tags: ['Mandarin']
-  body: 'System installed** [倉頡][速成][郑码] - 郑码 no longer supported after Windows 8.'
-- tags: ['Mandarin']
-  body: '<a href="http://rime.im/">Rime</a> [倉頡][五笔][郑码]'
-- tags: ['Mandarin']
-  body: '<a href="https://pinyin.sogou.com/">Sogou</a>'
-- tags: ['Mandarin']
-  body: '<a href="http://www.freewb.org/">FreeWB</a>'
+- tags: ['Mandarin', 'Cantonese']
+  body: [ '<a href="https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/">System Default</a>',
+          'Phonetic/Shape', 'Windows', '倉頡、速成、郑码(Pre-Win8)',
+          'You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St."'
+        ]
 
+- tags: ["Mandarin"]
+  body: [ '<a href="http://www.languagegeek.com/keyboard_general/mac_installation1.html">System Default</a>',
+          'Phonetic', 'Mac', '',
+          ''
+        ]
+
+- tags: ["Mandarin"]
+  body: [ '<a href="http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm">System Default</a>',
+          'Phonetic', 'Linux', '',
+          ''
+        ]
+
+- tags: ['All']
+  body: [ '<a href="http://rime.im/">Rime</a>',
+          'Phonetic/Shape', 'Win/Mac/Linux', '',
+          'Framework for custom IMEs. Cantonese has Jyutping and Yale.'
+        ]
+
+- tags: ['Mandarin']
+  body: [ '<a href="https://www.google.com/intl/zh-CN/ime/pinyin/">Google Input</a>',
+          'Phonetic', 'Win', '',
+          ''
+        ]
+
+- tags: ['Mandarin']
+  body: [ '<a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a>',
+          'Phonetic', '', '',
+          'Jyutping and Yale phonetic input for Cantonese.'
+        ]
+
+- tags: ['Hakka']
+  body: [ '<a href="http://taigi.fhl.net/TaigiIME/">FHL Taigi-Hakka IME</a>',
+          'Phonetic', '', '',
+          ''
+        ]
+
+- tags: ['All']
+  body: [ '<a href="https://pinyin.sogou.com/">Sogou</a>',
+          'Phonetic/Shape', 'Win', '拼音、五笔',
+          ''
+        ]
+
+- tags: ['All']
+  body: [ '<a href="http://www.freewb.org/">FreeWB</a>',
+          'Shape', '', '',
+          ''
+        ]
 
 Guides:
 - tags: ['Mandarin']
@@ -133,7 +167,10 @@ General:
   body: '<a href="https://howtostudycantonese.com/">How to study Cantonese</a>'
 
 
-Word Lists:
+Character/Word Lists:
+- tags: ['Mandarin']
+  body: '<a href="http://www.zein.se/patrick/3000char.html">Three Thousand Hanzi</a> by frequency by Patrick Hassel Zein '
+
 - tags: ['Cantonese']
   body: '<a href="https://docs.google.com/spreadsheets/d/1ArxEFo46PTrDyDDhWyu3wB0epxqTyd8WBaprnwTEPm4/edit#gid=1428902047">Frequency List</a>'
 
@@ -180,7 +217,7 @@ Browser Plugins:
   body: 'Browser Popup Dictionaries - Several listed in next section'
 
 - tags: ['Mandarin']
-  body: 'Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>]'
+  body: 'Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>] [<a href="https://addons.mozilla.org/en-US/firefox/addon/new_tongwentang/">Firefox</a>]'
 
 - tags: ['Mandarin']
   body: '<a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry'
@@ -238,13 +275,13 @@ Recommended Dictionaries:
   body: '<a href="http://www.mdbg.net/chindict/chindict.php">MDCG</a> [EN↔ZH][Online] A fairly lightweight and responsive C-E and E-C Mandarin dictionary based on CC-CEDict.A2 Can search sentence for easy of searching multiple vocabulary but do not rely on it to parse.'
 
 - tags: ['Mandarin']
-  body: 'Zhong Wen (<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/support?hl=en">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend CPD as it is Cantonese-based.'
+  body: 'Zhong Wen (<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.'
 
 # Cantonese
 - tags: ['Cantonese']
   body: '<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. You have to make sure you select the right category for searching.'
 - tags: ['Cantonese', 'Mandarin']
-  body: '<a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai.'
+  body: '<a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> <a href="https://addons.mozilla.org/en-US/firefox/addon/liuchan/">Liuchan (Firefox)</a> [EN↔CA,ZH][Browser] Popup dictionary much like Rikai.'
 - tags: ['Cantonese']
   body: '<a href="http://cantonese.org/">Pleco</a> [EN↔ZH,CA][Android][iOS] CC-C-E dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.'
 - tags: ['Cantonese']
@@ -499,9 +536,6 @@ Miscellaneous:
   body: '<a href="http://fluentu.com/">FluentU</a> - A site that provides short Chinese videos with subtitles with characters, pinyin and English.'
 
 - tags: ['Mandarin']
-  body: '<a href="http://www.zein.se/patrick/3000char.html">Three Thousand Hanzi</a> by frequency by Patrick Hassel Zein '
-
-- tags: ['Mandarin']
   body: '<a href="https://discord.gg/BWaZeP8">Ling and Lang discord</a> - A discord server focused around learning multiple languages'
 
 - tags: ['Mandarin']
@@ -533,7 +567,7 @@ Etymology and Calligraphy:
   body: '<a href="https://itunes.apple.com/us/app/%E5%8F%A4%E6%96%87%E5%AD%97%E7%8C%9C%E7%8C%9C%E6%A8%82/id1193864419?mt=8">App for Learning Oracle Bone Script</a> [iOS]'
 
 - tags: ['Mandarin']
-  body: '<a href="https://www.quora.com/How-are-Chinese-dictionaries-organized">A Quorra article on dictionary character sorting</a>'
+  body: '<a href="https://www.quora.com/How-are-Chinese-dictionaries-organized">A Quora article on dictionary character sorting</a>'
 
 - tags: ['Mandarin']
   body: '<a href="http://www.shufazidian.com/">Calligraphy Dictionary</a>'
@@ -611,4 +645,4 @@ Stuff:
 
 Old Chinese:
 - tags: ['Old']
-  body: '<p><a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a>'
+  body: '<a href="https://discordapp.com/invite/te89K64">United Nations of Ancient and Endangered Languages Discord</a>'
