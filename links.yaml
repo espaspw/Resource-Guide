@@ -206,7 +206,7 @@ Tools:
   body: '<a href="http://www.zhtoolkit.com/apps/chinese_word_extractor/">Zhtoolkit</a> [Text Analysis] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.'
 
 - tags: ['Mandarin']
-  body: '[Pomodoro] Technique](http://pomodorotechnique.com/get-started/#how) - Help stay focused'
+  body: '[Pomodoro Technique](http://pomodorotechnique.com/get-started/#how) - Help stay focused'
 
 - tags: ['Mandarin']
   body: '<a href="https://sourceforge.net/projects/jnovelformatter/">JNovelFormter</a> - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function'
@@ -365,7 +365,7 @@ Unevaluated:
 
 Newspaper:
 - tags: ['Mandarin']
-  body: '9Newspaper tailored to learners](http://www.thechairmansbao.com/)'
+  body: '[Newspaper tailored to learners](http://www.thechairmansbao.com/)'
 
 - tags: ['Mandarin']
   body: '<a href="http://mandarinweekly.com/">Mandarin Weekly</a> - A weekly newsletter containing Mandarin study stuff!'

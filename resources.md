@@ -115,7 +115,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Tools
 - [Anki](http://ankisrs.net/) \[Memorization\]\[[SRS](http://www.omniglot.com/language/srs.php)\] - Flashcard memorization program. Recommend using anki as a revision tool and [build your own decks](https://eastasiastudent.net/study/anki-structure/), but if you really want to can find [pre-built decks](https://ankiweb.net/shared/decks/) to learn vocabulary. Also see [this](http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/).
 - [Zhtoolkit](http://www.zhtoolkit.com/apps/chinese_word_extractor/) \[Text Analysis\] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.
-- \[Pomodoro\] Technique\](http://pomodorotechnique.com/get-started/#how) - Help stay focused
+- \[Pomodoro Technique\](http://pomodorotechnique.com/get-started/#how) - Help stay focused
 - [JNovelFormter](https://sourceforge.net/projects/jnovelformatter/) - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function
 
 # Browser Plugins
@@ -177,7 +177,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - http://www-personal.umich.edu/~dporter/sampler/sampler.html <code>Figure out if this has classical Chinese or not</code>
 
 # Newspaper
-- 9Newspaper tailored to learners\](http://www.thechairmansbao.com/)
+- \[Newspaper tailored to learners\](http://www.thechairmansbao.com/)
 - [Mandarin Weekly](http://mandarinweekly.com/) - A weekly newsletter containing Mandarin study stuff!
 - [New York Times in Chinese](http://cn.nytimes.com/)
 - [Ming Pao Newspaper](http://www.mingpao.com/) (Trad. Chinese) 
