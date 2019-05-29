@@ -49,23 +49,21 @@ main() {
     "This is used for processing the link.yaml file"
 
   links="${path}/links.yaml"
-  [ -r "${links}" ] || die 1 "FATAL: ${name} -- '${links}' file not found"
-  html_template="${path}/src/template.html"
-  [ -r "${html_template}" ] \
-    || die 1 "FATAL: ${name} -- 'template.html' file not found"
-  md_template="${path}/src/template.md"
-  [ -r "${md_template}" ] \
-    || die 1 "FATAL: ${name} -- 'template.md' file not found"
+  html_template="${path}/src/html-template.html"
+  html_entry_template="${path}/src/entry-template.html"
+  md_template="${path}/src/md-template.md"
+  check_path "${links}" "${html_template}" "${html_entry_template}" \
+    "${md_template}"
 
-  [ -w "${path}" ] \
-    || die 1 "FATAL: ${name} -- '${path}' directory not writeable"
   html_target="${path}/index.html"
   md_target="${path}/resources.md"
 
-  # Check if arguments are valid or help is passed
+  # Process the options, exit if help is selected
   choice=""
+  flag_output="false"
   for arg in "$@"; do case "${arg}" in
     h|help|-h|--help)  show_help; exit 0 ;;
+    -o|--stdout)  flag_output="true" ;;
     all)   if [ -z "${choice}" ]; then choice="all"; else choice=""; fi ;;
     html)  if [ -z "${choice}" ]; then choice="html"; else choice=""; fi ;;
     md)    if [ -z "${choice}" ]; then choice="md"; else choice=""; fi ;;
@@ -78,89 +76,133 @@ main() {
     all)   process_html; process_md ;;
     html)  process_html ;;
     md)    process_md ;;
-    *)  die 1 "DEV: ${name} derped somewhere" ;;
+    *)  die 1 "DEV: '${name}' derped somewhere" ;;
   esac
 
 }
 
+check_path() {
+  for arg in "$@"; do
+    x="$(basename "${arg}"; printf a)"; x="${x%?a}"
+    [ -r "${arg}" ] || die 1 "FATAL: ${name} -- '$x' file not found"
+  done
+}
+
+print_or_write() {
+  if "${flag_output}"
+    then cat -
+    else
+      [ -w "${path}" ] \
+        || die 1 "FATAL: ${name} -- '${path}' directory not writeable"
+      cat - >"$1"
+  fi
+}
+
+
 process_html() {
   puterr "${name} -- Writing to '${html_target}'"
   key="<!-- build.sh replaces this -->"
-  yq_tag_list_to_nav='
-    | $tagList
-    | map(select(. as $x | $excludeTheseTags | any(.[]; . == $x) | not))
-    | map("<a href=\"#\(.)\">\(.)</a>")
-  '
 
   <"${html_template}" cat - | {
     puts_until "${key}"
 
-    # Navigation bar - wide screen
-    <"${links}" yq --raw-output '
-      '"${yq_set_variables}
-      ${yq_tag_list_to_nav}
-      "' | indent(8) | join("\n")
-    '
-    puts_until "${key}"
+    # Only one replacement for the ${html_template}
+    { # Print a yaml array
+      # First element
+      printf "%s " '- '
+      <"${links}" sed "s/^/  /"
 
-    # Navigation bar - narrow screen
-    <"${links}" yq --raw-output '
-      '"${yq_set_variables}
-      ${yq_tag_list_to_nav}
-      "' | indent(10) | join("\n")
-    '
-    puts_until "${key}"
+      # Second element
+      <"${html_entry_template}" awk -v FS="" -v RS="${key}" '
+        BEGIN{ printf("- [\""); }
+        (1){
+          gsub(/\\/, "\\\\");
+          gsub(/"/, "\\\"");
+          gsub(/\n/, "\\n");
+          printf("%s\",\"", $0);
+        }
+        END{ printf("\"]\n"); }
+      '
 
-    # The main body
-    <"${links}" yq --raw-output '
+    # Map over all headers creating an entry based on ${html_entry_template}
+    } | yq --raw-output '.
+      | .[0] as $source
+      |
+
+      # Zips two arrays together, then string joins them in that new order,
+      # and then resplits it by newline
+      def interweave(f; g): [f, g]
+        | transpose | flatten | join("") | split("\n");
+
       '"${yq_set_variables}"'
-      # The formatting portion, does not matter what order these are in
-      | ""
-      + (["All"] + $tagList
-        | map([
-          "<section id=\"\(.)\">",
 
-          # Do IME first
-          ($linksByTagsThenSections[.][]
-            | select(.header == "IME").entries
-            | [
-              "<article>",
-              "  <h1>\($source.IME[0].title)</h1>",
-              "  <table>",
-              (map([
-                "<tr>",
-                map("  <td>\(.)</td>"),
-                "</tr>"
-              ]) | indent(4)),
-              "  </table>",
-              "</article>"
-            ] | indent(2)
-          ),
-          "",
+      | .[1] as $template
+      | $tagList
+      | map(
+        . as $tag
 
-          # All the other links
-          ($linksByTagsThenSections[.]
-            | map(select(.header != "IME"))
-            | map([
-               "<article>",
-               "  <h1>\(.header)</h1>",
-               "  <ul>",
-               (.entries | map("<li>" + . + "</li>") | indent(4)),
-               "  </ul>",
-               "</article>"
-            ] | indent(2))
-          ),
-          "</section>",
-          ""
+        # Special case for the selected tag, otherwise just a list of links
+        | ($tagList | map(
+          "<a href=\"#\(.)\" \(
+            if . == $tag then "class=\"navbar__main-btn\"" else "" end
+          )>\(.)</a>\n")
+        ) as $navlinks
+
+        # Add the ${html_entry_template}
+        | interweave($template; [
+          .,
+          ($navlinks | indent(6)),
+          ($navlinks | indent(8)),
+          [
+            # First manage the IME entry
+            ($linksByTagsThenSections[.][]
+              | select(.header == "IME").entries
+              | [
+                "<article>",
+                "  <h1>\($source.IME[0].title)</h1>",
+                "  <table>",
+                (map([
+                  "<tr>",
+                  map("  <td>\(.)</td>"),
+                  "</tr>"
+                ]) | indent(4)),
+                "  </table>",
+                "</article>",
+                ""
+              ]
+              | indent(4)
+              | join("\n")
+            ),
+
+            # All the other links
+            ($linksByTagsThenSections[.]
+              | map(select(.header != "IME"))
+              | map(
+                [ "",
+                  "<article>",
+                  "  <h1>\(.header)</h1>",
+                  "  <ul>",
+                  (.entries | map("<li>" + . + "</li>") | indent(4)),
+                  "  </ul>",
+                  "</article>",
+                ""]
+                | indent(4)
+                | join("\n")
+              )
+            ),
+            ""
+          ]
         ])
-        | flatten
-        | indent(6)
-        | join("\n")
       )
-    ' | sed 's/^\s*$//'
-    puts_until "${key}"
+      | indent(4)
+      | join("\n")
 
-  } >"${html_target}"
+    ' | sed 's/^\s*$//'  # Remove trailing spaces
+
+    # The rest of the file
+    puts_until "${key}"
+  } | print_or_write "${html_target}"
+
 }
 
 process_md() {
@@ -170,49 +212,49 @@ process_md() {
 
     # Github format for table of contents
     <"${links}" yq --raw-output ' 
-      '"${yq_set_variables}"'
-      | $linksByTagsThenSections.All
-      | map(
-        (if .header == "IME"
-           then $source.IME[0].title
-           else .header
-        end) as $h
-        | "- [\($h)](#\($h | gsub("[ /]"; "-")))")
+      . as $source
+      | '"${yq_set_variables}"'
+      | $linksByTagsThenSections.All | map(
+          (if .header == "IME"
+             then $source.IME[0].title
+             else .header
+          end) as $h
+          | "- [\($h)](#\($h | gsub("[ /]"; "-")))"
+      )
       | join("\n")
     '
-    puts  # Add a newline
 
     <"${links}" yq --raw-output '
-      '"${yq_set_variables}"'
-      | $linksByTagsThenSections.All[]
-      | select(.header == "IME").entries
-      | "# \($source.IME[0].title)\n" + (
-        [
-          .[0],
-          (.[0] | map("---")),
-          .[range(1; . | length)]
-        ]
-        | map("| " + join(" | ") + " |")
-        | join("\n")
-      )
-    ' | format_to_md
+      . as $source
+      | '"${yq_set_variables}"'
+      | [
+        "",
+        "# \($source.IME[0].title)",
+        ($linksByTagsThenSections.All[]
+          # Not using "map(select())" since only want one entry
+          | select(.header == "IME").entries
+          | [
+            .[0],
+            (.[0] | map("---")),
+            .[range(1; . | length)]
+          ] | map("| " + join(" | ") + " |")),
+        "",
 
-    puts  # Add a newline
-
-    # Dump all the sections and links from "All" tag
-    <"${links}" yq --raw-output '
-      '"${yq_set_variables}"'
-      | $linksByTagsThenSections.All
-      | map(select(.header != "IME"))
-      | map([
-        "# \(.header)",
-        (.entries | map("- \(.)")),
+        # The rest of the links
+        ($linksByTagsThenSections.All
+          | map(select(.header != "IME"))
+          | map([
+            "# \(.header)",
+            (.entries | map("- \(.)")),
+            ""
+          ])),
         ""
-      ])
+      ]
       | flatten
       | join("\n")
+
     ' | format_to_md
-  } >"${md_target}"
+  } | print_or_write "${md_target}"
 }
 
 format_to_md() {
@@ -250,19 +292,24 @@ yq_set_variables='
         | map(.body)
     })
     | map(select(.entries | length > 0));
+  def exclude(f): map(select(. as $x | f | any(.[]; . == $x) | not));
 
 
   # Some random variable setting
-  . as $source
+  .
+  #| .[1] as $entryTemplate
+  #| .[0] as $source
   | { Classical: "Classical Chinese", Old: "Old Chinese" } as $tagnameToDisplay
   | ["All", "Cantonese", "Mandarin", "Classical", "Old"] as $excludeTheseTags
+  | ["All", "Cantonese", "Mandarin"] as $sortFront
+  | ["Browser", "Online", "Offline", "Classical", "Old"] as $sortBack
 
-  | ($source
+  | ($sortFront + ($source
     | reduce .[] as $i ([]; . + ($i | map(.tags)))
     | flatten
     | unique
-    #| exclude(. as $x | $putTheseTagsLast | any(.[]; . == $x))
-  ) as $tagList
+    | exclude($sortFront + $sortBack)
+  ) + $sortBack) as $tagList
 
 
   # Switch the yaml from
@@ -281,6 +328,7 @@ yq_set_variables='
 
 # Helpers
 puts() { printf %s\\n "$@"; }
+prints() { printf %s "$@"; }
 puterr() { printf %s\\n "$@" >&2; }
 die() { c="$1"; shift 1; for x in "$@"; do puts "$x" >&2; done; exit "$c"; }
 require() { command -v "$1" >/dev/null 2>&1; }

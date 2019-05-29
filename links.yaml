@@ -8,6 +8,16 @@
 # Must be named IME
 IME:
 - tags: ['All']
+
+  # Hacky way of including making references
+  references:
+    - &all_chinese ['Cantonese', 'Hakka', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old']
+    - &all_chinese_online ['Cantonese', 'Hakka', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Online']
+      
+    - &Rabbit
+      tags: ['Mandarin']
+      body: '<a href="https://www.rabb.it/">Rabbit</a> - Screen sharing. Optional account login and friending. Works for Karaoke too!'
+
   # This is the title to be used by the section
   title: 'Input Methods (輸入方式)'
   body: ['Name', 'Type', 'OS', 'Language', 'Description']
@@ -30,9 +40,9 @@ IME:
           'I would recommend fcitx over ibus: it is more update.'
         ]
 
-- tags: ['All']
+- tags: ['All', 'Phone']
   body: [ '<a href="http://rime.im/">Rime</a>',
-          'Phonetic/Shape', 'Win/Mac/Linux', 'All',
+          'Phonetic/Shape', 'Win/Mac/Linux/Android', 'All',
           'Framework for custom IMEs. You can pretty much get any input method imaginable and it is cross platform. See <a href="https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md">this guide</a> for setup help.' 
         ]
 
@@ -42,9 +52,9 @@ IME:
           'Google input method'
         ]
 
-- tags: ['Mandarin']
+- tags: ['Cantonese', 'Phone']
   body: [ '<a href="http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en">CPIME</a>',
-          'Phonetic', '', 'Jyutping、Yale',
+          'Phonetic', 'Win/Android', 'Jyutping、Yale',
           'Jyutping and Yale phonetic input for Cantonese.'
         ]
 
@@ -54,7 +64,7 @@ IME:
           'I have never personally used this.'
         ]
 
-- tags: ['All']
+- tags: *all_chinese
   body: [ '<a href="http://wubi.sogou.com/">Sogou</a>',
           'Phonetic/Shape', 'Win', '拼音、五笔',
           'Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter pinyin in the combined mode, so good for learning Wubi.'
@@ -74,9 +84,6 @@ Guides/Textbooks:
 
 - tags: ['Mandarin']
   body: '<a href="https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401">New Practical Chinese Reader</a> - Progressively teaches reading, writing and listening.'
-
-- tags: ['Mandarin']
-  body: '<a href="http://challenges.hackingchinese.com/resources">Hacking Chinese’s articles</a> on <a href="http://www.hackingchinese.com/focusing-on-tone-pairs-to-improve-your-mandarin-pronunciation/">tone practice</a> and <a href="http://www.hackingchinese.com/how-to-learn-chinese-characters-as-a-beginner/">beginning Hanzi</a>. <a href="http://www.hackingchinese.com/media/100-radicals-markus.pdf">100 most common radicals</a>. [Essays]'
 
 - tags: ['Cantonese']
   body: '<a href="https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit">Quick Starter Guide to Cantonese</a>'
@@ -152,6 +159,9 @@ Guides/Textbooks:
 
 
 Phonetics (音韻):
+- tags: ['Mandarin']
+  body: '<a href="http://challenges.hackingchinese.com/resources">Hacking Chinese’s articles</a> on <a href="http://www.hackingchinese.com/focusing-on-tone-pairs-to-improve-your-mandarin-pronunciation/">tone practice</a> and <a href="http://www.hackingchinese.com/how-to-learn-chinese-characters-as-a-beginner/">beginning Hanzi</a>. <a href="http://www.hackingchinese.com/media/100-radicals-markus.pdf">100 most common radicals</a>. [Essays]'
+
 - tags: ['Mandarin']
   body: '<a href="http://www.hackingchinese.com/a-guide-to-pinyin-traps-and-pitfalls/">Hacking Chinese’s Guide to Pinyin</a>'
 
@@ -240,45 +250,6 @@ Character/Word Lists:
   body: '<a href="https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi">Heisig’s Remembering the Hanzi Series</a> - Controversial book series that espouses a mnemonics method for learning characters. <a href="http://www.saporedicina.com/english/chinese-characters-remember-the-hanzi/">Your mileage may vary</a>.'
 
 
-
-Tools:
-- &Rabbit
-  tags: ['Mandarin']
-  body: '<a href="https://www.rabb.it/">Rabbit</a> - Screen sharing. Optional account login and friending. Works for Karaoke too!'
-
-- tags: ['Mandarin']
-  body: '<a href="http://fanyi.baidu.com/#zh/yue/">Baidu translate</a> [MTL] Machine translator. Has Mandarin, Cantonese, and Classical.'
-
-- tags: ['Mandarin']
-  body: '<a href="http://translate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting'
-
-- tags: ['Mandarin', 'Browser']
-  body: 'Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>] [<a href="https://addons.mozilla.org/en-US/firefox/addon/new_tongwentang/">Firefox</a>]'
-
-- tags: ['Mandarin', 'Browser']
-  body: '<a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry'
-
-- tags: ['Mandarin']
-  body: '<a href="http://ankisrs.net/">Anki</a> [Memorization][<a href="http://www.omniglot.com/language/srs.php">SRS</a>] - Flashcard memorization program. Recommend using anki as a revision tool and <a href="https://eastasiastudent.net/study/anki-structure/">build your own decks</a>, but if you really want to can find <a href="https://ankiweb.net/shared/decks/">pre-built decks</a> to learn vocabulary. Also see <a href="http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/">this</a>.'
-
-- tags: ['Mandarin']
-  body: '<a href="http://www.zhtoolkit.com/apps/chinese_word_extractor/">Zhtoolkit</a> [Text Analysis] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.'
-
-- tags: ['All']
-  body: '<a href="https://sourceforge.net/projects/jnovelformatter/">JNovelFormter</a> - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function'
-
-- tags: ['Cantonese']
-  body: '<a href="https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping">Jyutping Converter</a>'
-
-- tags: ['Mandarin']
-  body: '<a href="http://horizontalhanzi.com/">Horizontal Hanzi</a> - For disambiguating similar-looking characters'
-
-- tags: ['Mandarin']
-  body: '<a href="http://pin1yin1.com/">Pin1yin1</a> - Converts characters to pinyin with diacritics (tone markers) or zhuyin to a text'
-
-- tags: ['Mandarin']
-  body: '<a href="https://www.chinesetextanalyser.com/">Text analyser</a> - Pay for program'
-
 # TODO: Amis Isn't actually a Sinitic Language, ponder on what to do with it
 # https://amis.moedict.tw/
 
@@ -310,7 +281,7 @@ Word Dictionaries (詞典):
   body: '<a href="https://www.wenlin.com/download">Wenlin (文林)</a> [EN↔ZH] free/paid version, the quality of definitions is fairly good, but you the numbers of words in the free version is fairly limited. Really good for character etymology break downs.'
 
 - tags: ['Mandarin', 'English', 'Browser', 'Offline']
-  body: 'Zhong Wen (<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>) (<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/">Chrome</a>). Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.'
+  body: '[<a href="https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/">Firefox</a>][<a href="https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/">Chrome</a>] <b>Zhong Wen</b> - Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.'
 
 - tags: ['Cantonese', 'Mandarin', 'English', 'Browser', 'Offline']
   body: '<a href="https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip">CPD (Chrome)</a> [EN↔CA,ZH][Browser] Popup dictionary.'
@@ -400,7 +371,7 @@ Character Dictionaries (字典):
 # TODO: Research Shuowen's Android dictionary source
 - &Shuowen
   tags: ['Mandarin', 'Classical', 'Phone', 'Offline']
-  body: 'Shuowen Jiezi (說文解字) [<a href="https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary">Android</a>] - Analyses character eytmology in Classical Chinese, or more specifically, traces the makeup of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).'
+  body: '[<a href="https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary">Android</a>] Shuowen Jiezi (說文解字) - Analyses character eytmology in Classical Chinese, or more specifically, traces the makeup of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).'
 
 - tags: ['Mandarin']
   body: '<a href="http://www.zhongwen.com/">Zhongwen</a> [EN↔ZH][Online] (Unrelated to popup dictionary). Lightweight and responsive. Alternative to Wenlin for radical-based breakdown of characters and shared-radical map. However, character search does not work (might be encoding issue) and unable to copy paste.'
@@ -426,6 +397,7 @@ Specialist Dictionaries:
 
 
 
+# Reorganized into graded readers
 Reading Material (閱讀材料):
 - tags: ['Mandarin']
   body: '<a href="http://storyfree.com/">Storyfree</a> - Children stories'
@@ -627,16 +599,16 @@ Etymology and Calligraphy:
 - *Wenlin
 
 # TODO: Check why_study link
-- tags: ['All', 'Online']
+- tags: *all_chinese_online
   body: '<a href="https://hanziyuan.net/">Chinese Etymology Lookup</a> - Online character dictionary that returns an English translation of 說文解字 as well as showing the images of the Oracle (甲骨文), Bronze (金文), Seal (篆書), and Liushutong (六書通) characters. An ongoing research project A site by by Prof. Richard Sears (汉字叔叔). <a href="http://www.chineseetymology.org/why_study.aspx">Also links two useful apps for searching characters</a> '
 
-- tags: ['All']
+- tags: *all_chinese
   body: '<a href="https://itunes.apple.com/us/app/%E5%8F%A4%E6%96%87%E5%AD%97%E7%8C%9C%E7%8C%9C%E6%A8%82/id1193864419?mt=8">App for Learning Oracle Bone Script</a> [iOS]'
 
-- tags: ['All']
+- tags: *all_chinese
   body: '<a href="https://www.quora.com/How-are-Chinese-dictionaries-organized">A Quora article on dictionary character sorting</a>'
 
-- tags: ['All']
+- tags: *all_chinese
   body: '<a href="http://www.shufazidian.com/">Calligraphy Dictionary</a>'
 
 - tags: ['Mandarin']
@@ -677,6 +649,44 @@ Texts:
 
 - tags: ['Classical']
   body: '<a href="http://open-lit.com/list.php">List of Novels</a>'
+
+Tools:
+- *Rabbit
+
+# TODO: Replace this with youdao translater (better, but might not have Classical chinese)
+- tags: ['Mandarin']
+  body: '<a href="http://fanyi.baidu.com/#zh/yue/">Baidu translate</a> [MTL] Machine translator. Has Mandarin, Cantonese, and Classical.'
+
+- tags: ['Mandarin']
+  body: '<a href="http://translate.google.com/">Google Translate</a> [MTL] Great for handwriting recognition. Click on the 拼 -> handwriting'
+
+- tags: ['Mandarin', 'Browser']
+  body: 'Simplified↔Traditional Conversion [<a href="https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en">Chrome</a>] [<a href="https://addons.mozilla.org/en-US/firefox/addon/new_tongwentang/">Firefox</a>]'
+
+- tags: ['Mandarin', 'Browser']
+  body: '<a href="https://ankiweb.net/shared/info/2512410601">Real Time Anki Import</a> - To automate anki entry'
+
+- tags: ['Mandarin']
+  body: '<a href="http://ankisrs.net/">Anki</a> [Memorization][<a href="http://www.omniglot.com/language/srs.php">SRS</a>] - Flashcard memorization program. Recommend using anki as a revision tool and <a href="https://eastasiastudent.net/study/anki-structure/">build your own decks</a>, but if you really want to can find <a href="https://ankiweb.net/shared/decks/">pre-built decks</a> to learn vocabulary. Also see <a href="http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/">this</a>.'
+
+- tags: ['Mandarin']
+  body: '<a href="http://www.zhtoolkit.com/apps/chinese_word_extractor/">Zhtoolkit</a> [Text Analysis] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.'
+
+- tags: ['All']
+  body: '<a href="https://sourceforge.net/projects/jnovelformatter/">JNovelFormter</a> - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function'
+
+- tags: ['Cantonese']
+  body: '<a href="https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping">Jyutping Converter</a>'
+
+- tags: ['Mandarin']
+  body: '<a href="http://horizontalhanzi.com/">Horizontal Hanzi</a> - For disambiguating similar-looking characters'
+
+- tags: ['Mandarin']
+  body: '<a href="http://pin1yin1.com/">Pin1yin1</a> - Converts characters to pinyin with diacritics (tone markers) or zhuyin to a text'
+
+- tags: ['Mandarin']
+  body: '<a href="https://www.chinesetextanalyser.com/">Text analyser</a> - Pay for program'
+
 
 
 Communities:

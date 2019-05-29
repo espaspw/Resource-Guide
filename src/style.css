@@ -5,8 +5,73 @@
             box-sizing: border-box;
 }
 
+/* The primary function of this site */
+/* Hide everything that isn't the target */
+section {
+    display: none;
+}
+
+/* If it is the target (the hash part of the current URI), then display it */
+section:target {
+    display: block;
+}
+
+
+
+/* How content looks */
+article {
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+article h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    color: rgb(255, 137, 58);
+    font-weight: bold;
+}
+
+
+
+/* How links look */
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+}
+
+/* Highlight the button for the ':target' */
+/* This class the only class specified via shellscript and not the templates */
+.navbar__main-btn {
+    background-color: rgb(255, 137, 58);
+    -webkit-transition: background-color 0.1s linear, color 0.1s linear;
+    -o-transition: background-color 0.1s linear, color 0.1s linear;
+    transition: background-color 0.1s linear, color 0.1s linear;
+}
+
+/* And unhighlight it in accordance to 'nav a:hover' */
+.navbar__main-btn:hover {
+    background-color: white;
+    color: rgb(255, 137, 58);
+    cursor: hand; /* Indicate to user not to press since already here */
+}
+
+
+
+/* Default or greater than 768px */
 body {
-    font-family: 'Roboto', serif;
+    /* font-family: 'Roboto', serif; */
     background-color: rgb(240, 240, 240);
 }
 
@@ -25,15 +90,11 @@ nav {
 
     -webkit-box-shadow: 4px 0px 12px -4px rgba(69,69,69,0.75);
     box-shadow: 4px 0px 12px -4px rgba(69,69,69,0.75);
-
-}
-
-a {
-    text-decoration: none;
+    overflow-y: auto;
 }
 
 nav a {
-    display: inline-block;
+    display: block;
     color: white;
     padding: 10px 35px;
     -webkit-transition: background-color 0.1s linear, color 0.1s linear;
@@ -41,41 +102,12 @@ nav a {
     transition: background-color 0.1s linear, color 0.1s linear;
 }
 
-nav a:hover {
-    background-color: white;
-    color: rgb(53, 53, 53);
-    font-weight: bold;
-}
 
-main {
+
+/* Margin off so it fits next to navbar */
+.main-container {
     margin-left: 250px;
     margin-right: 50px;
-}
-main section {
-    display: none;
-}
-
-main section:target {
-    display: block;
-}
-
-article {
-    line-height: 1.7;
-    margin-bottom: 50px;
-}
-
-article h1 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-ul a {
-    color: rgb(255, 137, 58);
-    font-weight: bold;
 }
 
 .splitview {
@@ -110,23 +142,8 @@ ul a {
     display: none;
 }
 
-#navbar__main-btn {
-    background-color: rgb(255, 137, 58);
-    -webkit-transition: background-color 0.1s linear, color 0.1s linear;
-    -o-transition: background-color 0.1s linear, color 0.1s linear;
-    transition: background-color 0.1s linear, color 0.1s linear;
-    margin-bottom: 20px;
-}
-
-#navbar__main-btn:hover {
-    background-color: white;
-    color: rgb(255, 137, 58);
-    cursor: hand;
-}
-
 /* Responsive Version */
 @media (max-width: 768px) {
-    
     body {
         overflow-wrap: break-word;
         /* /=word-break: break-all; */
@@ -142,13 +159,14 @@ ul a {
                 justify-content: flex-end;
         -webkit-box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
         box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
+        overflow: visible;
     }
 
     nav a {
         padding: 10px 20px;
     }
 
-    main {
+    .main-container {
         -webkit-box-flex: 1;
             -ms-flex: 1 1 auto;
                 flex: 1 1 auto;
@@ -216,23 +234,5 @@ ul a {
     .responsive-spacer {
         display: block;
         height: 45px;
-    }
-
-    .main-container {
-        margin: auto;
-        width: 75%;
-
-    }
-
-    #navbar__main-btn {
-        margin-bottom: 0;
-        background-color: rgb(53, 53, 53);
-    }
-    
-    #navbar__main-btn:hover {
-        background-color: rgb(255, 255, 255);
-        color: rgb(255, 137, 58);
-        font-weight: bold;
-        cursor: pointer;
     }
 }
