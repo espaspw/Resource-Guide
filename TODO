@@ -1,0 +1,12 @@
+Make the appropriate button highlighted in CSS when something depending on the Hastag
+Mouse scroll for tags needs to be enabled as tags grow in number
+Add tagID (tag as it appears in yaml) to how it is displayed
+Look into moving all the references we're doing in yaml can be placed at the top of the file instead of in the middle
+Go through resources channel and see if there's anything useful to add to this document
+See what people sources people are actually using in mandarin and cantonese channels in particular
+
+Fix todos in links
+- Everything but cantonese dictionaries need a review
+- All youtube links are probably trash
+- Some explanation of what TVB is in order
+- Consider adding tag for available in China (ie not blocked by the GFW)
