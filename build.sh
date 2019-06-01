@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
-me="$(realpath "$0"; printf a)"; me="${me%??}"
-name="$(basename "${me}"; printf a)"; name="${name%??}"
-path="$(dirname "${me}"; printf a)"; path="${path%??}"
+me="$(realpath "$0"; printf a)"; me="${me%?a}"
+name="$(basename "${me}"; printf a)"; name="${name%?a}"
+path="$(dirname "${me}"; printf a)"; path="${path%?a}"
 
 
 show_help() {
@@ -33,6 +33,9 @@ OPTIONS
   md
     Builds '${md_target}'
 
+  -o, --stdout
+    Instead of writing the to the files, it dumps it into stdout
+
 EXAMPLES
   \`./${name} all\`
   \`./${name} html\`
@@ -44,7 +47,7 @@ EOF
 
 main() {
   # Dependencies
-  require 'yq' || die 1 "FATAL: ${name} requires 'yq' installed" \
+  require 'yq' || die2 1 'FATAL' "requires 'yq' installed" \
     "You can use \`python -m pip install --user yq\`" \
     "This is used for processing the link.yaml file"
 
@@ -76,7 +79,7 @@ main() {
     all)   process_html; process_md ;;
     html)  process_html ;;
     md)    process_md ;;
-    *)  die 1 "DEV: '${name}' derped somewhere" ;;
+    *)  die2 1 'DEV' 'derped somewhere' ;;
   esac
 
 }
@@ -84,7 +87,7 @@ main() {
 check_path() {
   for arg in "$@"; do
     x="$(basename "${arg}"; printf a)"; x="${x%?a}"
-    [ -r "${arg}" ] || die 1 "FATAL: ${name} -- '$x' file not found"
+    [ -r "${arg}" ] || die2 1 'FATAL' "'$x' file not found"
   done
 }
 
@@ -92,8 +95,7 @@ print_or_write() {
   if "${flag_output}"
     then cat -
     else
-      [ -w "${path}" ] \
-        || die 1 "FATAL: ${name} -- '${path}' directory not writeable"
+      [ -w "${path}" ] || die2 1 'FATAL' "'${path}' directory not writeable"
       cat - >"$1"
   fi
 }
@@ -109,7 +111,7 @@ process_html() {
     # Only one replacement for the ${html_template}
     { # Print a yaml array
       # First element
-      printf "%s " '- '
+      printf '- '
       <"${links}" sed "s/^/  /"
 
       # Second element
@@ -125,27 +127,25 @@ process_html() {
       '
 
     # Map over all headers creating an entry based on ${html_entry_template}
-    } | yq --raw-output '.
-      | .[0] as $source
-      |
-
+    } | yq --raw-output '
       # Zips two arrays together, then string joins them in that new order,
       # and then resplits it by newline
       def interweave(f; g): [f, g]
         | transpose | flatten | join("") | split("\n");
 
-      '"${yq_set_variables}"'
-
+      .[0] as $source
       | .[1] as $template
+      | '"${yq_set_variables}"'
+
       | $tagList
       | map(
         . as $tag
 
         # Special case for the selected tag, otherwise just a list of links
         | ($tagList | map(
-          "<a href=\"#\(.)\" \(
-            if . == $tag then "class=\"navbar__main-btn\"" else "" end
-          )>\(.)</a>\n")
+          "<a href=\"#\(.)\"\(
+            if . == $tag then " class=\"navbar__main-btn\"" else "" end
+          )>\($tagnameToDisplay[.])</a>\n")
         ) as $navlinks
 
         # Add the ${html_entry_template}
@@ -211,7 +211,7 @@ process_md() {
     cat "${md_template}"
 
     # Github format for table of contents
-    <"${links}" yq --raw-output ' 
+    <"${links}" yq --raw-output '
       . as $source
       | '"${yq_set_variables}"'
       | $linksByTagsThenSections.All | map(
@@ -281,7 +281,9 @@ puts_until() {
 #  cat -
 #}
 
+# Need to define source before include
 yq_set_variables='
+  def exclude(f): map(select(. as $x | f | any(.[]; . == $x) | not));
   def indent(f): flatten | map((" " * f) + .);
   def getEntriesByTag(f):
     to_entries
@@ -292,25 +294,32 @@ yq_set_variables='
         | map(.body)
     })
     | map(select(.entries | length > 0));
-  def exclude(f): map(select(. as $x | f | any(.[]; . == $x) | not));
 
 
   # Some random variable setting
-  .
-  #| .[1] as $entryTemplate
-  #| .[0] as $source
-  | { Classical: "Classical Chinese", Old: "Old Chinese" } as $tagnameToDisplay
-  | ["All", "Cantonese", "Mandarin", "Classical", "Old"] as $excludeTheseTags
+  # These will be set by the individual use cases
+  .  # Necessary dot (since piping to series of "def" needs a statement)
   | ["All", "Cantonese", "Mandarin"] as $sortFront
   | ["Browser", "Online", "Offline", "Classical", "Old"] as $sortBack
 
-  | ($sortFront + ($source
-    | reduce .[] as $i ([]; . + ($i | map(.tags)))
-    | flatten
-    | unique
-    | exclude($sortFront + $sortBack)
-  ) + $sortBack) as $tagList
+  | ($sortFront
+    + ($source
+      | reduce .[] as $i ([]; . + ($i | map(.tags)))
+      | flatten
+      | unique
+      | exclude($sortFront + $sortBack)
+    )
+    + $sortBack
+  ) as $tagList
 
+  | (
+    ($tagList | reduce .[] as $tag ({}; . + { ($tag): $tag }))
+    + {
+      Classical: "Classical Chinese",
+      Old: "Old Chinese",
+      Singlish: "Manglish/Singlish"
+    }
+  ) as $tagnameToDisplay
 
   # Switch the yaml from
   #   { sections: { tags[], links[] } }
@@ -328,9 +337,8 @@ yq_set_variables='
 
 # Helpers
 puts() { printf %s\\n "$@"; }
-prints() { printf %s "$@"; }
 puterr() { printf %s\\n "$@" >&2; }
-die() { c="$1"; shift 1; for x in "$@"; do puts "$x" >&2; done; exit "$c"; }
+die2() { c="$1"; t="$2"; shift 2; puts "$t: '${name}'" "$@" >&2; exit "$c"; }
 require() { command -v "$1" >/dev/null 2>&1; }
 
 main "$@"

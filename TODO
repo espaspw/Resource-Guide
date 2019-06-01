@@ -1,13 +1,15 @@
 Perhaps hide scrollbar for nav
 Introduction (maybe just server name) for index.html
-Top align table
 Add tagID (tag as it appears in yaml) to how it is displayed
 Look into moving all the references we're doing in yaml can be placed at the top of the file instead of in the middle
 Go through resources channel and see if there's anything useful to add to this document
 See what people sources people are actually using in mandarin and cantonese channels in particular
 
 Fix todos in links
-- Everything but cantonese dictionaries need a review
+- Everything for cantonese but the dictionaries need a review
 - All youtube links are probably trash
 - Some explanation of what TVB is in order
 - Consider adding tag for available in China (ie not blocked by the GFW)
+- In particular, probably most guide links are trashy
+
+Rewrite IMEs.md, Guide to Chinese.md

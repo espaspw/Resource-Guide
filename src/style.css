@@ -38,6 +38,11 @@ ul a {
     font-weight: bold;
 }
 
+td {
+    vertical-align: text-top;
+    padding: 5px;
+}
+
 
 
 /* How links look */

@@ -36,14 +36,14 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Input Methods (輸入方式)
 | Name | Type | OS | Language | Description |
 | --- | --- | --- | --- | --- |
-| [System Default](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) | Phonetic/Shape | Win | 倉頡、速成、郑码(Pre-Win8) | You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St." |
+| [System Default](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) | Phonetic/Shape | Win | 倉頡、速成、郑码(Pre-Win8) | You will want to find "Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St." for Win7 and Win8 for Pinyin input. You can set traditional even though it is for simplified. |
 | [System Default](http://www.languagegeek.com/keyboard_general/mac_installation1.html) | Phonetic | Mac |  |  |
-| [System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm) | Phonetic | Linux | All | I would recommend fcitx over ibus: it is more update. |
-| [Rime](http://rime.im/) | Phonetic/Shape | Win/Mac/Linux/Android | All | Framework for custom IMEs. You can pretty much get any input method imaginable and it is cross platform. See [this guide](https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md) for setup help. |
+| [System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm) | Phonetic | Linux | All | I would recommend fcitx over ibus: fcitx is more up to date and supports more IMEs. |
+| [Rime](http://rime.im/) | Phonetic/Shape | Win/Mac/Linux/Android | All | Framework for custom IMEs. You can pretty much get any input method imaginable and it is cross platform. See [this guide](https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md) for setup help. You can get Trime from F-droid. |
 | [Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/) | Phonetic | Win | Pinyin | Google input method |
 | [CPIME](http://www.cpime.hk/p/cantonese-pinyin-input-software.html?lang=en) | Phonetic | Win/Android | Jyutping、Yale | Jyutping and Yale phonetic input for Cantonese. |
 | [FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/) | Phonetic | Win/Mac | POJ(白話字/教羅)、TL(臺羅) | I have never personally used this. |
-| [Sogou](http://wubi.sogou.com/) | Phonetic/Shape | Win | 拼音、五笔 | Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter pinyin in the combined mode, so good for learning Wubi. |
+| [Sogou](http://wubi.sogou.com/) | Phonetic/Shape | Win | 拼音、五笔 | Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter Pinyin in the combined mode, so good for learning Wubi. |
 
 # Guides/Textbooks
 - There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).
@@ -53,7 +53,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
 - [Learn Cantonese!](http://cantonese.ca/) Non-standard romanization
-- [Berkley Beginning Cantonese](https://www.ocf.berkeley.edu/~canto/Public%20Access/Beginning/Beginning%20reader%20for%20Students%20L1%20to%20L6.pdf) \[Yale\]
+- [Berkeley Beginning Cantonese](https://www.ocf.berkeley.edu/~canto/Public%20Access/Beginning/Beginning%20reader%20for%20Students%20L1%20to%20L6.pdf) \[Yale\]
 - [http://www.chinese-lessons.com/cantonese/](http://www.chinese-lessons.com/cantonese/)
 - [Podcast: Naked Cantonese](http://podcast.rthk.org.hk/podcast/item_all.php?pid=45&amp;current_year=2007)
 - [Culture Quote](https://culturequote.files.wordpress.com/2013/03/cantonese-basic.pdf) \[Yale\]
@@ -65,7 +65,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Wenyan Wen: Introduction to Classical Chinese Language](http://www.jonvonkowallis.com/readers/Wenyan-Wen/index.php) by Jon von Kowalis
 - [A Concise Grammar of Classical Chinese](http://www.invisiblebooks.com/CGCC.htm) by Yakov Rabinovich, 2010.
 - Kanbun, Hanmun, Chữ Nôm, Cổ văn go! These are alternative non-English names for Classical Chinese and will also teach you the subject.
-- [Chinese Pod](https://chinesepod.com/) \[Lessons\]\[Podcast\] Requires free signup.
+- [Chinese Pod](https://chinesepod.com/) \[Lessons\]\[Podcast\] Requires free sign up.
 - [Kid’s Chinese Podcast](http://kidschinesepodcast.com/lessons/) \[Lessons\]\[Podcast\]
 - [Hello Chinese](http://www.hellochinese.cc/) \[Lessons\]\[Vocab\] - Gamification A Duolingo-like course
 - [Clozemaster](https://www.clozemaster.com/languages/) \[Lessons\] - Gamification
@@ -112,21 +112,21 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - Pleco - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
 - [Line](http://www.linedict.com/) (formerly Nciku) \[EN→ZH\]\[EN←ZH\]\[EN↔Thai\]\[Online\] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. Examples are online
 - [Wenlin (文林)](https://www.wenlin.com/download) \[EN↔ZH\] free/paid version, the quality of definitions is fairly good, but you the numbers of words in the free version is fairly limited. Really good for character etymology break downs.
-- \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)\]\[[Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/)\] <b>Zhong Wen</b> - Mandarin popup dictionaries available for both browsers. Still recommend CPD or Liuchan popup dictoinary over this as it has support for both Cantonese and Mandarin.
-- [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) \[EN↔CA,ZH\]\[Browser\] Popup dictionary.
-- [Liuchan (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/liuchan/) \[EN↔CA,ZH\]\[Browser\] Popup dictionary.
+- \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)\]\[[Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/)\] <b>Zhong Wen</b> - Mandarin pop-up dictionaries available for both browsers. Still recommend CPD or Liuchan pop-up dictionary over this as it has support for both Cantonese and Mandarin.
+- [CPD (Chrome)](https://chrome.google.com/webstore/detail/cantonese-popup-dictionar/pjnbhojkojmibobcpfgihhnohboldhip) \[EN↔CA,ZH\]\[Browser\] Pop-up dictionary.
+- [Liuchan (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/liuchan/) \[EN↔CA,ZH\]\[Browser\] Pop-up dictionary.
 - [Hanping Dictionary](https://play.google.com/store/apps/details?id=com.embermitre.hanping.cantodict.app.pro) \[EN↔CA\] Offline dictionary that you install to your browser. 
 - [Youdao (有道)](http://dict.youdao.com/w/) by Netease (网易) very solid Mandarin to English translations.
-- [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes broken up by sense in the Xiandai Hanyu Cidian 5th Edition like defintions), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related chinese languages (音韵方言), etc.
-- [MDCG](http://www.mdbg.net/chindict/chindict.php) \[EN↔ZH\]\[Online\] Curators of the CC-CEDICT dictionary that serves as the standard C many refernece. Does not show examples unfortunately.
+- [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes also provides translations along individual senses probably lifted from Xiandai Hanyu Cidian 5th Edition), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related Chinese languages (音韵方言), etc.
+- [MDCG](http://www.mdbg.net/chindict/chindict.php) \[EN↔ZH\]\[Online\] Curators of the CC-CEDICT dictionary that serves as the standard C many reference. Does not show examples unfortunately.
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) \[EN↔CA\]\[Online\] Jyutping, audio bytes, examples. The most comprehensive English-Cantonese dictionary out there. You have to make sure you select the right category for searching.
 - [Pleco](http://cantonese.org/) \[EN↔ZH,CA\]\[Android\]\[iOS\] Cantonese/Mandarin-English dictionary based on CC-EDictA2 with a human check for differences for Cantonese. The app version for Android and iPhone are mandarin only. You have to enable Cantonese in settings for the mobile app.
-- [Jyutdin](http://words.hk/) \[CA↔CA\]\[Online\]. Requres facebook login, but available free of charge on Pleco.
+- [Jyutdin](http://words.hk/) \[CA↔CA\]\[Online\]. Requires Facebook login, but available free of charge on Pleco.
 - 现代汉语词典5th Ed. \[ZH↔ZH\]\[Book\] Standard dictionary that Mainland uses.
 - [Pin Pin](http://dictionary.pinpinchinese.com/) \[EN↔ZH\] Both CC-CEDICT definitions, definitions from Tatoeba, as well as user-submitted definitions.
 - null
 - [MoeDict 臺灣閩南話常用詞辭典](https://twblg.dict.edu.tw/holodict_new/) - A Taiwanese (Hokkien/臺語/閩南話）dictionary maintained by the Ministry of Education for the Taiwanese government. This is provided under the Creative Commons BY-ND 3.0 license whose source can be found on [this GitHub page](https://github.com/g0v/moedict-data-twblg). See the Pleco entry for a way to build the dictionary into an existing Pleco installation.
-- [Hakka Dictionary](http://wiki.hakka.gov.tw/ver2018) - maintained by the Hakka Affairs Council (客家委員會) for the Taiwanese Government. You can hear voice recordings of example sentences, dictionary definitions are also fairly detailed. I believe the source can be found on [this github page](https://github.com/g0v/moedict-data-hakka), released under an Attribution, No Derivatives, Non Commerical license. See the Pleco entry for a way to build the dictionary into an existing Pleco installation.
+- [Hakka Dictionary](http://wiki.hakka.gov.tw/ver2018) - maintained by the Hakka Affairs Council (客家委員會) for the Taiwanese Government. You can hear voice recordings of example sentences, dictionary definitions are also fairly detailed. I believe the source can be found on [this GitHub page](https://github.com/g0v/moedict-data-hakka), released under an Attribution, No Derivatives, Non-Commercial license. See the Pleco entry for a way to build the dictionary into an existing Pleco installation.
 - [Syndict (薪典)](http://syndict.com/) - Primarily a Hakka dictionary. If you follow it on WeChat, you can do Speech-To-Text recognition, i.e. Hakka to Hanzi.
 - <a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Stephen Li Taishanese Dictionary](http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html)
@@ -134,19 +134,19 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Singlish Dictionary](http://www.singlishdictionary.com/)
 
 # Character Dictionaries (字典)
-- [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes broken up by sense in the Xiandai Hanyu Cidian 5th Edition like defintions), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related chinese languages (音韵方言), etc.
+- [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes also provides translations along individual senses probably lifted from Xiandai Hanyu Cidian 5th Edition), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related Chinese languages (音韵方言), etc.
 - [Multi-function Chinese Character Database CC-English-C](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/) (Uses homophones in addition to romanisation for pronunciation, for those that are more comfortable with that than romanisation) (Also has audio clips, but those can be a little stretched out to emphasise the tones)
 - [Ctext Dictionary](http://ctext.org/dictionary.pl?if=en) - Classical Chinese character dictionary and document archive.
 - 新华華字典, the dictionary given free of charge to every Mainland Chinese student
-- \[[Android](https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary)\] Shuowen Jiezi (說文解字) - Analyses character eytmology in Classical Chinese, or more specifically, traces the makeup of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).
-- [Zhongwen](http://www.zhongwen.com/) \[EN↔ZH\]\[Online\] (Unrelated to popup dictionary). Lightweight and responsive. Alternative to Wenlin for radical-based breakdown of characters and shared-radical map. However, character search does not work (might be encoding issue) and unable to copy paste.
+- \[[Android](https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary)\] Shuowen Jiezi (說文解字) - Analyses character etymology in Classical Chinese, or more specifically, traces the make-up of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).
+- [Zhongwen](http://www.zhongwen.com/) \[EN↔ZH\]\[Online\] (Unrelated to pop-up dictionary). Lightweight and responsive. Alternative to Wenlin for radical-based breakdown of characters and shared-radical map. However, character search does not work (might be encoding issue) and unable to copy paste.
 
 # Specialist Dictionaries
 - Pleco - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
-- [Baidu Baike](https://baike.baidu.com/) \[ZH→ZH,EN\] An encyclopedia, but it does list definitions.
-- Wikipedia - Great for translating technical jargon or just generally specific words. Find the article, then click on the chinese version of that article. Unfortunately filters in and out of being on the blacklist for the Great Firewall of China.
+- [Baidu Baike](https://baike.baidu.com/) \[ZH→ZH,EN\] An encyclopaedia, but it does list definitions.
+- Wikipedia - Great for translating technical jargon or just generally specific words. Find the article, then click on the Chinese version of that article. Unfortunately filters in and out of being on the blacklist for the Great Firewall of China.
 - [HanziCraft](http://hanzicraft.com/), Breaks down character into radicals and assorted strokes. Also features a table list of homonyms.
-- http://dictall.com/indu/035/0340368F65C.htm - For technical translation, though wikipedia works too. Not really sure how useful this is as it does not seem to received updates.
+- http://dictall.com/indu/035/0340368F65C.htm - For technical translation, though Wikipedia works too. Not really sure how useful this is as it does not seem to received updates.
 
 # Reading Material (閱讀材料)
 - [Storyfree](http://storyfree.com/) - Children stories
@@ -183,8 +183,8 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [MyDramalist](http://mydramalist.com/) - Drama information and watchlist site 
 - [Croton's](https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg) Official Youtube \[ZH\]
 - [TVB](https://www.tvbanywhere.com/)
-- [Dnvod](http://www.dnvod.tv/) - Loads of movies with Chinese subs/dubs.
-- [Viki](http://www.viki.com/) - A legal stream service (thus their catelog is will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalog is a majority korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature
+- [Dnvod](http://www.dnvod.tv/) - Loads of films with Chinese subs/dubs.
+- [Viki](http://www.viki.com/) - A legal stream service (thus their catalogue will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalogue is a majority Korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature
 
 # Youtube Lessons
 - [Mandarin Madeez](https://mandarinmadeez.com/) - YouTube videos by Fiona Tian, these are awesome!
@@ -205,10 +205,10 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Donghua
 - [QQ Donghua](https://v.qq.com/)
 - [Bilibili (哔哩哔哩)](http://bangumi.bilibili.com/) - also known as B站 the haven of 二次元.
-- [Dai Yi Fansubs](https://www.youtube.com/channel/UC-Z7nO8GGZt_FZeG8UMC4Sw) - Donghua with english subs
+- [Dai Yi Fansubs](https://www.youtube.com/channel/UC-Z7nO8GGZt_FZeG8UMC4Sw) - Donghua with English subs
 
 # Audio and Podcasts
-- [Sing Chinese Songs](http://singchinesesongs.com/) - Learn Chinese through song. You sing karaoke with pinyin/characters and then turn off the pinyin.
+- [Sing Chinese Songs](http://singchinesesongs.com/) - Learn Chinese through song. You sing karaoke with Pinyin/characters and then turn off the Pinyin.
 - [Chinese Songs Classics: Yi Ting](http://www.1ting.com/rank/pop.html)
 - [BBTV](http://radio.bbtv.cn/) Radio
 - [Chinese Pod](http://chinesepod.com/)
@@ -221,13 +221,13 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - http://csulb.learningchineseonline.net/ a whole lot of resources
 - [China Simplified](http://www.chinasimplified.com/) - Useful articles about studying Mandarin and the language itself.
 - [Glossicka’s Courses](https://glossika.com/courses/) - A pay-for course. Has Cantonese, Hakka, Mandarin (Mainland/Taiwan), and Taiwanese Hokkien flavours.
-- [FluentU](http://fluentu.com/) - A site that provides short Chinese videos with subtitles with characters, pinyin and English.
+- [FluentU](http://fluentu.com/) - A site that provides short Chinese videos with subtitles with characters, Pinyin and English.
 - [Lang-8](http://www.lang-8.com/) - an exchange based around writing in a foreign language providing corrections. Good for getting grammar corrected. They recommend writing no more than a couple of paragraphs and recommend writing a translation of what you wanted to say.
 - [Onomatopoeia list](http://confusedlaowai.com/2013/07/comprehensive-onomatopoeia-list/) - Sound words in Mandarin
 - http://www.hackingchinese.com/chinese-character-variants-and-fonts-for-language-learners/
 
 # Etymology and Calligraphy
-- \[[Android](https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary)\] Shuowen Jiezi (說文解字) - Analyses character eytmology in Classical Chinese, or more specifically, traces the makeup of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).
+- \[[Android](https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary)\] Shuowen Jiezi (說文解字) - Analyses character etymology in Classical Chinese, or more specifically, traces the make-up of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).
 - [Wenlin (文林)](https://www.wenlin.com/download) \[EN↔ZH\] free/paid version, the quality of definitions is fairly good, but you the numbers of words in the free version is fairly limited. Really good for character etymology break downs.
 - [Chinese Etymology Lookup](https://hanziyuan.net/) - Online character dictionary that returns an English translation of 說文解字 as well as showing the images of the Oracle (甲骨文), Bronze (金文), Seal (篆書), and Liushutong (六書通) characters. An ongoing research project A site by by Prof. Richard Sears (汉字叔叔). [Also links two useful apps for searching characters](http://www.chineseetymology.org/why_study.aspx) 
 - [App for Learning Oracle Bone Script](https://itunes.apple.com/us/app/%E5%8F%A4%E6%96%87%E5%AD%97%E7%8C%9C%E7%8C%9C%E6%A8%82/id1193864419?mt=8) \[iOS\]
@@ -246,22 +246,22 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Ctext Dictionary](http://ctext.org/dictionary.pl?if=en) - Classical Chinese character dictionary and document archive.
 - Database of texts: [Ctext](http://ctext.org/) and http://tls.uni-hd.de/home_en.lasso
 - [Wengu](http://wengu.tartarie.com/wg/wengu.php?l=intro) - One of the best resources for classical Chinese works.
-- [Wikipedia in classical](https://zh-classical.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E5%A4%A7%E5%85%B8:%E5%8D%B7%E9%A6%96)
+- [Wikipedia in Classical](https://zh-classical.wikipedia.org/wiki/%E7%B6%AD%E5%9F%BA%E5%A4%A7%E5%85%B8:%E5%8D%B7%E9%A6%96)
 - [ChinesePoetry](http://chinese-poems.com/) - Ancient Chinese Poetry.
 - [List of Novels](http://open-lit.com/list.php)
 
 # Tools
 - [Rabbit](https://www.rabb.it/) - Screen sharing. Optional account login and friending. Works for Karaoke too!
-- [Baidu translate](http://fanyi.baidu.com/#zh/yue/) \[MTL\] Machine translator. Has Mandarin, Cantonese, and Classical.
-- [Google Translate](http://translate.google.com/) \[MTL\] Great for handwriting recognition. Click on the 拼 -> handwriting
+- [Baidu translate](http://fanyi.baidu.com/#zh/yue/) \[MLT\] Machine translator. Has Mandarin, Cantonese, and Classical.
+- [Google Translate](http://translate.google.com/) \[MLT\] Great for handwriting recognition. Click on the 拼 -> handwriting
 - Simplified↔Traditional Conversion \[[Chrome](https://chrome.google.com/webstore/detail/njstar-chinese-website-co/oljejbejachaajllbbjiamdkhipbbppk?hl=en)\] \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/new_tongwentang/)\]
 - [Real Time Anki Import](https://ankiweb.net/shared/info/2512410601) - To automate anki entry
-- [Anki](http://ankisrs.net/) \[Memorization\]\[[SRS](http://www.omniglot.com/language/srs.php)\] - Flashcard memorization program. Recommend using anki as a revision tool and [build your own decks](https://eastasiastudent.net/study/anki-structure/), but if you really want to can find [pre-built decks](https://ankiweb.net/shared/decks/) to learn vocabulary. Also see [this](http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/).
+- [Anki](http://ankisrs.net/) \[Memorization\]\[[SRS](http://www.omniglot.com/language/srs.php)\] - Flashcard memorization program. Recommend using Anki as a revision tool and [build your own decks](https://eastasiastudent.net/study/anki-structure/), but if you really want to can find [pre-built decks](https://ankiweb.net/shared/decks/) to learn vocabulary. Also see [this](http://www.isimplylovelanguages.com/serial-how-to-use-anki-effectively/).
 - [Zhtoolkit](http://www.zhtoolkit.com/apps/chinese_word_extractor/) \[Text Analysis\] - Breakdowns a text into its constituent words with definitions with CC-EDICT. Can custom set dictionary and also filter out learnt words.
-- [JNovelFormter](https://sourceforge.net/projects/jnovelformatter/) - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with popup dictionaries and the popup-dictionary-to-Anki function
+- [JNovelFormter](https://sourceforge.net/projects/jnovelformatter/) - Quickly converts .txt files to be easily viewed as an HTML document. Useful in conjunction with pop-up dictionaries and the popup-dictionary-to-Anki function
 - [Jyutping Converter](https://www.chineseconverter.com/cantonesetools/en/cantonese-to-jyutping)
 - [Horizontal Hanzi](http://horizontalhanzi.com/) - For disambiguating similar-looking characters
-- [Pin1yin1](http://pin1yin1.com/) - Converts characters to pinyin with diacritics (tone markers) or zhuyin to a text
+- [Pin1yin1](http://pin1yin1.com/) - Converts characters to Pinyin with diacritics (tone markers) or Zhuyin to a text
 - [Text analyser](https://www.chinesetextanalyser.com/) - Pay for program
 
 # Communities
