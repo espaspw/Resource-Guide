@@ -111,7 +111,7 @@ process_html() {
     # Only one replacement for the ${html_template}
     { # Print a yaml array
       # First element
-      printf '- '
+      printf %s '- '
       <"${links}" sed "s/^/  /"
 
       # Second element
