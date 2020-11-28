@@ -2,7 +2,7 @@
 
 This project that builds the resource list for the Chinese-English exchange discord server: [https://discord.gg/ADdR45y](https://discord.gg/ADdR45y). The resource list is accessible in either [markdown](https://github.com/espaspw/Resource-Guide/blob/master/resources.md) or as a [GitHub Pages site](https://espaspw.github.io/Resource-Guide/).
 
-GitHub is accessible from within China and generally across all English-speaking and Chinese-language-speaking countries.  Although this is currently tailored towards Chinese learned, our server is intended to serve as resources for both English and Chinese-language learners.
+GitHub is accessible from within China and generally across all English-speaking and Chinese-language-speaking countries.  Although this is currently tailored towards people learning Chinese, our server is intended to serve as resources for both English and Chinese-language learners.
 
 [Detailed Explanation of Chinese IMEs](https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md)
 
