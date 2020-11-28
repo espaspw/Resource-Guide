@@ -220,7 +220,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Miscellaneous
 - http://csulb.learningchineseonline.net/ a whole lot of resources
 - [China Simplified](http://www.chinasimplified.com/) - Useful articles about studying Mandarin and the language itself.
-- [Glossicka’s Courses](https://glossika.com/courses/) - A pay-for course. Has Cantonese, Hakka, Mandarin (Mainland/Taiwan), and Taiwanese Hokkien flavours.
+- [Glossika’s Courses](https://glossika.com/courses/) - A course based on listening to and speaking sentences. Has Cantonese (paid), Hakka (free), Mainland or Taiwan Mandarin (paid), and Taiwanese Hokkien (free) flavours.
 - [FluentU](http://fluentu.com/) - A site that provides short Chinese videos with subtitles with characters, Pinyin and English.
 - [Lang-8](http://www.lang-8.com/) - an exchange based around writing in a foreign language providing corrections. Good for getting grammar corrected. They recommend writing no more than a couple of paragraphs and recommend writing a translation of what you wanted to say.
 - [Onomatopoeia list](http://confusedlaowai.com/2013/07/comprehensive-onomatopoeia-list/) - Sound words in Mandarin
