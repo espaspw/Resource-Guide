@@ -44,6 +44,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 | [Sogou](http://wubi.sogou.com/) | Phonetic/Shape | Win | 拼音、五笔 | Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter Pinyin in the combined mode, so good for learning Wubi. |
 
 # Guides/Textbooks
+- [Getting started with Taiwanese](https://chiahpa.be/t/getting-started-resource-guide/262) by <em>aióng</em>. A high-quality resources guide.
 - There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).
 - [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
 - 《现代汉语八百词》by  增订本
@@ -179,11 +180,11 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Novelupdates](http://www.novelupdates.com/series-finder/?sf=1&amp;org=495&amp;sort=abc&amp;order=asc) - In case you want the ~~totally legal~~ fan translations to reference. Fantasy genres [explanations](https://www.reddit.com/r/LightNovels/comments/36q51h/as_a_chinese_id_like_to_talk_about_those_chinese/) Xianxia has become kinda catch all in English.
 
 # Dramas
+- [Viki](http://www.viki.com/) - A legal stream service (thus their catalogue will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalogue is a majority Korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature
 - [MyDramalist](http://mydramalist.com/) - Drama information and watchlist site 
 - [Croton's](https://www.youtube.com/channel/UCPIRD4yr1hlAEovBCSNlAKg) Official Youtube \[ZH\]
 - [TVB](https://www.tvbanywhere.com/)
 - [Dnvod](http://www.dnvod.tv/) - Loads of films with Chinese subs/dubs.
-- [Viki](http://www.viki.com/) - A legal stream service (thus their catalogue will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalogue is a majority Korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature
 
 # Youtube
 - [Mandarin](https://youglish.com/chinese) or [English](https://youglish.com/) Youglish — Community- and company-provided subtitles to YouTube videos. You can also search for videos with specific words you are looking to hear.

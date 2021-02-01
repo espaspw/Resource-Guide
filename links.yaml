@@ -65,6 +65,8 @@ IME:
 
 
 Guides/Textbooks:
+- tags: ['Hokkien']
+  body: '<a href="https://chiahpa.be/t/getting-started-resource-guide/262">Getting started with Taiwanese</a> by <em>aióng</em>. A high-quality resources guide.'
 - tags: ['Cantonese']
   body: 'There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).'
 
@@ -451,6 +453,10 @@ Novels and Visual Novels:
 
 
 Dramas:
+  # TODO: viki name of feature
+- tags: ['Mandarin']
+  body: '<a href="http://www.viki.com/">Viki</a> - A legal stream service (thus their catalogue will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalogue is a majority Korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature'
+
 - tags: ['Mandarin']
   body: '<a href="http://mydramalist.com/">MyDramalist</a> - Drama information and watchlist site '
 
@@ -462,10 +468,6 @@ Dramas:
 
 - tags: ['Mandarin']
   body: '<a href="http://www.dnvod.tv/">Dnvod</a> - Loads of films with Chinese subs/dubs.'
-
-  # TODO: viki name of feature
-- tags: ['Mandarin']
-  body: '<a href="http://www.viki.com/">Viki</a> - A legal stream service (thus their catalogue will depend on your country, though you can use a VPN to get around this region lock) that focuses on East Asian media. Their catalogue is a majority Korean drama, though they have Chinese and Taiwanese dramas. They have a useful feature'
 
 
 Youtube:
