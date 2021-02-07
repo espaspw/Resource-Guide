@@ -46,6 +46,8 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 # Guides/Textbooks
 - [Getting started with Taiwanese](https://chiahpa.be/t/getting-started-resource-guide/262) by <em>aióng</em>. A high-quality resources guide.
 - There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).
+- [Google doc resource lits for Shanghainese](https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit) (上海話)
+- [Shanghai Vernacular Society](https://shanghaivernacular.com)
 - [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
 - 《现代汉语八百词》by  增订本
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
@@ -120,16 +122,18 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) \[EN↔CA\]\[Online\] Jyutping, audio bytes, examples. The most comprehensive English-Cantonese dictionary out there. You have to make sure you select the right category for searching.
 - <strong>Pleco's Cantonese-English dictionary</strong> [CC-Canto](http://cantonese.org/) \[EN↔CA,ZH\]\[Android\]\[iOS\] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
-- 现代汉语词典5th Ed. \[ZH↔ZH\]\[Book\] Standard dictionary that Mainland uses.
+- [吳語學堂](https://wugniu.com), dictionary for Wu languages.
+- 现代汉语词典7th Ed. \[ZH↔ZH\]\[Book\] Standard dictionary that Mainland uses.
 - [Pin Pin](http://dictionary.pinpinchinese.com/) \[EN↔ZH\] Both CC-CEDICT definitions, definitions from Tatoeba, as well as user-submitted definitions.
 - null
 - \[Pe̍h-ōe-jī\] [Taiwanese-English dictionary](https://niawdeleon.com/hokkien-dictionary/) by Maryknoll Taiwan
 - [MoeDict 臺灣閩南話常用詞辭典](https://twblg.dict.edu.tw/holodict_new/) - A Taiwanese (Hokkien/臺語/閩南話）dictionary maintained by the Ministry of Education for the Taiwanese government. This is provided under the Creative Commons BY-ND 3.0 license whose source can be found on [this GitHub page](https://github.com/g0v/moedict-data-twblg). See the Pleco entry for a way to build the dictionary into an existing Pleco installation.
 - [Hakka Dictionary](http://wiki.hakka.gov.tw/ver2018) - maintained by the Hakka Affairs Council (客家委員會) for the Taiwanese Government. You can hear voice recordings of example sentences, dictionary definitions are also fairly detailed. I believe the source can be found on [this GitHub page](https://github.com/g0v/moedict-data-hakka), released under an Attribution, No Derivatives, Non-Commercial license. See the Pleco entry for a way to build the dictionary into an existing Pleco installation.
 - [Syndict (薪典)](http://syndict.com/) - Primarily a Hakka dictionary. If you follow it on WeChat, you can do Speech-To-Text recognition, i.e. Hakka to Hanzi.
-- <a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary
+- [Kaifang Cidian](http://kaifangcidian.com/) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
+- [Sinicia](http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Stephen Li Taishanese Dictionary](http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html)
-- [吳語學堂](https://wugniu.com/) - Dictionary for various Wu languages.
+- [Choân-Bûn Kiám-Sek](https://wugniu.com/) - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)
 - [Singlish Dictionary](http://www.singlishdictionary.com/)
 
 # Character Dictionaries (字典)

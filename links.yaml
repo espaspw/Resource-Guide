@@ -67,8 +67,15 @@ IME:
 Guides/Textbooks:
 - tags: ['Hokkien']
   body: '<a href="https://chiahpa.be/t/getting-started-resource-guide/262">Getting started with Taiwanese</a> by <em>aióng</em>. A high-quality resources guide.'
+
 - tags: ['Cantonese']
   body: 'There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).'
+
+- tags: ['Wu']
+  body: '<a href="https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit">Google doc resource lits for Shanghainese</a> (上海話)'
+
+- tags: ['Wu']
+  body: '<a href="https://shanghaivernacular.com">Shanghai Vernacular Society</a>'
 
 - tags: ['Mandarin']
   body: '<a href="https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a>'
@@ -290,8 +297,11 @@ Word Dictionaries (詞典):
   body: >
     <strong>Pleco's Cantonese-English dictionary</strong> <a href="http://cantonese.org/">CC-Canto</a> [EN↔CA,ZH][Android][iOS] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
+- tags: ['Wu', 'Online']
+  body: '<a href="https://wugniu.com">吳語學堂</a>, dictionary for Wu languages.'
+
 - tags: ['Mandarin', 'Online']
-  body: '现代汉语词典5th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses.'
+  body: '现代汉语词典7th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses.'
 
 - tags: ['Mandarin', 'English', 'Online']
   body: '<a href="http://dictionary.pinpinchinese.com/">Pin Pin</a> [EN↔ZH] Both CC-CEDICT definitions, definitions from Tatoeba, as well as user-submitted definitions.'
@@ -313,13 +323,16 @@ Word Dictionaries (詞典):
   body: '<a href="http://syndict.com/">Syndict (薪典)</a> - Primarily a Hakka dictionary. If you follow it on WeChat, you can do Speech-To-Text recognition, i.e. Hakka to Hanzi.'
 
 - tags: ['Mandarin', 'Cantonese', 'Hokkien', 'Wu', 'Online']
-  body: '<a href=http://kaifangcidian.com/>Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary'
+  body: '<a href="http://kaifangcidian.com/">Kaifang Cidian</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary'
+
+- tags: ['Mandarin', 'Cantonese', 'Hokkien', 'Wu', 'Online']
+  body: '<a href="http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php">Sinicia</a> - Mandarin, Cantonese, Hokkien, and Wu Dictionary'
 
 - tags: ['Taishanese', 'Online']
   body: '<a href="http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html">Stephen Li Taishanese Dictionary</a>'
 
-- tags: ['Wu', 'Online']
-  body: '<a href="https://wugniu.com/">吳語學堂</a> - Dictionary for various Wu languages.'
+- tags: ['Hakka', 'Hokkien', 'Online']
+  body: '<a href="https://wugniu.com/">Choân-Bûn Kiám-Sek</a> - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)'
 
 - tags: ['Singlish', 'Online']
   body: '<a href="http://www.singlishdictionary.com/">Singlish Dictionary</a>'
