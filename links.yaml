@@ -616,6 +616,9 @@ Fonts（字體）:
   body: '<a href="https://babelstone.co.uk/Fonts/Han.html">BableStone Han</a> font designed specifically for obscure characters and the new additions to Unicode.'
 
 - tags: *all_chinese
+  body: '<a href="http://fonts.jp/hanazono/">花園明朝(HanaMin)</a> another font that contains rare characters (through CJK extension F), though technically designed for Japanese, will allow you to view even more obscure characters.'
+
+- tags: *all_chinese
   body: '<a href="http://www.ibiblio.org/chinesehistory/contents/08fea/c02.html#Fonts">Fonts for Older Scripts</a>'
 
 - tags: *all_chinese
