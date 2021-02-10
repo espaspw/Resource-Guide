@@ -263,7 +263,7 @@ Character/Word Lists:
 Word Dictionaries (詞典):
 - &Pleco
   tags: ['Mandarin', 'Cantonese', 'Phone', 'Offline']
-  body: '<strong>Pleco</strong> - A dictionary aggregator, you get a [ZH↔EN] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following <a href="https://github.com/alexhk90/Pleco-User-Dictionaries">user-land dictionaries</a> assembled by alexhk09'
+  body: '<strong>Pleco</strong> - A dictionary aggregator, you get a [ZH↔EN] dictionary (CEDICT) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. Some dictionaries may be downloaded for free, for example, MOEDict, Cross-Straits, CCCanto, and Words.hk. You may wish to look at the following <a href="https://github.com/alexhk90/Pleco-User-Dictionaries">user-land dictionaries</a> assembled by alexhk09'
 
 - tags: ['Mandarin', 'English', 'Online', 'Phone']
   body: '<a href="http://dict.youdao.com/w/">Youdao (有道)</a> by Netease (网易) very solid Mandarin to English translations.'
