@@ -243,6 +243,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Typesetting characters](http://hayataki-masaharu.jp/web-typography-in-japanese/) in Japanese but also applicable to Chinese
 - [Unicode FAQ on CJK Characters](http://unicode.org/faq/han_cjk.html) - On the technicalities of representing fonts
 - [BableStone Han](https://babelstone.co.uk/Fonts/Han.html) font designed specifically for obscure characters and the new additions to Unicode.
+- [花園明朝(HanaMin)](http://fonts.jp/hanazono/) another font that contains rare characters (through CJK extension F), though technically designed for Japanese, will allow you to view even more obscure characters.
 - [Fonts for Older Scripts](http://www.ibiblio.org/chinesehistory/contents/08fea/c02.html#Fonts)
 - Academic writing is typically done with 楷書 for the author, 宋體 for everything else, 四號 for regular text, 三號 for titles for Mainland China. For English, the standard is typically double-spaced Times New Roman or Arial font, 12pt for regular text 16pt for titles.
 
