@@ -53,6 +53,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
+- [Jyutping Guide](https://www.jyutping.org/en/docs/) (with audio examples)
 - [Learn Cantonese!](http://cantonese.ca/) Non-standard romanization
 - [Berkeley Beginning Cantonese](https://www.ocf.berkeley.edu/~canto/Public%20Access/Beginning/Beginning%20reader%20for%20Students%20L1%20to%20L6.pdf) \[Yale\]
 - [http://www.chinese-lessons.com/cantonese/](http://www.chinese-lessons.com/cantonese/)
@@ -110,7 +111,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Heisig’s Remembering the Hanzi Series](https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi) - Controversial book series that espouses a mnemonics method for learning characters. [Your mileage may vary](http://www.saporedicina.com/english/chinese-characters-remember-the-hanzi/).
 
 # Word Dictionaries (詞典)
-- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
+- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
 - [Youdao (有道)](http://dict.youdao.com/w/) by Netease (网易) very solid Mandarin to English translations.
 - [Line](http://www.linedict.com/) (formerly Nciku) \[EN→ZH\]\[EN←ZH\]\[EN↔Thai\]\[Online\] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. Examples are online
 - \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)\]\[[Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/)\] <b>Zhong Wen</b> - Mandarin pop-up dictionaries available for both browsers. Still recommend CPD or Liuchan pop-up dictionary over this as it has support for both Cantonese and Mandarin.
@@ -118,7 +119,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Liuchan (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/liuchan/) \[EN↔CA,ZH\]\[Browser\] Pop-up dictionary.
 - [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes also provides translations along individual senses probably lifted from Xiandai Hanyu Cidian 5th Edition), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related Chinese languages (音韵方言), etc.
 - [MDCG](http://www.mdbg.net/chindict/chindict.php) \[EN↔ZH\]\[Online\] Curators of the CC-CEDICT dictionary that serves as the standard C many reference. Does not show examples unfortunately.
-- [Jyutdin](http://words.hk/) \[CA↔CA\]\[Online\]. Requires Facebook login, but available free of charge on Pleco.
+- [Words.HK (Jyutdin)](http://words.hk/) \[CA↔CA\]\[Online\]. Requires Facebook login, but available free of charge on Pleco.
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) \[EN↔CA\]\[Online\] Jyutping, audio bytes, examples. The most comprehensive English-Cantonese dictionary out there. You have to make sure you select the right category for searching.
 - <strong>Pleco's Cantonese-English dictionary</strong> [CC-Canto](http://cantonese.org/) \[EN↔CA,ZH\]\[Android\]\[iOS\] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
@@ -148,7 +149,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Outlier Dictionary](https://www.outlier-linguistics.com/) that offers much more up-to-date. Still in development.
 
 # Specialist Dictionaries
-- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
+- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
 - [Baidu Baike](https://baike.baidu.com/) \[ZH→ZH,EN\] An encyclopaedia, but it does list definitions.
 - Wikipedia - Great for translating technical jargon or just generally specific words. Find the article, then click on the Chinese version of that article. Unfortunately filters in and out of being on the blacklist for the Great Firewall of China.
 - [HanziCraft](http://hanzicraft.com/), Breaks down character into radicals and assorted strokes. Also features a table list of homonyms.

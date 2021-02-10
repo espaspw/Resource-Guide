@@ -93,6 +93,9 @@ Guides/Textbooks:
   body: '<a href="https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing">Sietse’s Learning Pack</a>'
 
 - tags: ['Cantonese']
+  body: '<a href="https://www.jyutping.org/en/docs/">Jyutping Guide</a> (with audio examples)'
+
+- tags: ['Cantonese']
   body: '<a href="http://cantonese.ca/">Learn Cantonese!</a> Non-standard romanization'
 
 - tags: ['Cantonese']
@@ -263,7 +266,7 @@ Character/Word Lists:
 Word Dictionaries (詞典):
 - &Pleco
   tags: ['Mandarin', 'Cantonese', 'Phone', 'Offline']
-  body: '<strong>Pleco</strong> - A dictionary aggregator, you get a [ZH↔EN] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following <a href="https://github.com/alexhk90/Pleco-User-Dictionaries">user-land dictionaries</a> assembled by alexhk09'
+  body: '<strong>Pleco</strong> - A dictionary aggregator, you get a [ZH↔EN] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. You may wish to look at the following <a href="https://github.com/alexhk90/Pleco-User-Dictionaries">user-land dictionaries</a> assembled by alexhk09'
 
 - tags: ['Mandarin', 'English', 'Online', 'Phone']
   body: '<a href="http://dict.youdao.com/w/">Youdao (有道)</a> by Netease (网易) very solid Mandarin to English translations.'
@@ -288,7 +291,7 @@ Word Dictionaries (詞典):
   body: '<a href="http://www.mdbg.net/chindict/chindict.php">MDCG</a> [EN↔ZH][Online] Curators of the CC-CEDICT dictionary that serves as the standard C many reference. Does not show examples unfortunately.'
 
 - tags: ['Cantonese', 'Online']
-  body: '<a href="http://words.hk/">Jyutdin</a> [CA↔CA][Online]. Requires Facebook login, but available free of charge on Pleco.'
+  body: '<a href="http://words.hk/">Words.HK (Jyutdin)</a> [CA↔CA][Online]. Requires Facebook login, but available free of charge on Pleco.'
 
 - tags: ['Cantonese', 'English', 'Online']
   body: '<a href="http://www.cantonese.sheik.co.uk/dictionary/">CantoDict</a> [EN↔CA][Online] Jyutping, audio bytes, examples. The most comprehensive English-Cantonese dictionary out there. You have to make sure you select the right category for searching.'
