@@ -110,7 +110,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Heisig’s Remembering the Hanzi Series](https://en.wikipedia.org/wiki/Remembering_the_Kanji_and_Remembering_the_Hanzi) - Controversial book series that espouses a mnemonics method for learning characters. [Your mileage may vary](http://www.saporedicina.com/english/chinese-characters-remember-the-hanzi/).
 
 # Word Dictionaries (詞典)
-- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
+- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (CEDICT) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. Some dictionaries may be downloaded for free, for example, MOEDict, Cross-Straits, CCCanto, and Words.hk. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
 - [Youdao (有道)](http://dict.youdao.com/w/) by Netease (网易) very solid Mandarin to English translations.
 - [Line](http://www.linedict.com/) (formerly Nciku) \[EN→ZH\]\[EN←ZH\]\[EN↔Thai\]\[Online\] Most examples, flexible handwriting detection, and has the features. A tad bulky/slow. Examples are online
 - \[[Firefox](https://addons.mozilla.org/en-US/firefox/addon/zhongwen-chinese-english/)\]\[[Chrome](https://chrome.google.com/webstore/detail/zhongwen-chinese-english/kkmlkkjojmombglmlpbpapmhcaljjkde/)\] <b>Zhong Wen</b> - Mandarin pop-up dictionaries available for both browsers. Still recommend CPD or Liuchan pop-up dictionary over this as it has support for both Cantonese and Mandarin.
@@ -148,7 +148,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Outlier Dictionary](https://www.outlier-linguistics.com/) that offers much more up-to-date. Still in development.
 
 # Specialist Dictionaries
-- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (unsure if CEDICT or tailor-made one) for free, but then you can purchase 现代汉语词典, Words.hk, 现代汉语规范词典 etc. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
+- <strong>Pleco</strong> - A dictionary aggregator, you get a \[ZH↔EN\] dictionary (CEDICT) for free, but then you can purchase 现代汉语词典, 现代汉语规范词典 etc. Some dictionaries may be downloaded for free, for example, MOEDict, Cross-Straits, CCCanto, and Words.hk. You may wish to look at the following [user-land dictionaries](https://github.com/alexhk90/Pleco-User-Dictionaries) assembled by alexhk09
 - [Baidu Baike](https://baike.baidu.com/) \[ZH→ZH,EN\] An encyclopaedia, but it does list definitions.
 - Wikipedia - Great for translating technical jargon or just generally specific words. Find the article, then click on the Chinese version of that article. Unfortunately filters in and out of being on the blacklist for the Great Firewall of China.
 - [HanziCraft](http://hanzicraft.com/), Breaks down character into radicals and assorted strokes. Also features a table list of homonyms.
