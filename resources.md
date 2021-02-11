@@ -119,7 +119,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Liuchan (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/liuchan/) \[EN↔CA,ZH\]\[Browser\] Pop-up dictionary.
 - [Zdic (漢典)](http://www.zdic.net/) \[C↔C,EN\]\[Online\] Primarily a Mandarin-Mandarin dictionary. Compiles the pretty much everything of readers of Modern Chinese Language need in a single search bar: definitions, translations (probably lifted from MoeDict, sometimes also provides translations along individual senses probably lifted from Xiandai Hanyu Cidian 5th Edition), etymology, 說文解字、康熙詞典), shaped-based input combination lookup (五筆、倉頡、鄭碼), variant characters, readings in related Chinese languages (音韵方言), etc.
 - [MDCG](http://www.mdbg.net/chindict/chindict.php) \[EN↔ZH\]\[Online\] Curators of the CC-CEDICT dictionary that serves as the standard C many reference. Does not show examples unfortunately.
-- [Jyutdin](http://words.hk/) \[CA↔CA\]\[Online\]. Requires Facebook login, but available free of charge on Pleco.
+- [Words.HK (Jyutdin)](http://words.hk/) \[CA↔CA\]\[Online\]. Requires Facebook login, but available free of charge on Pleco.
 - [CantoDict](http://www.cantonese.sheik.co.uk/dictionary/) \[EN↔CA\]\[Online\] Jyutping, audio bytes, examples. The most comprehensive English-Cantonese dictionary out there. You have to make sure you select the right category for searching.
 - <strong>Pleco's Cantonese-English dictionary</strong> [CC-Canto](http://cantonese.org/) \[EN↔CA,ZH\]\[Android\]\[iOS\] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
