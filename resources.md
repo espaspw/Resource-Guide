@@ -53,6 +53,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
+- [Jyutping Guide](https://www.jyutping.org/en/docs/) (with audio examples)
 - [Learn Cantonese!](http://cantonese.ca/) Non-standard romanization
 - [Berkeley Beginning Cantonese](https://www.ocf.berkeley.edu/~canto/Public%20Access/Beginning/Beginning%20reader%20for%20Students%20L1%20to%20L6.pdf) \[Yale\]
 - [http://www.chinese-lessons.com/cantonese/](http://www.chinese-lessons.com/cantonese/)
