@@ -1,0 +1,21 @@
+{
+  "name": "chinese-resource-page",
+  "version": "1.0.0",
+  "description": "This project that builds the resource list for the Chinese-English exchange discord server: [https://discord.gg/ADdR45y](https://discord.gg/ADdR45y). The resource list is accessible in either [markdown](https://github.com/espaspw/Resource-Guide/blob/master/resources.md) or as a [GitHub Pages site](https://espaspw.github.io/Resource-Guide/).",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "marked": "^2.0.0",
+    "yaml": "^1.10.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  }
+}

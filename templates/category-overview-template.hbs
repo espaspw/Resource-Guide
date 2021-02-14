@@ -1,0 +1,7 @@
+{{#if overview}}
+<ul class="category__overview">
+  {{#each overview as |overview-entry|}}
+  {{> category-overview-entry overview-entry}}
+  {{/each}}
+</ul>
+{{/if}}

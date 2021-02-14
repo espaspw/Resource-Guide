@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> document-header}}
+
+<body>
+  <div class="splitview">
+    <nav class="navbar">
+      {{#each avaliable-tags as |tagType tagName|}}
+        <fieldset class="navbar__section">
+          <legend class="navbar__section__title">{{tagName}}</legend>
+          <div class="navbar__section__inputs">
+          {{#each tagType as |tag|}}
+            <div class="navbar__section__input">
+              <input type="checkbox" name={{tag}} id={{tag}}>
+              <label for={{tag}}>{{tag}}</label>
+            </div>
+          {{/each}}
+          </div>
+        </fieldset>
+      {{/each}}
+    </nav>
+    <div class="responsive-spacer"></div>
+    <div class="main">
+      {{> page-title}}
+      {{#each categories as |category categoryName|}}
+      <section class="category {{expand-tags used-tags}} taggable">
+        <h2 class="category__title"><span class="--highlight">{{categoryName}}</span></h2>
+        {{>category-overview category}}
+        {{>list category}}
+      </section>
+      {{/each}}
+    </div>
+  </div>
+</body>
+</html>

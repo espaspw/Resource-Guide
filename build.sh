@@ -47,7 +47,7 @@ EOF
 
 main() {
   # Dependencies
-  require 'yq' || die2 1 'FATAL' "requires 'yq' installed" \
+  require 'python -m yq' || die2 1 'FATAL' "requires 'yq' installed" \
     "You can use \`python -m pip install --user yq\`" \
     "This is used for processing the link.yaml file"
 

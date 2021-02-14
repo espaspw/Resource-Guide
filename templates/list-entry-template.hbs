@@ -1,0 +1,16 @@
+<li class="category__list-entry {{expand-tags tags}} taggable">
+  <p class="category__list-entry__title">
+    {{link title url}}
+    {{#if subtitle}}
+    {{subtitle}}
+    {{/if}}
+    {{#if author}}
+    by <em>{{author}}</em>
+    {{/if}}
+  </p>
+  {{#if desc}}
+  <p class="category__list-entry__description">
+    {{{desc}}}
+  </p>
+  {{/if}}
+</li>
