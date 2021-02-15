@@ -1,7 +1,11 @@
 'use strict'
 
+const showFiltersButton = document.querySelector('.show-filters-button')
+const navbar = document.querySelector('.navbar')
+const responsiveSpacer = document.querySelector('.responsive-spacer')
 const filterButtons = document.querySelectorAll('.navbar .navbar__section__input')
 const checkboxes = document.querySelectorAll('.navbar input')
+const entries = document.querySelectorAll('.taggable')
 
 filterButtons.forEach(elem => {
   elem.addEventListener('click', (event) => {
@@ -15,10 +19,6 @@ checkboxes.forEach(elem => {
   elem.checked = false;
   elem.addEventListener('change', handleFilterChange)
 })
-
-
-
-const entries = document.querySelectorAll('.taggable')
 
 // Tests whether a domElem contains all the tags in a tag list
 function testFilter(domElem, tagList) {
@@ -44,3 +44,13 @@ function handleFilterChange() {
       entry.classList.add('--hidden')
   })
 }
+
+
+let isNavbarVisible = true
+
+showFiltersButton.addEventListener('click', (event) => {
+  isNavbarVisible = !isNavbarVisible
+  showFiltersButton.textContent = isNavbarVisible ?  'Hide Filters' : 'Show Filters'
+  navbar.classList.toggle('--hidden')
+  responsiveSpacer.classList.toggle('--hidden')
+})

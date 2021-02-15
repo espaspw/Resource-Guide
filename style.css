@@ -27,17 +27,6 @@ body {
   line-height: 1.5rem;
 }
 
-.title {
-  padding: 50px 0 15px 0;
-}
-
-.title h1 {
-  padding-bottom: 10px;
-  font-size: 1.75rem;
-  color: rgb(46, 47, 51);
-  line-height: 2rem;
-}
-
 .splitview {
   display: flex;
 }
@@ -51,6 +40,8 @@ body {
   overflow-y: auto;
   box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar__section {
@@ -75,6 +66,15 @@ body {
   transition: background .05s;
 }
 
+.navbar__section__input label {
+  padding: 0 2px;
+}
+
+.navbar__section__input > input:checked  + label {
+  background:  rgba(255, 94, 0, 0.5);
+  width: 100%;
+}
+
 .navbar__section__input, 
 .navbar__section__input input, 
 .navbar__section__input label {
@@ -82,18 +82,31 @@ body {
 }
 
 .navbar__section__input:hover {
-  background:  rgba(255, 94, 0, 0.5);
+  background: rgba(255, 94, 0, 0.5);
+}
+
+.responsive-spacer {
+  margin-right: 200px;
 }
 
 .main {
   max-width: 1300px;
   width: 1300px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
 }
 
-.responsive-spacer {
-  margin-right: 200px;
+.title {
+  padding: 15px 0;
+}
+
+.title h1 {
+  padding-bottom: 10px;
+  font-size: 1.75rem;
+  color: rgb(46, 47, 51);
+  line-height: 2rem;
 }
 
 .category {
@@ -162,10 +175,64 @@ body {
   padding: 5px 0;
 }
 
+.show-filters-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(199, 113, 0, .95);
+  transition: background 0.1s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: white;
+  user-select: none;
+}
+
+.show-filters-button:hover {
+  background: rgba(223, 108, 0, 0.9);
+  cursor: pointer;
+}
+
 .--highlight {
   background: rgba(255, 94, 0, 0.2);
 }
 
 .--hidden {
   display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* This sets the root size, which all other font sizes are relative to */
+  html {
+    font-size: 15px; 
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(51, 53, 54, 0.85);
+    font-size: 0.85rem;
+  }
+
+  .navbar__section__input {
+    padding: 0 2px;
+  }
+
+  .main {
+    padding: 0 15px;
+    margin-top: 5px;
+  }
+
+  .responsive-spacer {
+    display: none;
+  }
 }
