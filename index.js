@@ -140,6 +140,15 @@ const rootTemplate = handlebars.compile(rootTemplateRaw)
 
 const output = rootTemplate(links)
 
-fs.writeFileSync('out.html', output, (err) => {
+
+fs.mkdirSync('build', {recursive: true})
+
+
+fs.writeFileSync('build/index.html', output, (err) => {
   console.error(`Failed to write output HTML file: ${err.message}`)
+})
+
+const filesToCopy = ['style.css', 'noscript-style.css', 'filter-logic.js']
+filesToCopy.forEach(filename => {
+  fs.copyFileSync(`./${filename}`, `build/${filename}`)
 })

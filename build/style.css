@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(197, 46, 0);
+  transition: background 0.05s linear;
+  border-radius: 3px;
+}
+
+a:hover {
+  background: rgba(255, 94, 0, 0.15);
+}
+
+body {
+  font-family: 'Rubik', serif;
+  background-color: rgb(245, 245, 245);
+  line-height: 1.5rem;
+}
+
+.splitview {
+  display: flex;
+}
+
+.navbar {
+  width: 200px;
+  background: rgb(51, 53, 54);
+  position: fixed;
+  height: 100%;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0px 4px 12px -4px rgba(69,69,69,0.75);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__section {
+  padding: 5px 10px 15px 0;
+  border: none;
+}
+
+.navbar__section__title {
+  border-bottom: 1px solid #aaa;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.navbar__section__inputs {
+  user-select: none;
+  padding: 5px 0;
+}
+
+.navbar__section__input {
+  padding: 0 10px;
+  border-radius: 3px;
+  transition: background .05s;
+}
+
+.navbar__section__input label {
+  padding: 0 2px;
+}
+
+.navbar__section__input > input:checked  + label {
+  background:  rgba(255, 94, 0, 0.5);
+  width: 100%;
+}
+
+.navbar__section__input, 
+.navbar__section__input input, 
+.navbar__section__input label {
+  cursor: pointer;
+}
+
+.navbar__section__input:hover {
+  background: rgba(255, 94, 0, 0.5);
+}
+
+.responsive-spacer {
+  margin-right: 200px;
+}
+
+.main {
+  max-width: 1300px;
+  width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.title {
+  padding: 15px 0;
+}
+
+.title h1 {
+  padding-bottom: 10px;
+  font-size: 1.75rem;
+  color: rgb(46, 47, 51);
+  line-height: 2rem;
+}
+
+.category {
+  padding: 10px 0;
+}
+
+.category__title {
+  padding: 10px 0;
+  font-weight: normal;
+  color: rgb(40, 41, 44);
+}
+
+.category__table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
+
+
+.category__table tr:not(:first-child) {
+  border-top: 1px solid rgba(129, 129, 129, 0.1);
+}
+
+.category__table__top-row {
+  background: #eee;
+}
+
+.category__table__column-name {
+  font-weight: normal;
+  text-align: left;
+  padding: 2.5px;
+  padding-left: 7px;
+}
+
+.category__table__entry-row {
+  font-size: 0.9rem;
+}
+
+.category__table__entry {
+  padding: 5px 7px;
+}
+
+.category__list {
+  padding-left: 5px;
+}
+
+.category__list-entry {
+  padding: 4px 0;
+}
+
+.category__list-entry__title a {
+  font-size: 1.05rem;
+}
+
+.category__list-entry__description {
+  color: rgb(51, 52, 58);
+  font-size: .95rem;
+}
+
+.category__overview {
+  padding-bottom: 10px;
+}
+
+.category__overview-entry {
+  color: rgb(32, 33, 36);
+  padding: 5px 0;
+}
+
+.show-filters-button {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(199, 113, 0, .95);
+  transition: background 0.1s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  color: white;
+  user-select: none;
+}
+
+.show-filters-button:hover {
+  background: rgba(223, 108, 0, 0.9);
+  cursor: pointer;
+}
+
+.--highlight {
+  background: rgba(255, 94, 0, 0.2);
+}
+
+.--hidden {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* This sets the root size, which all other font sizes are relative to */
+  html {
+    font-size: 15px; 
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(51, 53, 54, 0.85);
+    font-size: 0.85rem;
+  }
+
+  .navbar__section__input {
+    padding: 0 2px;
+  }
+
+  .main {
+    padding: 0 15px;
+    margin-top: 5px;
+  }
+
+  .responsive-spacer {
+    display: none;
+  }
+}
