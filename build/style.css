@@ -12,7 +12,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(197, 46, 0);
+  color: rgb(228, 53, 0);
   transition: background 0.05s linear;
   border-radius: 3px;
 }
@@ -64,15 +64,11 @@ body {
   padding: 0 10px;
   border-radius: 3px;
   transition: background .05s;
+  margin-bottom: 2px;
 }
 
 .navbar__section__input label {
   padding: 0 2px;
-}
-
-.navbar__section__input > input:checked  + label {
-  background:  rgba(255, 94, 0, 0.5);
-  width: 100%;
 }
 
 .navbar__section__input, 
@@ -182,7 +178,7 @@ body {
   width: 100px;
   height: 40px;
   border-radius: 5px;
-  background: rgb(199, 113, 0, .95);
+  background: rgba(223, 108, 0, 0.9);
   transition: background 0.1s linear;
   display: flex;
   justify-content: center;
@@ -193,12 +189,16 @@ body {
 }
 
 .show-filters-button:hover {
-  background: rgba(223, 108, 0, 0.9);
+  background: rgba(223, 108, 0, 1);
   cursor: pointer;
 }
 
 .--highlight {
-  background: rgba(255, 94, 0, 0.2);
+  background: rgba(255, 110, 27, 0.2);
+}
+
+.--active {
+  background: rgba(255, 110, 27, 0.5);
 }
 
 .--hidden {

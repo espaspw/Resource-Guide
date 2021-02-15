@@ -30,6 +30,11 @@ function testFilter(domElem, tagList) {
 }
 
 function handleFilterChange() {
+  // Set highlighting for active filters
+  filterButtons.forEach(elem => {
+    if (elem.childNodes[1].checked) elem.classList.add('--active')
+    else elem.classList.remove('--active')
+  })
   // Gathers all selected checkboxes into a set containing tag strings
   const filterValues = new Set()
   checkboxes.forEach(elem => {
