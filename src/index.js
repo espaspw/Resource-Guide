@@ -5,7 +5,7 @@ const fs = require('fs')
 const marked = require('marked')
 const handlebars = require('handlebars')
 
-const linksRawText = fs.readFileSync('./links-test.yaml', 'utf-8')
+const linksRawText = fs.readFileSync('links-test.yaml', 'utf-8')
 const links = (() => {
   const data = YAML.parse(linksRawText)
   convertDescriptionsFromMarkdownToHTML(data)
@@ -100,14 +100,14 @@ function convertDescriptionsFromMarkdownToHTML(links) {
   return links
 }
 
-const pageTitleRaw = fs.readFileSync('./templates/page-title-template.hbs', 'utf-8')
-const categoryOverviewRaw = fs.readFileSync('./templates/category-overview-template.hbs', 'utf-8')
-const cateogryOverviewEntryRaw = fs.readFileSync('./templates/category-overview-entry-template.hbs', 'utf-8')
-const documentHeaderRaw = fs.readFileSync('./templates/html-document-header.hbs', 'utf-8')
-const listTemplateRaw = fs.readFileSync('./templates/list-template.hbs', 'utf-8')
-const listEntryTemplateRaw = fs.readFileSync('./templates/list-entry-template.hbs', 'utf-8')
-const tableTemplateRaw = fs.readFileSync('./templates/table-template.hbs', 'utf-8')
-const rootTemplateRaw = fs.readFileSync('./templates/root-template.hbs', 'utf-8')
+const pageTitleRaw = fs.readFileSync('src/templates/page-title-template.hbs', 'utf-8')
+const categoryOverviewRaw = fs.readFileSync('src/templates/category-overview-template.hbs', 'utf-8')
+const cateogryOverviewEntryRaw = fs.readFileSync('src/templates/category-overview-entry-template.hbs', 'utf-8')
+const documentHeaderRaw = fs.readFileSync('src/templates/html-document-header.hbs', 'utf-8')
+const listTemplateRaw = fs.readFileSync('src/templates/list-template.hbs', 'utf-8')
+const listEntryTemplateRaw = fs.readFileSync('src/templates/list-entry-template.hbs', 'utf-8')
+const tableTemplateRaw = fs.readFileSync('src/templates/table-template.hbs', 'utf-8')
+const rootTemplateRaw = fs.readFileSync('src/templates/root-template.hbs', 'utf-8')
 
 // Joins a URL and text into an HTML anchor string
 handlebars.registerHelper('link', (text, url) => {
@@ -137,9 +137,7 @@ handlebars.registerPartial('list', listTemplateRaw)
 handlebars.registerPartial('table', tableTemplateRaw)
 
 const rootTemplate = handlebars.compile(rootTemplateRaw)
-
 const output = rootTemplate(links)
-
 
 fs.mkdirSync('build', {recursive: true})
 
@@ -150,5 +148,5 @@ fs.writeFileSync('build/index.html', output, (err) => {
 
 const filesToCopy = ['style.css', 'noscript-style.css', 'filter-logic.js']
 filesToCopy.forEach(filename => {
-  fs.copyFileSync(`./${filename}`, `build/${filename}`)
+  fs.copyFileSync(`src/${filename}`, `build/${filename}`)
 })

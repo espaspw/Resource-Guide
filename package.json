@@ -8,9 +8,10 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
-    "dev:watch-src": "nodemon --watch templates --watch ./ -e js,hbs,yaml,css index.js",
+    "dev:watch-src": "nodemon --watch templates --watch src -e js,hbs,yaml,css src/index.js",
     "dev:watch-html": "live-server build/",
-    "build": "node index.js",
+    "build": "node src/index.js",
+    "postbuild": "postcss build/*.css --use autoprefixer -d build",
     "clean": "rm -f build/*"
   },
   "author": "",
@@ -21,8 +22,11 @@
     "npm-run-all": "^4.1.5"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.4",
     "handlebars": "^4.7.6",
     "marked": "^2.0.0",
+    "postcss": "^8.2.6",
+    "postcss-cli": "^8.3.1",
     "yaml": "^1.10.0"
   }
 }
