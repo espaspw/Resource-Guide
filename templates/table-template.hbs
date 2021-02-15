@@ -1,0 +1,14 @@
+<table class="category__table">
+  <tr class="category__table__row category__table__top-row">
+  {{#each columns as |column|}}
+    <th class="category__table__column-name">{{column}}</th>
+  {{/each}}
+  </tr>
+  {{#each entries as |entry|}}
+    <tr class="category__table__row category__table__entry-row {{expand-tags entry.tags}} taggable">
+      {{#each entry.rows as |row|}}
+        <td class="category__table__entry">{{{row}}}</td>
+      {{/each}}
+    </tr>
+  {{/each}}
+</table>

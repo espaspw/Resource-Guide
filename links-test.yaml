@@ -3,13 +3,72 @@ page-description: |
   This resource list was created and is maintained by the [Chinese-English Exchange Discord Server Community](https://discord.gg/c-e).  
   Special thanks to *Aryailia* for curating the resources and leaving remarks.
 avaliable-tags:
-  Language: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Phone'] # Mobile, Paid, Free, PDF, Video, Articles 
+  Language: ['Cantonese', 'Hakka', 'Hokkien', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old']
+  Device: ['Computer', 'Mobile']
   Format: ['PDF', 'Video', 'Articles', 'Audio']
   Pricing: ['Free', 'Paid']
 categories:
+  Input Methods (輸入方式):
+    type: 'table'
+    columns: ['Name', 'Type', 'OS', 'Language', 'Description']
+    overview:
+    - text: 'Input Methods are important! How else do you input things.'
+    entries:
+    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+      rows:
+      - 'System Default'
+      - 'Phonetic/Shape'
+      - '[Win](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/), [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)'
+      - 'Pinyin、倉頡、[行列](https://en.wikibooks.org/wiki/Guide_to_Array_input#What_you_need_to_get_started)'
+      - |
+        "*Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St.*" for Win7 and Win8.  
+        `Ctrl + Shift + F` to toggle simplified–traditional.
+    
+    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+      rows:
+      - '[System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)'
+      - 'Phonetic'
+      - 'Linux'
+      - 'All'
+      - Fcitx over ibus because it's newer. You can use the *RIME* or the *pinyin* package
+
+    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer','Mobile', 'Free']
+      rows:
+      - '[Rime](http://rime.im/)'
+      - 'Phonetic/Shape'
+      - 'Win/Mac/Linux/Android'
+      - 'All'
+      - 'Framework for custom IMEs. You can pretty much get any input method imaginable and it is cross platform. See [this guide](https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md) for setup help. You can get Trime from F-droid for phones.'
+
+    - tags: ['Mandarin', 'Computer', 'Free']
+      rows:
+      - '[Google Input](https://www.google.com/intl/zh-CN/ime/pinyin/)'
+      - 'Phonetic'
+      - 'Win'
+      - 'Pinyin'
+      - 'Google Input Method'
+
+    - tags: ['Hakka', 'Hokkien', 'Computer', 'Free']
+      rows:
+      - '[FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)'
+      - 'Phonetic'
+      - 'Win/Mac'
+      - 'POJ(白話字/教羅)'
+      - 'TL(臺羅)'
+
+    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+      rows:
+      - '[Sogou](http://wubi.sogou.com/)'
+      - 'Phonetic/Shape'
+      - 'Win'
+      - '拼音、五笔'
+      - 'Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter Pinyin in the combined mode, so good for learning Wubi'
+
   Guides/Textbooks:
     type: 'list'
     overview:
+    - tags: ['Mandarin']
+      text: 'This should show when Mandarin is selected.'
     - tags: ['Cantonese']
       text: 'There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).'
 
@@ -25,25 +84,11 @@ categories:
       subtitle: (上海話)
       url: https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit
 
-    # - tags: ['Wu']
-    #   body: '<a href="https://shanghaivernacular.com">Shanghai Vernacular Society</a>'
-
-    # - tags: ['Mandarin']
-    #   body: '<a href="https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a>'
-
-    # - tags: ['Mandarin']
-    #   body: '《现代汉语八百词》by  增订本'
 
     - tags: ['Mandarin']
       title: 'New Practical Chinese Reader'
       desc: Progressively teaches reading, writing and listening.
       url: https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401
-
-    # - tags: ['Cantonese']
-    #   body: '<a href="https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit">Quick Starter Guide to Cantonese</a>'
-
-    # - tags: ['Cantonese']
-    #   body: '<a href="https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing">Sietse’s Learning Pack</a>'
 
 
   Pronunciation (發音):

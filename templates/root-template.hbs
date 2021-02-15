@@ -26,7 +26,7 @@
       <section class="category {{expand-tags used-tags}} taggable">
         <h2 class="category__title"><span class="--highlight">{{categoryName}}</span></h2>
         {{>category-overview category}}
-        {{>list category}}
+        {{> (choose-entry-format-partial) category}}
       </section>
       {{/each}}
     </div>

@@ -12,6 +12,7 @@ filterButtons.forEach(elem => {
 })
 
 checkboxes.forEach(elem => {
+  elem.checked = false;
   elem.addEventListener('change', handleFilterChange)
 })
 
@@ -22,7 +23,7 @@ const entries = document.querySelectorAll('.taggable')
 // Tests whether a domElem contains all the tags in a tag list
 function testFilter(domElem, tagList) {
   for (const tag of tagList) {
-    if (!domElem.classList.contains(tag))
+    if (!domElem.classList.contains(tag) && !domElem.classList.contains('Tag-All'))
       return false
   }
   return true
