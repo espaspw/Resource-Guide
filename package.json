@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "npm-run-all --parallel dev:*",
-    "dev:watch-src": "nodemon --watch templates -e js,hbs,yaml,css index.js",
+    "dev:watch-src": "nodemon --watch templates --watch ./ -e js,hbs,yaml,css index.js",
     "dev:watch-html": "live-server build/",
     "build": "node index.js",
     "clean": "rm -f build/*"
