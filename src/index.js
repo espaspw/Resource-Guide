@@ -35,6 +35,43 @@ function addUsedTagsFieldToCategories(links) {
   return links
 }
 
+// Takes a special 'All' tag and gets the associated list of tags
+// For example, if avaliable-tags has the pair <Device, [Computer, Mobile]>
+// then the special allTagName 'Device-All' will return [Computer, Mobile]
+// ParsedYAML -> TagString -> [TagString] 
+function expandAllTag(links, allTagName) {
+  const tagGroup = allTagName.slice(0, -4)
+  const tagList = links['avaliable-tags'][tagGroup]
+  if (tagList == null)
+    throw new Error(`All-Tag '${allTagName}' does not have an 'avaliable-tags' entry associated with it`)
+  return tagList
+}
+
+// For any entry with special 'All' tags such as 'Language-All', replace with
+// the tags under that tag group, such as 'Cantonese', 'Mandarin', etc...
+// Input is changed with side effects
+function expandAllTagsInEntries(links) {
+  for (const category of Object.values(links.categories)) {
+    if (category.overview) {
+      for (const entry of category.overview) {
+        if (entry.tags == null) continue
+        entry.tags = entry.tags.flatMap(
+          tag => tag.endsWith('-All') ? expandAllTag(links, tag) : tag
+        )
+      }
+    }
+    if (category.entries) {
+      for (const entry of category.entries) {
+        if (entry.tags == null) continue
+        entry.tags = entry.tags.flatMap(
+          tag => tag.endsWith('-All') ? expandAllTag(links, tag) : tag
+        )
+      }
+    }
+  }
+  return links;
+}
+
 // For any entry with no 'tags' field or has an empty tag list []
 // Replace it with the 'All' tag to prevent it from being filtered
 // NOTE: If this is called BEFORE 'addUsedTagsFieldToCategories'
@@ -144,6 +181,7 @@ function buildHTMLOutput (rawYAMLText, htmlTemplate) {
   const data = YAML.parse(rawYAMLText)
   convertDescriptionsFromMarkdownToHTML(data)
   addUsedTagsFieldToCategories(data)
+  expandAllTagsInEntries(data)
   populateTaglessEntries(data)
   return htmlTemplate(data)
 }
@@ -152,7 +190,7 @@ function main () {
   const linksRawText = fs.readFileSync('links-test.yaml', 'utf-8')
   const htmlTemplate = getHTMLTemplate()
   const htmlOutput = buildHTMLOutput(linksRawText, htmlTemplate)
-    
+  
   fs.mkdirSync('build', {recursive: true})
     
   fs.writeFileSync('build/index.html', htmlOutput, (err) => {
