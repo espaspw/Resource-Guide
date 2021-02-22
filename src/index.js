@@ -4,6 +4,7 @@ const YAML = require('yaml')
 const fs = require('fs')
 const marked = require('marked')
 const handlebars = require('handlebars')
+const minify = require('minify')
 
 // Takes a category from the link structure and returns a list of all the tags 
 // used within that category
@@ -186,20 +187,29 @@ function buildHTMLOutput (rawYAMLText, htmlTemplate) {
   return htmlTemplate(data)
 }
 
+// Parses Links YAML file and inserts into HTML Template
+// Output HTML file along with other source CSS and JS files are
+// then minified and output into the build folder
 function main () {
   const linksRawText = fs.readFileSync('links-test.yaml', 'utf-8')
   const htmlTemplate = getHTMLTemplate()
   const htmlOutput = buildHTMLOutput(linksRawText, htmlTemplate)
   
+  // Recursive is used to ensure this function works even if the file already exists
+  // (Pretty much just the mkdir -p flag)
   fs.mkdirSync('build', {recursive: true})
-    
   fs.writeFileSync('build/index.html', htmlOutput, (err) => {
     console.error(`Failed to write output HTML file: ${err.message}`)
   })
-  
+  minify('build/index.html')
+    .then(minifiedHTML => fs.promises.writeFile('build/index.html', minifiedHTML))
+    .catch(console.error)
   const filesToCopy = ['style.css', 'noscript-style.css', 'filter-logic.js']
   filesToCopy.forEach(filename => {
-    fs.copyFileSync(`src/${filename}`, `build/${filename}`)
+    const sourceFileName = `src/${filename}`
+    minify(sourceFileName)
+      .then(minifiedText => fs.promises.writeFile(`build/${filename}`, minifiedText))
+      .catch(console.error)
   })
 }
 

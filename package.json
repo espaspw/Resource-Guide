@@ -25,6 +25,7 @@
     "autoprefixer": "^10.2.4",
     "handlebars": "^4.7.6",
     "marked": "^2.0.0",
+    "minify": "^7.0.1",
     "postcss": "^8.2.6",
     "postcss-cli": "^8.3.1",
     "yaml": "^1.10.0"
