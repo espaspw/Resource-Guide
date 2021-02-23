@@ -10,7 +10,8 @@ const entries = document.querySelectorAll('.taggable')
 filterButtons.forEach(elem => {
   elem.addEventListener('click', (event) => {
     if (event.target !== elem) return
-    elem.childNodes[1].checked = !elem.childNodes[1].checked
+    const inputChild = getFirstInputChildNode(elem)
+    inputChild.checked = !inputChild.checked
     handleFilterChange()
   })
 })
@@ -19,6 +20,14 @@ checkboxes.forEach(elem => {
   elem.checked = false;
   elem.addEventListener('change', handleFilterChange)
 })
+
+// Returns the first child element node of type input
+function getFirstInputChildNode(elemNode) {
+  for (const child of elemNode.childNodes) {
+    if (child.tagName === 'INPUT') return child
+  }
+  return null
+}
 
 // Tests whether a domElem contains all the tags in a tag list
 function testFilter(domElem, tagList) {
@@ -32,7 +41,8 @@ function testFilter(domElem, tagList) {
 function handleFilterChange() {
   // Set highlighting for active filters
   filterButtons.forEach(elem => {
-    if (elem.childNodes[1].checked) elem.classList.add('--active')
+    const inputChild = getFirstInputChildNode(elem)
+    if (inputChild.checked) elem.classList.add('--active')
     else elem.classList.remove('--active')
   })
   // Gathers all selected checkboxes into a set containing tag strings

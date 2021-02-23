@@ -207,7 +207,14 @@ function main () {
   const filesToCopy = ['style.css', 'noscript-style.css', 'filter-logic.js']
   filesToCopy.forEach(filename => {
     const sourceFileName = `src/${filename}`
-    minify(sourceFileName)
+    const minifyOptions = {
+      js: {
+        sourceMap: true,
+        toplevel: true,
+        ie8: true,
+      },
+    }
+    minify(sourceFileName, minifyOptions)
       .then(minifiedText => fs.promises.writeFile(`build/${filename}`, minifiedText))
       .catch(console.error)
   })
