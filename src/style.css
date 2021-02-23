@@ -116,11 +116,8 @@ body {
 }
 
 .category__table {
-  width: 100%;
   border-collapse: collapse;
-  overflow-x: scroll;
 }
-
 
 .category__table tr:not(:first-child) {
   border-top: 1px solid rgba(129, 129, 129, 0.1);
@@ -234,5 +231,11 @@ body {
 
   .responsive-spacer {
     display: none;
+  }
+
+  .category__table__column-name {
+    font-size: 0.8rem;
+    text-align: left;
+    padding: 2.5px;
   }
 }
