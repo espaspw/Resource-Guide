@@ -9,7 +9,7 @@ page-description: |
 avaliable-tags:
   Language: ['Cantonese', 'Hakka', 'Hokkien', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old']
   Device: ['Computer', 'Mobile']
-  Format: ['PDF', 'Video', 'Articles', 'Audio']
+  Format: ['PDF', 'Video', 'Article', 'Audio']
   Pricing: ['Free', 'Paid']
 categories:
   Input Methods (輸入方式):
@@ -18,17 +18,17 @@ categories:
     overview:
     - text: 'Input Methods are important! How else do you input things.'
     entries:
-    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+    - tags: ['Language-All', 'Computer', 'Free']
       rows:
       - 'System Default'
-      - 'Phonetic/Shape'
+      - 'Phonetic / Shape'
       - '[Win](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/), [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)'
       - 'Pinyin、倉頡、[行列](https://en.wikibooks.org/wiki/Guide_to_Array_input#What_you_need_to_get_started)'
       - |
         "*Chinese Simplified (PRC) - Microsoft Pinyin New Experience Input St.*" for Win7 and Win8.  
         `Ctrl + Shift + F` to toggle simplified–traditional.
     
-    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+    - tags: ['Language-All', 'Computer', 'Free']
       rows:
       - '[System Default](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)'
       - 'Phonetic'
@@ -36,11 +36,11 @@ categories:
       - 'All'
       - Fcitx over ibus because it's newer. You can use the *RIME* or the *pinyin* package
 
-    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer','Mobile', 'Free']
+    - tags: ['Language-All', 'Device-All', 'Free']
       rows:
       - '[Rime](http://rime.im/)'
-      - 'Phonetic/Shape'
-      - 'Win/Mac/Linux/Android'
+      - 'Phonetic / Shape'
+      - 'Win / Mac / Linux / Android'
       - 'All'
       - 'Framework for custom IMEs. You can pretty much get any input method imaginable and it is cross platform. See [this guide](https://github.com/espaspw/Resource-Guide/blob/master/doc/IMEs.md) for setup help. You can get Trime from F-droid for phones.'
 
@@ -56,14 +56,14 @@ categories:
       rows:
       - '[FHL Taigi-Hakka IME](http://taigi.fhl.net/TaigiIME/)'
       - 'Phonetic'
-      - 'Win/Mac'
+      - 'Win / Mac'
       - 'POJ(白話字/教羅)'
       - 'TL(臺羅)'
 
-    - tags: ['Cantonese', 'Hakka', 'Hunanese', 'Mandarin', 'Taishanese', 'Wu', 'Classical', 'Old', 'Computer', 'Free']
+    - tags: ['Language-All', 'Computer', 'Free']
       rows:
       - '[Sogou](http://wubi.sogou.com/)'
-      - 'Phonetic/Shape'
+      - 'Phonetic / Shape'
       - 'Win'
       - '拼音、五笔'
       - 'Easy to switch between Pinyin, Wubi, or both together. Shows the necessary Wubi key strokes even if you enter Pinyin in the combined mode, so good for learning Wubi'
@@ -77,14 +77,14 @@ categories:
       text: 'There are three ways that Cantonese is romanized. You’ll likely have to get use to all three. Older resources use Yale, newer use Jyutping, natives just fudge it as no romanisation system is taught. Also take a look at Mandarin section for some start character tips should it be relevant (since this primarily spoken language).'
 
     entries:
-    - tags: ['Hokkien']
+    - tags: ['Hokkien', 'Device-All', 'Article', 'Free']
       title: Getting started with Taiwanese
       url: https://chiahpa.be/t/getting-started-resource-guide/262
       author: aióng
       desc: A high-quality resources guide.
 
-    - tags: ['Wu']
-      title: Google doc resource lits for Shanghainese
+    - tags: ['Wu', 'Free']
+      title: Google Doc Resources for Shanghainese
       subtitle: (上海話)
       url: https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit
 
