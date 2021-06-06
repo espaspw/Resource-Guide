@@ -49,7 +49,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Google doc resource lits for Shanghainese](https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit) (上海話)
 - [Shanghai Vernacular Society](https://shanghaivernacular.com)
 - [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
-- 《现代汉语八百词》by  增订本
+- 《现代汉语八百词（增订本）》by 吕叔湘
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
