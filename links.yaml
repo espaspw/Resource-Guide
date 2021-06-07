@@ -303,6 +303,9 @@ Word Dictionaries (詞典):
 - tags: ['Wu', 'Online']
   body: '<a href="https://wugniu.com">吳語學堂</a>, dictionary for Wu languages.'
 
+- tags: ['Wu', 'Online']
+  body: '<a href="http://wu-chinese.com/minidict/">吴音小字典</a>, another dictionary for Wu languages made by the 吴语协会 Wu Chinese Society.'
+
 - tags: ['Mandarin', 'Online']
   body: '现代汉语词典7th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses.'
 

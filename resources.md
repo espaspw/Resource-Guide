@@ -124,6 +124,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - <strong>Pleco's Cantonese-English dictionary</strong> [CC-Canto](http://cantonese.org/) \[EN↔CA,ZH\]\[Android\]\[iOS\] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
 - [吳語學堂](https://wugniu.com), dictionary for Wu languages.
+- [吴音小字典](http://wu-chinese.com/minidict/), another dictionary for Wu languages made by the 吴语协会 Wu Chinese Society.
 - 现代汉语词典7th Ed. \[ZH↔ZH\]\[Book\] Standard dictionary that Mainland uses.
 - [Pin Pin](http://dictionary.pinpinchinese.com/) \[EN↔ZH\] Both CC-CEDICT definitions, definitions from Tatoeba, as well as user-submitted definitions.
 - null
