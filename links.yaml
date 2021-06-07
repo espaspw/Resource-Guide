@@ -369,7 +369,7 @@ Character Dictionaries (字典):
   body: '<a href="https://ytenx.org/">韻典網</a> [C↔C][Online], a Rime dictionary (韻書) website which allows searching historical Rime dictionaries and rhyme systems: 《廣韻》、《中原音韻》、《洪武正韻牋》、《分韻撮要》、《上古音系》. The website also provides reconstructed historical pronunciations.'
 
 - tags: ['Mandarin']
-  body: '新华華字典, the dictionary given free of charge to every Mainland Chinese student'
+  body: '新华字典, the dictionary given free of charge to every Mainland Chinese student'
 
 # TODO: Note for which app store to use in China
 # TODO: Research Shuowen's Android dictionary source
