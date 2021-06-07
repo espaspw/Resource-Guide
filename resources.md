@@ -134,7 +134,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Kaifang Cidian](http://kaifangcidian.com/) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Sinicia](http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Stephen Li Taishanese Dictionary](http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html)
-- [Choân-Bûn Kiám-Sek](https://wugniu.com/) - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)
+- [Choân-Bûn Kiám-Sek](http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php) - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)
 - [Singlish Dictionary](http://www.singlishdictionary.com/)
 
 # Character Dictionaries (字典)
