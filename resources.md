@@ -49,7 +49,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Google doc resource lits for Shanghainese](https://docs.google.com/document/d/1no0hXmaqkSOn1PUNly2aXpHR1Rs3CU92_i1WNr8HHfk/edit) (上海話)
 - [Shanghai Vernacular Society](https://shanghaivernacular.com)
 - [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
-- 《现代汉语八百词》by  增订本
+- 《现代汉语八百词（增订本）》by 吕叔湘
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
@@ -124,6 +124,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - <strong>Pleco's Cantonese-English dictionary</strong> [CC-Canto](http://cantonese.org/) \[EN↔CA,ZH\]\[Android\]\[iOS\] based on CC-EDictA2 with a human check for differences for Cantonese. Available in Pleco directly.
 
 - [吳語學堂](https://wugniu.com), dictionary for Wu languages.
+- [吴音小字典](http://wu-chinese.com/minidict/), another dictionary for Wu languages made by the 吴语协会 Wu Chinese Society.
 - 现代汉语词典7th Ed. \[ZH↔ZH\]\[Book\] Standard dictionary that Mainland uses.
 - [Pin Pin](http://dictionary.pinpinchinese.com/) \[EN↔ZH\] Both CC-CEDICT definitions, definitions from Tatoeba, as well as user-submitted definitions.
 - null
@@ -134,7 +135,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Kaifang Cidian](http://kaifangcidian.com/) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Sinicia](http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php) - Mandarin, Cantonese, Hokkien, and Wu Dictionary
 - [Stephen Li Taishanese Dictionary](http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html)
-- [Choân-Bûn Kiám-Sek](https://wugniu.com/) - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)
+- [Choân-Bûn Kiám-Sek](http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php) - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)
 - [Singlish Dictionary](http://www.singlishdictionary.com/)
 
 # Character Dictionaries (字典)
@@ -144,7 +145,8 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Zi Tools](http://zi.tools/zi/%E4%BD%A0) that breaks down components and presents their oracle bone, seal script, or just a pictograph
 - [Multi-function Chinese Character Database CC-English-C](http://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/) (Uses homophones in addition to romanisation for pronunciation, for those that are more comfortable with that than romanisation) (Also has audio clips, but those can be a little stretched out to emphasise the tones)
 - [Ctext Dictionary](http://ctext.org/dictionary.pl?if=en) - Classical Chinese character dictionary and document archive.
-- 新华華字典, the dictionary given free of charge to every Mainland Chinese student
+- [韻典網](https://ytenx.org/) \[C↔C\]\[Online\], a Rime dictionary (韻書) website which allows searching historical Rime dictionaries and rhyme systems: 《廣韻》、《中原音韻》、《洪武正韻牋》、《分韻撮要》、《上古音系》. The website also provides reconstructed historical pronunciations.
+- 新华字典, the dictionary given free of charge to every Mainland Chinese student
 - \[[Android](https://play.google.com/store/apps/details?id=com.wordinterpret.dictionary)\] <strong>Shuowen Jiezi (說文解字)</strong> - Analyses character etymology in Classical Chinese, or more specifically, traces the make-up of seal script (小篆) characters and attempts to explain how the creates their meaning. First published in AD. 121 by Xu Shen (許慎), the version annotated by Qing scholar Duan Yuancai (段玉裁) is frequently referenced by Chinese students even today. The Android app additionally contains a dictionary with definitions in Modern Mandarin (though I am not sure where it pulls its definitions from at the moment).
 - [Zhongwen](http://www.zhongwen.com/) \[EN↔ZH\]\[Online\] (Unrelated to pop-up dictionary). Lightweight and responsive. Alternative to Wenlin for radical-based breakdown of characters and shared-radical map. However, character search does not work (might be encoding issue) and unable to copy paste.
 - [Outlier Dictionary](https://www.outlier-linguistics.com/) that offers much more up-to-date. Still in development.

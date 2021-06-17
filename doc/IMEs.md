@@ -20,7 +20,7 @@ I recommend Wubi if for general use or Zhengma. More detailed descriptions and A
 Typically input methods do not support tone discrimination on default, but some methods do have the option to enable it. For Mandarin there are Pinyin and Zhuyin methods. For Cantonese, some methods support Jyutping, Yale, or both. 
 
 - **System installed [ZH]**
-    - [Windows](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) - For windows, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key.
+    - [Windows](https://www.howtogeek.com/howto/12578/add-keyboard-languages-to-xp-vista-and-windows-7/) - For Windows 7, you want to find “Chinese Simplified (PRC) → Microsoft Pinyin New Experience Input St.” You can switch between Traditional and Simplified, and even assign that to a shortcut key. On [Windows 10](https://pinyinjoe.com/windows-10/windows-10-pinyin-setup.htm), you can simply add Pinyin via `Settings -> Time & Language -> Region & Language -> Add a language`.
     - [Mac](http://www.languagegeek.com/keyboard_general/mac_installation1.html)
     - [Linux](http://www.pinyinjoe.com/linux/ubuntu-10-chinese-input-pinyin-chewing.htm)
 - **[Rime](http://rime.im/) [CA][ZH]** - Multi-OS Support. Allows for installed dictionaries.

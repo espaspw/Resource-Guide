@@ -81,7 +81,7 @@ Guides/Textbooks:
   body: '<a href="https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md">Guide to Learning Chinese</a>'
 
 - tags: ['Mandarin']
-  body: '《现代汉语八百词》by  增订本'
+  body: '《现代汉语八百词（增订本）》by 吕叔湘'
 
 - tags: ['Mandarin']
   body: '<a href="https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401">New Practical Chinese Reader</a> - Progressively teaches reading, writing and listening.'
@@ -303,6 +303,9 @@ Word Dictionaries (詞典):
 - tags: ['Wu', 'Online']
   body: '<a href="https://wugniu.com">吳語學堂</a>, dictionary for Wu languages.'
 
+- tags: ['Wu', 'Online']
+  body: '<a href="http://wu-chinese.com/minidict/">吴音小字典</a>, another dictionary for Wu languages made by the 吴语协会 Wu Chinese Society.'
+
 - tags: ['Mandarin', 'Online']
   body: '现代汉语词典7th Ed. [ZH↔ZH][Book] Standard dictionary that Mainland uses.'
 
@@ -335,7 +338,7 @@ Word Dictionaries (詞典):
   body: '<a href="http://www.stephen-li.com/TaishaneseVocabulary/Taishanese.html">Stephen Li Taishanese Dictionary</a>'
 
 - tags: ['Hakka', 'Hokkien', 'Online']
-  body: '<a href="https://wugniu.com/">Choân-Bûn Kiám-Sek</a> - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)'
+  body: '<a href="http://minhakka.ling.sinica.edu.tw/bkg/choan-bun-kiam-sek.php">Choân-Bûn Kiám-Sek</a> - Dictionary for Hakka and Taiwanese by Academia Sinica. (閩南語、客家話)'
 
 - tags: ['Singlish', 'Online']
   body: '<a href="http://www.singlishdictionary.com/">Singlish Dictionary</a>'
@@ -362,8 +365,11 @@ Character Dictionaries (字典):
   tags: ['Classical', 'Online']
   body: '<a href="http://ctext.org/dictionary.pl?if=en">Ctext Dictionary</a> - Classical Chinese character dictionary and document archive.'
 
+- tags: ['Classical', 'Online']
+  body: '<a href="https://ytenx.org/">韻典網</a> [C↔C][Online], a Rime dictionary (韻書) website which allows searching historical Rime dictionaries and rhyme systems: 《廣韻》、《中原音韻》、《洪武正韻牋》、《分韻撮要》、《上古音系》. The website also provides reconstructed historical pronunciations.'
+
 - tags: ['Mandarin']
-  body: '新华華字典, the dictionary given free of charge to every Mainland Chinese student'
+  body: '新华字典, the dictionary given free of charge to every Mainland Chinese student'
 
 # TODO: Note for which app store to use in China
 # TODO: Research Shuowen's Android dictionary source
