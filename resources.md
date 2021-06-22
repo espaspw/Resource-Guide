@@ -51,6 +51,8 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Guide to Learning Chinese](https://github.com/espaspw/Resource-Guide/blob/master/doc/Guide%20to%20Learning%20Chinese.md)
 - 《现代汉语八百词（增订本）》by 吕叔湘
 - [New Practical Chinese Reader](https://www.amazon.com/New-Practical-Chinese-Reader-Textbook/dp/7561910401) - Progressively teaches reading, writing and listening.
+- [學華語向前走 Let’s Learn Chinese](https://www.huayuworld.org/material-download.php) free downloads from 華文網, a website organized by the Overseas Community Affairs Council of Taiwan (僑委會), contains textbooks and resources for learning Mandarin with Traditional Chinese characters.
+- [《中文》](http://www.hwjyw.com/textbooks/downloads/zhongwen/) free downloads, published by 中国暨南大学 (Jinan University) with the cooperation of the Overseas Chinese Affairs Office (侨务办公室) of (mainland) China, contains textbooks for learning Mandarin with Simplified Chinese Characters.
 - [Quick Starter Guide to Cantonese](https://docs.google.com/document/d/1YCpiRPZbPei0PfaoZUTuesxoJ0TbTWryHM9GbtSM2ig/edit)
 - [Sietse’s Learning Pack](https://drive.google.com/drive/folders/0BzQw-iJMJ8ygc1AzWWVZWmFPRVk?usp=sharing)
 - [Jyutping Guide](https://www.jyutping.org/en/docs/) (with audio examples)
