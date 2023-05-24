@@ -1,10 +1,10 @@
 # Chinese-English Exchange Resources
 
-The resource document list for the Chinese-English exchange discord server: https://discord.gg/ADdR45y. Mostly tailors to learning Mandarin and Cantonese. Links dialects, Classical, and older Chinese however are more than welcome.
+A document listing resources for the Chinese-English Exchange Discord server: https://discord.gg/ADdR45y. Mostly tailored to learning Mandarin and Cantonese. Resources for other dialects as well as for historical and Classical Chinese are more than welcome, however.
 
-If you find any problems with these resources listed or have suggestions, please leave comments in the resources channel of the discord. Many of these links have not been vetted, so usage experience is more than welcome.
+If you have feedback or suggestions, or any problems using the resources, please leave comments in the resources channel of the Discord. Many links have not been vetted, so sharing your experience using them is encouraged.
 
-Mandarin and Cantonese lessons sections should be focused around getting a person with no knowledge to beginner/intermediate level. Once they reach that point, they should be looking towards native content for self-study.
+Mandarin and Cantonese lessons sections should be focused around getting a person to a beginner/intermediate level from zero. Once they reach that point, they should be looking towards native content for self-study.
 
 # Table of Contents
 
@@ -244,6 +244,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [Youtube channel on handwriting](https://www.youtube.com/channel/UCvPiCUjsIEaCdYiHtP4pbPg) - Goes over several examples and general advice for handwriting in Mandarin. A [fifteen-part series](https://www.youtube.com/watch?v=7s6pxhNql70) on handwriting characters but in Japanese.
 
 # Fonts（字體）
+- [Noto](https://fonts.google.com/noto) has neutral, consistent, and broad serif and sans-serif faces for all of the CJK scripts: [Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC) [Sans TC](https://fonts.google.com/noto/specimen/Noto+Sans+TC) [Sans HK](https://fonts.google.com/noto/specimen/Noto+Sans+HK) [Sans JP](https://fonts.google.com/noto/specimen/Noto+Sans+JP) [Sans KR](https://fonts.google.com/noto/specimen/Noto+Sans+KR) [Serif SC](https://fonts.google.com/noto/specimen/Noto+Serif+SC) [Serif TC](https://fonts.google.com/noto/specimen/Noto+Serif+TC) [Serif HK](https://fonts.google.com/noto/specimen/Noto+Serif+HK) [Serif JP](https://fonts.google.com/noto/specimen/Noto+Serif+JP) [Serif KR](https://fonts.google.com/noto/specimen/Noto+Serif+KR) The font family was produced by an in-depth collaboration between Adobe and Google. There are also more obscure scripts and styles covered under Noto that are available to download from the Google repository.
 - [Typesetting characters](http://hayataki-masaharu.jp/web-typography-in-japanese/) in Japanese but also applicable to Chinese
 - [Unicode FAQ on CJK Characters](http://unicode.org/faq/han_cjk.html) - On the technicalities of representing fonts
 - [BableStone Han](https://babelstone.co.uk/Fonts/Han.html) font designed specifically for obscure characters and the new additions to Unicode.
