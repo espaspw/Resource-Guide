@@ -98,6 +98,7 @@ Mandarin and Cantonese lessons sections should be focused around getting a perso
 - [HSK Check](http://www.wumaocorp.com/hskcheck/)
 - [Sample Test Papers](http://www.chinesetest.cn/godownload.do)
 - [Conversion](http://www.chinaeducenter.com/en/hsk/hsktestscore.php) - Old HSK to New HSK
+- [LexiTrail](https://lexitrail.com/hsk-3-0.html) \[Vocab\]\[SRS\] - HSK 1–6 and HSK 3.0 word lists with flashcards, audio and stroke order. Meanings in English, Spanish, Vietnamese, Thai and Indonesian. Free to practise without an account. Pay option for an AI speaking tutor.
 
 # Character/Word Lists
 - [Memrise](https://www.memrise.com/) \[SRS\] - Teaches through exercise. Pay option.
